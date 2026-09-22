@@ -24,13 +24,14 @@ func InitDB() error {
 		fmt.Println(err)
 		return err
 	}
-	fmt.Println("Database connection established.")
 	defer db.Close()
 
 	db.SetMaxIdleConns(2)
 	db.SetMaxOpenConns(5)
 	db.SetConnMaxIdleTime(time.Minute * 5)
 	db.SetConnMaxLifetime(time.Hour)
-	fmt.Println("Database connection pool configured.")
+
+	fmt.Println("Database configured.")
+
 	return nil
 }
