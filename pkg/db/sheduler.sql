@@ -1,0 +1,11 @@
+CREATE TABLE scheduler (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    date CHAR(8) NOT NULL DEFAULT '00000000',
+    title VARCHAR(128) NOT NULL DEFAULT '',
+    comment VARCHAR(128) NOT NULL DEFAULT '',
+    repeat VARCHAR(128) NOT NULL DEFAULT ''
+);
+CREATE INDEX task_date ON scheduler (date);
+
+
+
