@@ -2,8 +2,8 @@ package main
 
 import (
 	"Sprint13_Final/pkg/db"
+	"Sprint13_Final/pkg/server"
 	"log"
-	"net/http"
 	"os"
 
 	_ "modernc.org/sqlite"
@@ -20,18 +20,13 @@ func main() {
 
 	log.SetOutput(logfile)
 
-	err = http.ListenAndServe("localhost:7540", nil)
-	if err != nil {
-		log.Fatalf("Error starting server: %v", err)
-		os.Exit(1)
-	}
-	log.Println("Запустился сервер")
-
 	err = db.InitDB()
 	if err != nil {
 		log.Fatalf("Error initializing database: %v", err)
 		os.Exit(1)
 	}
 	log.Println("Database initialized successfully.")
+
+	server.Run("localhost:7540")
 
 }

@@ -1,17 +1,25 @@
-package api
+package server
 
 import (
+	"fmt"
+	"log"
 	"net/http"
 )
 
-func MainHandler(w http.ResponseWriter, r *http.Request) {
-	//id := r.URL.Query().Get("id")
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte("Task ID: "))
-}
-func SecondHandler(w http.ResponseWriter, r *http.Request) {
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte("Second one"))
+const (
+	webDir1 = "./web"
+	webDir2 = "./web/js/scripts.min.js"
+	webDir3 = "./web/css/style.css"
+	webDir4 = "./web"
+)
+
+func SetupRoutes() {
+	log.Println("Init routes")
+	fmt.Println("Init routs")
+	http.Handle("/", http.FileServer(http.Dir(webDir1)))
+	http.Handle("/js", http.FileServer(http.Dir(webDir2)))
+	http.Handle("/css", http.FileServer(http.Dir(webDir3)))
+	http.Handle("/favicon.ico", http.FileServer(http.Dir(webDir4)))
 }
 
 //Сервер при запросе http://localhost:7540/ должен возвращать

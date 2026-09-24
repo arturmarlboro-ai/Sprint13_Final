@@ -3,6 +3,7 @@ module Sprint13_Final
 go 1.26.3
 
 require (
+	github.com/go-chi/chi/v5 v5.3.2
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/stretchr/testify v1.12.1
 	modernc.org/sqlite v1.59.0

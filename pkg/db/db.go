@@ -3,6 +3,7 @@ package db
 import (
 	"database/sql"
 	"fmt"
+	"log"
 	"os"
 	"time"
 
@@ -30,8 +31,9 @@ func InitDB() error {
 	db.SetMaxOpenConns(5)
 	db.SetConnMaxIdleTime(time.Minute * 5)
 	db.SetConnMaxLifetime(time.Hour)
-
+	t := time.Now().Format("20060102")
 	fmt.Println("Database configured.")
+	log.Println("Database configured" + t)
 
 	return nil
 }
