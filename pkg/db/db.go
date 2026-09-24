@@ -2,38 +2,30 @@ package db
 
 import (
 	"database/sql"
-	"fmt"
 	"log"
-	"os"
-	"time"
 
 	_ "modernc.org/sqlite"
 )
 
-var install bool
+var DB *sql.DB
 
-func InitDB() error {
-	dbFile := "scheduler.db"
-	_, err := os.Stat(dbFile)
-
+func Init(dbFile string) error {
+	log.Println("Init db")
+	var err error
+	DB, err = sql.Open("sqlite", dbFile)
 	if err != nil {
-		install = true
-	}
-
-	db, err := sql.Open("sqlite", "scheduler.db")
-	if err != nil {
-		fmt.Println(err)
 		return err
 	}
-	defer db.Close()
 
-	db.SetMaxIdleConns(2)
-	db.SetMaxOpenConns(5)
-	db.SetConnMaxIdleTime(time.Minute * 5)
-	db.SetConnMaxLifetime(time.Hour)
-	t := time.Now().Format("20060102")
-	fmt.Println("Database configured.")
-	log.Println("Database configured" + t)
-
-	return nil
+	_, err = DB.Exec(`
+			CREATE TABLE IF NOT EXISTS scheduler (
+				id      INTEGER PRIMARY KEY AUTOINCREMENT,
+				date    TEXT NOT NULL,
+				title   TEXT NOT NULL,
+				comment TEXT,
+				repeat  TEXT
+			);
+			CREATE INDEX IF NOT EXISTS idx_date ON scheduler(date);
+		`)
+	return err
 }

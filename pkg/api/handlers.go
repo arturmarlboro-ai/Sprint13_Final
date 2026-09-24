@@ -1,25 +1,32 @@
 package api
 
 import (
+	"encoding/json"
+	"log"
 	"net/http"
+
+	"Sprint13_Final/pkg/db"
 )
 
-func MainHandler(w http.ResponseWriter, r *http.Request) {
-	//id := r.URL.Query().Get("id")
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte("Task ID: "))
-}
-func SecondHandler(w http.ResponseWriter, r *http.Request) {
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte("Second one"))
-}
+func PostTask(w http.ResponseWriter, r *http.Request) {
+	var task db.Task
+	if err := json.NewDecoder(r.Body).Decode(&task); err != nil {
+		log.Printf("PostTask error: %s", err)
+		return
+	}
 
-//Сервер при запросе http://localhost:7540/ должен возвращать
-// index.html из поддиректории web.
-// Главная страница запрашивает .js и .css файлы,
-// поэтому веб-сервер также должен их возвращать.
-//
-// Например:
-// http://localhost:7540/js/scripts.min.js возвращает ./web/js/scripts.min.js;
-// http://localhost:7540/css/style.css возвращает ./web/css/style.css;
-// http://localhost:7540/favicon.ico возвращает ./web/favicon.ico.
+	if task.Title == "" {
+		log.Println("task.Title emtpy")
+		return
+	}
+
+	id, err := db.AddTask(r.Context(), task)
+	if err != nil {
+		log.Printf("AddTask error: %v", err)
+		w.WriteHeader(http.StatusBadRequest)
+		return
+	}
+
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	json.NewEncoder(w).Encode(map[string]int64{"id": id})
+}

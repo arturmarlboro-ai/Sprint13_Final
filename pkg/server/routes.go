@@ -1,25 +1,26 @@
 package server
 
 import (
-	"fmt"
+	"Sprint13_Final/pkg/api"
 	"log"
 	"net/http"
+
+	"github.com/go-chi/chi/v5"
 )
 
-const (
-	webDir1 = "./web"
-	webDir2 = "./web/js/scripts.min.js"
-	webDir3 = "./web/css/style.css"
-	webDir4 = "./web"
-)
-
-func SetupRoutes() {
-	log.Println("Init routes")
-	fmt.Println("Init routs")
-	http.Handle("/", http.FileServer(http.Dir(webDir1)))
-	http.Handle("/js", http.FileServer(http.Dir(webDir2)))
-	http.Handle("/css", http.FileServer(http.Dir(webDir3)))
-	http.Handle("/favicon.ico", http.FileServer(http.Dir(webDir4)))
+func SetupRoutes(r chi.Router) {
+	// API
+	r.Post("/api/task", api.PostTask)
+	log.Println("Init routs")
+	// Статика
+	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "./web/index.html")
+	})
+	r.Handle("/js/*", http.StripPrefix("/js", http.FileServer(http.Dir("./web/js"))))
+	r.Handle("/css/*", http.StripPrefix("/css", http.FileServer(http.Dir("./web/css"))))
+	r.Get("/favicon.ico", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, "./web/favicon.ico")
+	})
 }
 
 //Сервер при запросе http://localhost:7540/ должен возвращать

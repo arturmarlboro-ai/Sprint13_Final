@@ -1,15 +1,12 @@
 package main
 
 import (
-	"Sprint13_Final/pkg/db"
-	"Sprint13_Final/pkg/server"
 	"log"
 	"os"
 
-	_ "modernc.org/sqlite"
+	"Sprint13_Final/pkg/db"
+	"Sprint13_Final/pkg/server"
 )
-
-var install bool
 
 func main() {
 	logfile, err := os.OpenFile("app.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
@@ -17,16 +14,15 @@ func main() {
 		log.Fatalf("Error opening log file: %v", err)
 	}
 	defer logfile.Close()
-
 	log.SetOutput(logfile)
 
-	err = db.InitDB()
-	if err != nil {
-		log.Fatalf("Error initializing database: %v", err)
-		os.Exit(1)
+	if err := db.Init("scheduler.db"); err != nil {
+		log.Fatalf("DB init error: %v", err)
 	}
-	log.Println("Database initialized successfully.")
+	defer db.DB.Close()
 
-	server.Run("localhost:7540")
+	if err := server.Run("localhost:7540"); err != nil {
+		log.Fatalf("Server error: %v", err)
+	}
 
 }

@@ -5,7 +5,7 @@ CREATE TABLE scheduler (
     comment VARCHAR(128) NOT NULL DEFAULT '',
     repeat VARCHAR(128) NOT NULL DEFAULT ''
 );
-CREATE INDEX task_date ON scheduler (date);
+CREATE INDEX idx_task_date ON scheduler (date);
 
 
 
