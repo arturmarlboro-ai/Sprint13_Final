@@ -3,7 +3,7 @@
     --cardbg-color: #fff;
     --font-color: #344050;
     --card-border-color: rgba(0, 0, 0, 0.125);
-    --input-bg: #fff;
+    --input-bg: #ffffff;
     --input-color: #344050;
     --input-border-color: #d8e2ef;
     --input-placeholder-color: #b6c1d2;
@@ -23,7 +23,7 @@
     --btn-box-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 
     --h-color: #344050;
-    --modal-bg-color: #fff;
+    --modal-bg-color: #ffffff;
     --modal-hf-color: var(--mainbg-color);
     --border-color: #d8e2ef;
     --close-hover-color: #3F3F40;

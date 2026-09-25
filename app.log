@@ -53,3 +53,80 @@
 2026/09/25 11:49:20 Init db
 2026/09/25 11:49:20 Init routs
 2026/09/25 11:49:20 Server starting on localhost:7540
+2026/09/25 12:32:18 Init db
+2026/09/25 12:32:18 Init routs
+2026/09/25 12:32:18 Server starting on localhost:7540
+2026/09/25 12:50:25 Init db
+2026/09/25 12:50:25 Init routs
+2026/09/25 12:50:25 Server starting on localhost:7540
+2026/09/25 12:50:53 INSERT INTO db task.Date, task.Title, task.Comment, task.Repeat
+2026/09/25 12:52:37 Init db
+2026/09/25 12:52:37 Init routs
+2026/09/25 12:52:37 Server starting on localhost:7540
+2026/09/25 12:52:52 INSERT INTO db 20260926 bbq +beer 
+2026/09/25 12:54:19 Init db
+2026/09/25 12:54:19 Init routs
+2026/09/25 12:54:19 Server starting on localhost:7540
+2026/09/25 13:22:55 Init db
+2026/09/25 13:22:55 Init routs
+2026/09/25 13:22:55 Server starting on localhost:7540
+2026/09/25 13:23:31 INSERT INTO db 20261002 чипсы купить 
+2026/09/25 13:38:44 Init db
+2026/09/25 13:38:44 Init routs
+2026/09/25 13:38:44 Server starting on localhost:7540
+2026/09/25 13:39:33 INSERT INTO db: 20260926 buy ciggs marlbro  with id= 11
+2026/09/25 13:50:54 Init db
+2026/09/25 13:50:54 Init routs
+2026/09/25 13:50:54 Server starting on localhost:7540
+2026/09/25 13:52:09 Init db
+2026/09/25 13:52:09 Init routs
+2026/09/25 13:52:09 Server starting on localhost:7540
+2026/09/25 13:54:03 Init db
+2026/09/25 13:54:03 Init routs
+2026/09/25 13:54:03 Server starting on localhost:7540
+2026/09/25 13:58:16 Init db
+2026/09/25 13:58:16 Init routs
+2026/09/25 13:58:16 Server starting on localhost:7540
+2026/09/25 13:58:50 INSERT INTO db: 20260927 color change  with id= 12
+2026/09/25 14:01:30 Init db
+2026/09/25 14:01:30 Init routs
+2026/09/25 14:01:30 Server starting on localhost:7540
+2026/09/25 14:05:23 Init db
+2026/09/25 14:05:23 Init routs
+2026/09/25 14:05:23 Server starting on localhost:7540
+2026/09/25 14:08:00 Init db
+2026/09/25 14:08:00 Init routs
+2026/09/25 14:08:00 Server starting on localhost:7540
+2026/09/25 14:09:13 Init db
+2026/09/25 14:09:13 Init routs
+2026/09/25 14:09:13 Server starting on localhost:7540
+2026/09/25 14:09:56 Init db
+2026/09/25 14:09:56 Init routs
+2026/09/25 14:09:56 Server starting on localhost:7540
+2026/09/25 14:11:21 Init db
+2026/09/25 14:11:21 Init routs
+2026/09/25 14:11:21 Server starting on localhost:7540
+2026/09/25 14:13:00 Init db
+2026/09/25 14:13:00 Init routs
+2026/09/25 14:13:00 Server starting on localhost:7540
+2026/09/25 14:14:11 Init db
+2026/09/25 14:14:11 Init routs
+2026/09/25 14:14:11 Server starting on localhost:7540
+2026/09/25 14:16:15 Init db
+2026/09/25 14:16:15 Init routs
+2026/09/25 14:16:15 Server starting on localhost:7540
+2026/09/25 14:17:01 Init db
+2026/09/25 14:17:01 Init routs
+2026/09/25 14:17:01 Server starting on localhost:7540
+2026/09/25 14:18:21 Init db
+2026/09/25 14:18:21 Init routs
+2026/09/25 14:18:21 Server starting on localhost:7540
+2026/09/25 14:19:36 Init db
+2026/09/25 14:19:36 Init routs
+2026/09/25 14:19:36 Server starting on localhost:7540
+2026/09/25 14:22:09 Init db
+2026/09/25 14:22:10 Init routs
+2026/09/25 14:22:10 Server starting on localhost:7540
+2026/09/25 14:30:13 Init db
+2026/09/25 14:30:13 Init routs
+2026/09/25 14:30:13 Server starting on localhost:7540

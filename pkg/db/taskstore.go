@@ -2,6 +2,7 @@ package db
 
 import (
 	"context"
+	"log"
 	"time"
 )
 
@@ -25,5 +26,7 @@ func AddTask(ctx context.Context, task Task) (int64, error) {
 	if err != nil {
 		return 0, err
 	}
-	return res.LastInsertId()
+	id, err := res.LastInsertId()
+	log.Printf("INSERT INTO db: %s %s %s %s with id= %v", task.Date, task.Title, task.Comment, task.Repeat, id)
+	return id, nil
 }
