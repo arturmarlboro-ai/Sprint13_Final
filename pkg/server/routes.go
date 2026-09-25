@@ -9,18 +9,14 @@ import (
 )
 
 func SetupRoutes(r chi.Router) {
-	// API
 	r.Post("/api/task", api.PostTask)
 	log.Println("Init routs")
-	// Статика
+
 	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, "./web/index.html")
 	})
-	r.Handle("/js/*", http.StripPrefix("/js", http.FileServer(http.Dir("./web/js"))))
-	r.Handle("/css/*", http.StripPrefix("/css", http.FileServer(http.Dir("./web/css"))))
-	r.Get("/favicon.ico", func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, "./web/favicon.ico")
-	})
+	r.Handle("/*", http.FileServer(http.Dir("./web")))
+
 }
 
 //Сервер при запросе http://localhost:7540/ должен возвращать
