@@ -1,6 +1,7 @@
 package server
 
 import (
+	"Sprint13_Final/pkg/api"
 	"log"
 	"net/http"
 
@@ -9,8 +10,12 @@ import (
 
 func Run(addr string) error {
 	r := chi.NewRouter()
+
+	api.Init()
+
 	SetupRoutes(r)
 
 	log.Printf("Server starting on %s", addr)
+
 	return http.ListenAndServe(addr, r)
 }

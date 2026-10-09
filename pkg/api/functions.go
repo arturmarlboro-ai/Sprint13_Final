@@ -1,78 +1,120 @@
 package api
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
 	"log"
+	"net/http"
 	"slices"
 	"strconv"
 	"strings"
 	"time"
+
+	"Sprint13_Final/pkg/db"
 )
+
+type TasksResp struct {
+	Tasks []*db.Task `json:"tasks"`
+}
+
+func checkDate(task *db.Task) error {
+	now := time.Now()
+
+	if task.Date == "" {
+		task.Date = now.Format(DateFormat)
+	}
+
+	t, err := time.Parse("20060102", task.Date)
+	if err != nil {
+		return fmt.Errorf("checkDate parseing error: %w", err)
+	}
+
+	if task.Repeat != "" {
+		repMode := strings.SplitN(task.Repeat, " ", 3)
+		a := strings.ToLower(repMode[0])
+		if a != "d" && a != "w" && a != "m" && a != "y" {
+			return errors.New("wrong mode task.Repeat. must be d , w, m, y. got: " + a)
+		}
+
+		next, err := NextDate(now, task.Date, task.Repeat)
+		if err != nil {
+			return fmt.Errorf("checkDate error: %w", err)
+		}
+
+		today := now.Format(DateFormat)
+
+		if t.Format(DateFormat) < today {
+			task.Date = next
+		}
+	} else {
+
+		today := now.Format(DateFormat)
+		if t.Format(DateFormat) < today {
+			task.Date = today
+		}
+	}
+	return nil
+}
+
+func writeJson(w http.ResponseWriter, data any) {
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	json.NewEncoder(w).Encode(data)
+}
 
 func NextDate(now time.Time, dstart, repeat string) (string, error) {
 	fmt.Println(now.Format("20060102"), dstart, repeat)
 
-	taskTime, err := time.Parse("20060102", dstart)
+	taskTime, err := time.Parse(DateFormat, dstart)
 	if err != nil {
 		log.Print("dstart parse err: ", err)
 		return "", fmt.Errorf("dstart parse err %w", err)
 	}
 
-	var repModeTimes []string
-
-	repModeTimes = strings.SplitN(repeat, " ", 3) //m 15,16 10,11
-
-	fmt.Println(repModeTimes)
-
-	if len(repModeTimes) > 3 {
-		log.Print("task repeat wrong format")
+	// if taskTime.After(now) {
+	// 	return taskTime.Format(DateFormat), nil
+	// }
+	if repeat == "" {
+		if !taskTime.After(now) {
+			return "", fmt.Errorf("date in the past, repeat rule is empty")
+		}
+		return dstart, nil
 	}
-
-	var repTimesString []string
-
+	repModeTimes := strings.SplitN(repeat, " ", 3) //m 15,16 10,11
 	repMode := strings.ToLower(strings.TrimSpace(repModeTimes[0]))
-
-	if len(repModeTimes) != 1 {
-		repTimesString = strings.Split(repModeTimes[1], ",")
-	}
-
 	var repTimes []int
 
-	for _, n := range repTimesString {
-		v, err := strconv.Atoi(n)
-		if err != nil {
-			log.Print(err)
-			return "", fmt.Errorf("%w", err)
+	if len(repModeTimes) > 1 {
+		for _, n := range strings.Split(repModeTimes[1], ",") {
+			v, err := strconv.Atoi(n)
+			if err != nil {
+				log.Print("atoi error: ", err)
+				return "", fmt.Errorf("atoi error: %w", err)
+			}
+			repTimes = append(repTimes, v)
 		}
-		repTimes = append(repTimes, v)
 	}
 
 	var nextdate time.Time
 
 	switch repMode {
 	case "d": //d 2
-		for _, v := range repTimes {
-			if v > 400 {
-				log.Print("max interval d 400 exceeded")
-				return "", errors.New("max interval d 400 exceeded")
-			}
-		}
 		if len(repTimes) != 1 || repTimes[0] <= 0 {
 			log.Print("mode 'd' needs one positive number")
 			return "", errors.New("mode 'd' needs one positive number")
 		}
 
-		fmt.Println("Got D!", repTimes)
-
-		if taskTime.After(now) {
-			nextdate = taskTime.AddDate(0, 0, repTimes[0])
-		} else {
-			for taskTime.Before(now) {
-				taskTime = taskTime.AddDate(0, 0, repTimes[0])
-			}
-			nextdate = taskTime
+		if repTimes[0] > 400 {
+			return "", errors.New("max interval d 400 exceeded")
 		}
+
+		next := taskTime.AddDate(0, 0, repTimes[0])
+
+		for !next.After(now) {
+			next = next.AddDate(0, 0, repTimes[0])
+		}
+
+		nextdate = next
 
 	case "w": //w 1,2,3,4,5
 		fmt.Println("Got W!", repTimes)
@@ -195,6 +237,12 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 				log.Print("mode m: no nextdate found, out of range 400 days")
 				return "", errors.New("mode m: no nextdate found, out of range 400 days")
 			}
+			if !nextPossibleDueDate.After(now) {
+				continue
+			}
+			if !nextPossibleDueDate.After(taskTime) {
+				continue
+			}
 
 			y, m, d := nextPossibleDueDate.Date()
 
@@ -227,16 +275,12 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 		}
 
 	case "y":
-		fmt.Println("Got Y!", repTimes)
-		newtaskTime := taskTime
-		if taskTime.After(now) {
-			nextdate = taskTime.AddDate(1, 0, 0)
-		} else {
-			for newtaskTime.Before(now) {
-				newtaskTime = newtaskTime.AddDate(1, 0, 0)
-			}
-			nextdate = newtaskTime
+
+		next := taskTime.AddDate(1, 0, 0)
+		for !next.After(now) {
+			next = next.AddDate(1, 0, 0)
 		}
+		nextdate = next
 
 	default:
 		log.Printf("wrong mode: must be d, w, m, y, got %v", repModeTimes)
@@ -244,7 +288,5 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 
 	}
 
-	fmt.Println(now.Format("20060102"), dstart, repeat)
-
-	return nextdate.Format("20060102"), nil
+	return nextdate.Format(DateFormat), nil
 }

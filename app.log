@@ -130,3 +130,695 @@
 2026/09/25 14:30:13 Init db
 2026/09/25 14:30:13 Init routs
 2026/09/25 14:30:13 Server starting on localhost:7540
+2026/10/03 16:31:07 Init db
+2026/10/03 16:31:07 Init routs
+2026/10/03 16:31:07 Server starting on localhost:7540
+2026/10/03 16:31:32 INSERT INTO db: 20261004 nd check d  with id= 13
+2026/10/05 10:35:05 Init db
+2026/10/05 10:35:05 Init routs
+2026/10/05 10:35:05 Server starting on localhost:7540
+2026/10/05 11:11:17 Init db
+2026/10/05 11:11:17 Init routs
+2026/10/05 11:11:17 Server starting on localhost:7540
+2026/10/05 11:56:06 Init db
+2026/10/05 11:56:07 Init routs
+2026/10/05 11:56:07 Server starting on localhost:7540
+2026/10/05 11:59:56 Init db
+2026/10/05 11:59:56 Init routs
+2026/10/05 11:59:56 Server starting on localhost:7540
+2026/10/05 12:46:42 Init db
+2026/10/05 12:46:42 Init routs
+2026/10/05 12:46:42 Server starting on localhost:7540
+2026/10/05 12:47:59 INSERT INTO db: 20261006 nd CHECK d d 7 with id= 14
+2026/10/05 12:55:14 Init db
+2026/10/05 12:55:14 Init routs
+2026/10/05 12:55:14 Server starting on localhost:7540
+2026/10/05 12:55:38 INSERT INTO db: 20261005 nd f y y with id= 15
+2026/10/05 12:56:50 Init db
+2026/10/05 12:56:50 Init routs
+2026/10/05 12:56:50 Server starting on localhost:7540
+2026/10/05 12:56:53 INSERT INTO db: 20261005 nd f y y with id= 16
+2026/10/05 13:00:10 wrong mode: must be d, w, m, y, got []
+2026/10/05 13:00:10 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:00:10 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:00:10 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:00:10 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:12:49 Init db
+2026/10/05 13:12:49 Init routs
+2026/10/05 13:12:49 Server starting on localhost:7540
+2026/10/05 13:13:23 INSERT INTO db: 20261006 nd ch y y with id= 17
+2026/10/05 13:23:19 Init db
+2026/10/05 13:23:19 Init routs
+2026/10/05 13:23:19 Server starting on localhost:7540
+2026/10/05 13:24:58 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:24:58 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:24:58 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:24:58 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:24:58 mode 'd' needs one positive number
+2026/10/05 13:24:58 wrong repTimes format
+2026/10/05 13:25:39 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:25:39 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:25:39 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:25:39 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:25:39 mode 'd' needs one positive number
+2026/10/05 13:25:39 wrong repTimes format
+2026/10/05 13:50:02 Init db
+2026/10/05 13:50:02 Init routs
+2026/10/05 13:50:02 Server starting on localhost:7540
+2026/10/05 13:50:05 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:50:05 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:50:05 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:50:05 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:50:05 mode 'd' needs one positive number
+2026/10/05 13:50:05 wrong repTimes format
+2026/10/06 14:45:28 Init db
+2026/10/06 14:45:28 Init routs
+2026/10/06 14:45:28 Server starting on localhost:7540
+2026/10/06 14:51:56 INSERT INTO db: 20261006 ????????  d 1 with id= 18
+2026/10/06 14:53:57 INSERT INTO db: 20261006 ???????????   with id= 19
+2026/10/06 14:54:31 INSERT INTO db: 20261009 ?? ????????  d 7 with id= 20
+2026/10/06 15:23:58 Init db
+2026/10/06 15:23:58 Init routs
+2026/10/06 15:23:58 Server starting on localhost:7540
+2026/10/06 15:24:14 task.Title emtpy
+2026/10/06 15:24:14 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/06 15:24:14 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/06 15:24:14 mode 'w' needs up to 7 reps
+2026/10/06 15:24:14 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/06 15:24:14 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/06 15:24:14 INSERT INTO db: 20261006 Заголовок   with id= 21
+2026/10/06 15:24:15 INSERT INTO db: 20261006 Сделать что-нибудь Хорошо отдохнуть  with id= 22
+2026/10/06 15:24:15 INSERT INTO db: 20261014 Уроки  d 10 with id= 23
+2026/10/06 15:24:15 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 24
+2026/10/06 15:24:15 INSERT INTO db: 20261006 Фитнес  d 1 with id= 25
+2026/10/06 15:24:15 INSERT INTO db: 20261006 Шмитнес   with id= 26
+2026/10/06 15:24:15 INSERT INTO db: 20261007 Сходить в магазин  w 1,3,5 with id= 27
+2026/10/06 16:17:05 Init db
+2026/10/06 16:17:05 Init routs
+2026/10/06 16:17:05 Server starting on localhost:7540
+2026/10/06 16:17:12 task.Title emtpy
+2026/10/06 16:17:12 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/06 16:17:12 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/06 16:17:12 mode 'w' needs up to 7 reps
+2026/10/06 16:17:12 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/06 16:17:12 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Заголовок   with id= 28
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Сделать что-нибудь Хорошо отдохнуть  with id= 29
+2026/10/06 16:17:12 INSERT INTO db: 20261014 Уроки  d 10 with id= 30
+2026/10/06 16:17:12 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 31
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Фитнес  d 1 with id= 32
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Шмитнес   with id= 33
+2026/10/06 16:17:12 INSERT INTO db: 20261007 Сходить в магазин  w 1,3,5 with id= 34
+2026/10/07 11:34:43 Init db
+2026/10/07 11:34:43 Init routs
+2026/10/07 11:34:43 Server starting on localhost:7540
+2026/10/07 11:40:04 task.Title emtpy
+2026/10/07 11:40:04 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/07 11:40:04 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/07 11:40:04 mode 'w' needs up to 7 reps
+2026/10/07 11:40:04 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/07 11:40:04 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Заголовок   with id= 35
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Сделать что-нибудь Хорошо отдохнуть  with id= 36
+2026/10/07 11:40:04 INSERT INTO db: 20261014 Уроки  d 10 with id= 37
+2026/10/07 11:40:04 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 38
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Фитнес  d 1 with id= 39
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Шмитнес   with id= 40
+2026/10/07 11:40:04 INSERT INTO db: 20261009 Сходить в магазин  w 1,3,5 with id= 41
+2026/10/07 12:02:32 Init db
+2026/10/07 12:02:32 Init routs
+2026/10/07 12:02:32 Server starting on localhost:7540
+2026/10/07 12:04:22 Init db
+2026/10/07 12:04:22 Init routs
+2026/10/07 12:04:22 Server starting on localhost:7540
+2026/10/07 12:52:40 Init db
+2026/10/07 12:52:40 Init routs
+2026/10/07 12:52:40 Server starting on localhost:7540
+2026/10/07 12:57:15 Init db
+2026/10/07 12:57:15 Init routs
+2026/10/07 12:57:15 Server starting on localhost:7540
+2026/10/07 13:02:00 INSERT INTO db: 20261008 api fix api/tasks d 1 with id= 42
+2026/10/07 13:25:38 Init db
+2026/10/07 13:25:38 Init routs
+2026/10/07 13:25:38 Server starting on localhost:7540
+2026/10/07 13:29:26 task.Title emtpy
+2026/10/07 13:29:26 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/07 13:29:26 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/07 13:29:26 mode 'w' needs up to 7 reps
+2026/10/07 13:29:26 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/07 13:29:26 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Заголовок   with id= 43
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Сделать что-нибудь Хорошо отдохнуть  with id= 44
+2026/10/07 13:29:26 INSERT INTO db: 20261014 Уроки  d 10 with id= 45
+2026/10/07 13:29:26 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 46
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Фитнес  d 1 with id= 47
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Шмитнес   with id= 48
+2026/10/07 13:29:27 INSERT INTO db: 20261009 Сходить в магазин  w 1,3,5 with id= 49
+2026/10/07 13:29:27 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/07 13:29:27 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/07 13:29:27 dstart parse err: parsing time "15000156": day out of range
+2026/10/07 13:29:27 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/07 13:29:27 mode 'd' needs one positive number
+2026/10/07 13:29:27 wrong repTimes format
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Созвон в 16:00 Обсуждение планов d 5 with id= 51
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Заказать пиццу в 17:00  with id= 52
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Свести баланс   with id= 53
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Проверить работу /api/task/done  d 3 with id= 54
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Временная задача  d 3 with id= 55
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Просмотр фильма с попкорном  with id= 56
+2026/10/07 13:29:27 INSERT INTO db: 20261008 Сходить в бассейн   with id= 57
+2026/10/07 13:29:27 INSERT INTO db: 20261008 Оплатить коммуналку  d 30 with id= 58
+2026/10/07 13:29:27 INSERT INTO db: 20261010 Поплавать Бассейн с тренером d 7 with id= 59
+2026/10/07 13:29:27 INSERT INTO db: 20261010 Позвонить в УК Разобраться с горячей водой  with id= 60
+2026/10/07 13:29:27 INSERT INTO db: 20261010 Встретится с Васей в 18:00  with id= 61
+2026/10/07 13:34:31 task.Title emtpy
+2026/10/07 13:34:31 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/07 13:34:31 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/07 13:34:31 mode 'w' needs up to 7 reps
+2026/10/07 13:34:31 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/07 13:34:31 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Заголовок   with id= 62
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Сделать что-нибудь Хорошо отдохнуть  with id= 63
+2026/10/07 13:34:31 INSERT INTO db: 20261014 Уроки  d 10 with id= 64
+2026/10/07 13:34:31 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 65
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Фитнес  d 1 with id= 66
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Шмитнес   with id= 67
+2026/10/07 13:34:31 INSERT INTO db: 20261009 Сходить в магазин  w 1,3,5 with id= 68
+2026/10/07 13:34:31 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/07 13:34:31 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/07 13:34:31 dstart parse err: parsing time "15000156": day out of range
+2026/10/07 13:34:31 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/07 13:34:31 mode 'd' needs one positive number
+2026/10/07 13:34:31 wrong repTimes format
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Созвон в 16:00 Обсуждение планов d 5 with id= 70
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Заказать пиццу в 17:00  with id= 71
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Свести баланс   with id= 72
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Проверить работу /api/task/done  d 3 with id= 73
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Временная задача  d 3 with id= 74
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Просмотр фильма с попкорном  with id= 75
+2026/10/07 13:34:31 INSERT INTO db: 20261008 Сходить в бассейн   with id= 76
+2026/10/07 13:34:31 INSERT INTO db: 20261008 Оплатить коммуналку  d 30 with id= 77
+2026/10/07 13:34:31 INSERT INTO db: 20261010 Поплавать Бассейн с тренером d 7 with id= 78
+2026/10/07 13:34:31 INSERT INTO db: 20261010 Позвонить в УК Разобраться с горячей водой  with id= 79
+2026/10/07 13:34:31 INSERT INTO db: 20261010 Встретится с Васей в 18:00  with id= 80
+2026/10/07 14:55:15 Init db
+2026/10/07 14:55:15 Init routs
+2026/10/07 14:55:15 Server starting on localhost:7540
+2026/10/07 14:58:57 Init db
+2026/10/07 14:58:57 Init routs
+2026/10/07 14:58:57 Server starting on localhost:7540
+2026/10/07 16:02:12 Init db
+2026/10/07 16:02:13 Init routs
+2026/10/07 16:02:13 Server starting on localhost:7540
+2026/10/07 16:06:39 INSERT INTO db: 20261010 run taskshandler 100 d 1 with id= 81
+2026/10/07 16:26:40 Init db
+2026/10/07 16:26:40 Init routs
+2026/10/07 16:26:40 Server starting on localhost:7540
+2026/10/07 16:32:36 Init db
+2026/10/07 16:32:36 Init routs
+2026/10/07 16:32:36 Server starting on localhost:7540
+2026/10/07 16:34:59 Init db
+2026/10/07 16:34:59 Init routs
+2026/10/07 16:34:59 Server starting on localhost:7540
+2026/10/07 16:36:45 Init db
+2026/10/07 16:36:45 Init routs
+2026/10/07 16:36:45 Server starting on localhost:7540
+2026/10/07 16:38:56 Init db
+2026/10/07 16:38:56 Init routs
+2026/10/07 16:38:56 Server starting on localhost:7540
+2026/10/07 16:50:11 Init db
+2026/10/07 16:50:11 Init routs
+2026/10/07 16:50:11 Server starting on localhost:7540
+2026/10/07 17:08:39 Init db
+2026/10/07 17:08:39 Init routs
+2026/10/07 17:08:39 Server starting on localhost:7540
+2026/10/07 17:10:30 Init db
+2026/10/07 17:10:30 Init routs
+2026/10/07 17:10:30 Server starting on localhost:7540
+2026/10/08 13:02:36 Init db
+2026/10/08 13:02:36 Init routs
+2026/10/08 13:02:36 Server starting on localhost:7540
+2026/10/08 13:05:13 Init db
+2026/10/08 13:05:13 Init routs
+2026/10/08 13:05:13 Server starting on localhost:7540
+2026/10/08 13:05:14 бассейн
+2026/10/08 13:05:23 bottle
+2026/10/08 13:05:26 bottle
+2026/10/08 13:05:39 бассейн
+2026/10/08 13:06:18 
+2026/10/08 13:08:00 Init db
+2026/10/08 13:08:00 Init routs
+2026/10/08 13:08:00 Server starting on localhost:7540
+2026/10/08 13:08:24 Init db
+2026/10/08 13:08:25 Init routs
+2026/10/08 13:08:25 Server starting on localhost:7540
+2026/10/08 13:08:28 бассейн
+2026/10/08 13:09:10 фильм
+2026/10/08 13:09:28 
+2026/10/08 13:09:39 фильм
+2026/10/08 13:10:37 
+2026/10/08 13:12:54 
+2026/10/08 13:15:32 Init db
+2026/10/08 13:15:32 Init routs
+2026/10/08 13:15:32 Server starting on localhost:7540
+2026/10/08 13:15:32 
+2026/10/08 13:16:14 бассейн
+2026/10/08 13:16:35 бассейн
+2026/10/08 13:16:37 бассейн
+2026/10/08 13:17:18 
+2026/10/08 13:25:15 Init db
+2026/10/08 13:25:15 Init routs
+2026/10/08 13:25:15 Server starting on localhost:7540
+2026/10/08 13:25:54 бассейн
+2026/10/08 13:26:37 Бассейн
+2026/10/08 13:35:12 Init db
+2026/10/08 13:35:12 Init routs
+2026/10/08 13:35:12 Server starting on localhost:7540
+2026/10/08 13:35:17 
+2026/10/08 13:35:29 Бассейн
+2026/10/08 13:35:34 Бассейн
+2026/10/08 13:35:52 бассейн
+2026/10/08 13:39:09 Init db
+2026/10/08 13:39:09 Init routs
+2026/10/08 13:39:09 Server starting on localhost:7540
+2026/10/08 13:39:13 бассейн
+2026/10/08 13:39:16 бассейн
+2026/10/08 13:39:27 Бассейн
+2026/10/08 13:39:50 бассейн
+2026/10/08 13:40:38 
+2026/10/08 13:45:17 
+2026/10/08 13:45:25 Бассейн с тренером
+2026/10/08 13:46:32 Init db
+2026/10/08 13:46:32 Init routs
+2026/10/08 13:46:32 Server starting on localhost:7540
+2026/10/08 13:46:37 тренером
+2026/10/08 13:46:52 с
+2026/10/08 13:47:10 С
+2026/10/08 13:47:22 б
+2026/10/08 13:47:31 Б
+2026/10/08 13:47:33 Б
+2026/10/08 13:50:56 бассейн
+2026/10/08 13:51:08 бассейн
+2026/10/08 13:51:26 Бассейн
+2026/10/08 13:57:01 Init db
+2026/10/08 13:57:01 Init routs
+2026/10/08 13:57:01 Server starting on localhost:7540
+2026/10/08 13:57:04 тренером
+2026/10/08 13:58:01 02.01.2006
+2026/10/08 14:07:40 Init db
+2026/10/08 14:07:40 Init routs
+2026/10/08 14:07:40 Server starting on localhost:7540
+2026/10/08 14:07:42 с
+2026/10/08 14:07:56 07.10.2026
+2026/10/08 14:40:02 Init db
+2026/10/08 14:40:02 Init routs
+2026/10/08 14:40:02 Server starting on localhost:7540
+2026/10/08 14:40:05 07.10.2026
+2026/10/08 14:40:40 08.10.2026
+2026/10/08 14:41:10 
+2026/10/08 14:41:10 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 82
+2026/10/08 14:41:10 INSERT INTO db: 20261009 Сходить в бассейн   with id= 83
+2026/10/08 14:41:10 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 84
+2026/10/08 14:41:10 
+2026/10/08 14:41:10 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 85
+2026/10/08 14:41:10 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 86
+2026/10/08 14:41:10 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 87
+2026/10/08 14:41:10 
+2026/10/08 14:42:16 
+2026/10/08 14:42:16 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 88
+2026/10/08 14:42:16 INSERT INTO db: 20261009 Сходить в бассейн   with id= 89
+2026/10/08 14:42:16 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 90
+2026/10/08 14:42:16 
+2026/10/08 14:42:16 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 91
+2026/10/08 14:42:16 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 92
+2026/10/08 14:42:16 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 93
+2026/10/08 14:42:16 
+2026/10/08 15:04:38 Init db
+2026/10/08 15:04:38 Init routs
+2026/10/08 15:04:38 Server starting on localhost:7540
+2026/10/08 15:05:53 
+2026/10/08 15:05:54 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 94
+2026/10/08 15:05:54 INSERT INTO db: 20261009 Сходить в бассейн   with id= 95
+2026/10/08 15:05:54 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 96
+2026/10/08 15:05:54 
+2026/10/08 15:05:54 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 97
+2026/10/08 15:05:54 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 98
+2026/10/08 15:05:54 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 99
+2026/10/08 15:05:54 
+2026/10/08 15:05:54 УК
+2026/10/08 15:05:54 11.10.2026
+2026/10/08 15:11:46 Init db
+2026/10/08 15:11:46 Init routs
+2026/10/08 15:11:46 Server starting on localhost:7540
+2026/10/08 15:11:56 
+2026/10/08 15:11:56 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 100
+2026/10/08 15:11:56 INSERT INTO db: 20261009 Сходить в бассейн   with id= 101
+2026/10/08 15:11:56 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 102
+2026/10/08 15:11:56 
+2026/10/08 15:11:56 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 103
+2026/10/08 15:11:56 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 104
+2026/10/08 15:11:56 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 105
+2026/10/08 15:11:56 
+2026/10/08 15:11:56 УК
+2026/10/08 15:11:56 11.10.2026
+2026/10/08 15:16:12 Init db
+2026/10/08 15:16:12 Init routs
+2026/10/08 15:16:12 Server starting on localhost:7540
+2026/10/08 15:16:57 INSERT INTO db: 20261009 run tests api/tasks d 1 with id= 106
+2026/10/08 15:16:57 
+2026/10/08 15:18:05 
+2026/10/08 15:19:36 
+2026/10/08 15:34:59 Init db
+2026/10/08 15:34:59 Init routs
+2026/10/08 15:34:59 Server starting on localhost:7540
+2026/10/08 15:35:00 
+2026/10/08 15:35:00 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 107
+2026/10/08 15:35:00 INSERT INTO db: 20261009 Сходить в бассейн   with id= 108
+2026/10/08 15:35:00 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 109
+2026/10/08 15:35:00 
+2026/10/08 15:35:00 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 110
+2026/10/08 15:35:00 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 111
+2026/10/08 15:35:00 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 112
+2026/10/08 15:35:00 
+2026/10/08 15:35:00 УК
+2026/10/08 15:35:00 11.10.2026
+2026/10/08 16:06:18 Init db
+2026/10/08 16:06:18 Init routs
+2026/10/08 16:06:18 Server starting on localhost:7540
+2026/10/08 16:06:30 
+2026/10/08 17:23:04 Init db
+2026/10/08 17:23:04 Init routs
+2026/10/08 17:23:04 Server starting on localhost:7540
+2026/10/08 17:23:19 
+2026/10/08 17:23:19 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 113
+2026/10/08 17:23:19 INSERT INTO db: 20261009 Сходить в бассейн   with id= 114
+2026/10/08 17:23:19 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 115
+2026/10/08 17:23:19 
+2026/10/08 17:23:19 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 116
+2026/10/08 17:23:19 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 117
+2026/10/08 17:23:19 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 118
+2026/10/08 17:23:19 
+2026/10/08 17:23:19 УК
+2026/10/08 17:23:19 11.10.2026
+2026/10/08 17:24:35 
+2026/10/08 17:27:02 Init db
+2026/10/08 17:27:02 Init routs
+2026/10/08 17:27:02 Server starting on localhost:7540
+2026/10/08 17:27:14 
+2026/10/08 17:27:14 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 119
+2026/10/08 17:27:14 INSERT INTO db: 20261009 Сходить в бассейн   with id= 120
+2026/10/08 17:27:14 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 121
+2026/10/08 17:27:14 
+2026/10/08 17:27:14 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 122
+2026/10/08 17:27:14 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 123
+2026/10/08 17:27:14 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 124
+2026/10/08 17:27:14 
+2026/10/08 17:27:14 УК
+2026/10/08 17:27:14 11.10.2026
+2026/10/08 17:28:36 02.01.2006
+2026/10/08 17:29:02 07.10.2026
+2026/10/08 17:48:02 Init db
+2026/10/08 17:48:02 Init routs
+2026/10/08 17:48:02 Server starting on localhost:7540
+2026/10/08 17:48:16 07.10.2026
+2026/10/08 17:48:34 02.01.2006
+2026/10/08 17:48:54 
+2026/10/08 17:48:54 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 125
+2026/10/08 17:48:54 INSERT INTO db: 20261009 Сходить в бассейн   with id= 126
+2026/10/08 17:48:54 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 127
+2026/10/08 17:48:54 
+2026/10/08 17:48:54 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 128
+2026/10/08 17:48:54 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 129
+2026/10/08 17:48:54 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 130
+2026/10/08 17:48:54 
+2026/10/08 17:48:54 ук
+2026/10/08 17:48:54 11.10.2026
+2026/10/08 17:57:13 Init db
+2026/10/08 17:57:13 Init routs
+2026/10/08 17:57:13 Server starting on localhost:7540
+2026/10/08 17:57:17 
+2026/10/08 17:57:17 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 131
+2026/10/08 17:57:17 INSERT INTO db: 20261009 Сходить в бассейн   with id= 132
+2026/10/08 17:57:17 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 133
+2026/10/08 17:57:17 
+2026/10/08 17:57:17 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 134
+2026/10/08 17:57:17 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 135
+2026/10/08 17:57:17 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 136
+2026/10/08 17:57:17 
+2026/10/08 17:57:17 ук
+2026/10/08 17:57:17 11.10.2026
+2026/10/08 18:04:34 Init db
+2026/10/08 18:04:34 Init routs
+2026/10/08 18:04:34 Server starting on localhost:7540
+2026/10/08 18:04:40 
+2026/10/08 18:04:40 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 137
+2026/10/08 18:04:40 INSERT INTO db: 20261009 Сходить в бассейн   with id= 138
+2026/10/08 18:04:40 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 139
+2026/10/08 18:04:40 
+2026/10/08 18:04:40 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 140
+2026/10/08 18:04:40 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 141
+2026/10/08 18:04:40 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 142
+2026/10/08 18:04:40 
+2026/10/08 18:04:40 ук
+2026/10/08 18:04:40 11.10.2026
+2026/10/08 18:16:57 Init db
+2026/10/08 18:16:57 Init routs
+2026/10/08 18:16:57 Server starting on localhost:7540
+2026/10/08 18:17:04 
+2026/10/08 18:17:04 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 143
+2026/10/08 18:17:04 INSERT INTO db: 20261009 Сходить в бассейн   with id= 144
+2026/10/08 18:17:04 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 145
+2026/10/08 18:17:04 
+2026/10/08 18:17:04 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 146
+2026/10/08 18:17:04 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 147
+2026/10/08 18:17:04 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 148
+2026/10/08 18:17:04 
+2026/10/08 18:17:04 ук
+2026/10/08 18:17:04 11.10.2026
+2026/10/08 18:22:27 Init db
+2026/10/08 18:22:27 Init routs
+2026/10/08 18:22:27 Server starting on localhost:7540
+2026/10/08 18:22:29 
+2026/10/08 18:22:29 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 149
+2026/10/08 18:22:29 INSERT INTO db: 20261009 Сходить в бассейн   with id= 150
+2026/10/08 18:22:29 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 151
+2026/10/08 18:22:29 
+2026/10/08 18:22:29 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 152
+2026/10/08 18:22:29 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 153
+2026/10/08 18:22:29 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 154
+2026/10/08 18:22:29 
+2026/10/08 18:22:29 УК
+2026/10/08 18:22:29 11.10.2026
+2026/10/08 18:25:52 Init db
+2026/10/08 18:25:52 Init routs
+2026/10/08 18:25:52 Server starting on localhost:7540
+2026/10/08 18:25:56 
+2026/10/08 18:25:56 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 155
+2026/10/08 18:25:56 INSERT INTO db: 20261009 Сходить в бассейн   with id= 156
+2026/10/08 18:25:56 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 157
+2026/10/08 18:25:56 
+2026/10/08 18:25:56 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 158
+2026/10/08 18:25:56 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 159
+2026/10/08 18:25:56 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 160
+2026/10/08 18:25:56 
+2026/10/08 18:25:56 ук
+2026/10/08 18:25:56 11.10.2026
+2026/10/08 18:28:06 Init db
+2026/10/08 18:28:06 Init routs
+2026/10/08 18:28:06 Server starting on localhost:7540
+2026/10/08 18:28:15 
+2026/10/08 18:28:15 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 161
+2026/10/08 18:28:15 INSERT INTO db: 20261009 Сходить в бассейн   with id= 162
+2026/10/08 18:28:15 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 163
+2026/10/08 18:28:15 
+2026/10/08 18:28:15 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 164
+2026/10/08 18:28:15 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 165
+2026/10/08 18:28:15 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 166
+2026/10/08 18:28:15 
+2026/10/08 18:28:15 УК
+2026/10/08 18:28:15 11.10.2026
+2026/10/08 18:31:04 УК
+2026/10/08 18:41:10 Init db
+2026/10/08 18:41:10 Init routs
+2026/10/08 18:41:10 Server starting on localhost:7540
+2026/10/08 18:42:26 Init db
+2026/10/08 18:42:27 Init routs
+2026/10/08 18:42:27 Server starting on localhost:7540
+2026/10/08 18:47:04 Init db
+2026/10/08 18:47:04 Init routs
+2026/10/08 18:47:04 Server starting on localhost:7540
+2026/10/08 18:47:06 УК
+2026/10/08 18:47:28 УК
+2026/10/08 18:47:28 11.10.2026
+2026/10/08 19:13:43 Init db
+2026/10/08 19:13:43 Init routs
+2026/10/08 19:13:43 Server starting on localhost:7540
+2026/10/08 19:14:01 
+2026/10/08 19:14:01 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 173
+2026/10/08 19:14:01 INSERT INTO db: 20261009 Сходить в бассейн   with id= 174
+2026/10/08 19:14:01 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 175
+2026/10/08 19:14:01 
+2026/10/08 19:14:01 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 176
+2026/10/08 19:14:01 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 177
+2026/10/08 19:14:01 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 178
+2026/10/08 19:14:01 
+2026/10/08 19:14:01 Бассейн
+2026/10/08 19:14:01 11.10.2026
+2026/10/08 19:18:21 Init db
+2026/10/08 19:18:21 Init routs
+2026/10/08 19:18:21 Server starting on localhost:7540
+2026/10/08 19:18:31 
+2026/10/08 19:18:32 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 179
+2026/10/08 19:18:32 INSERT INTO db: 20261009 Сходить в бассейн   with id= 180
+2026/10/08 19:18:32 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 181
+2026/10/08 19:18:32 
+2026/10/08 19:18:32 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 182
+2026/10/08 19:18:32 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 183
+2026/10/08 19:18:32 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 184
+2026/10/08 19:18:32 
+2026/10/08 19:18:32 УК
+2026/10/08 19:18:32 11.10.2026
+2026/10/08 19:19:48 
+2026/10/08 19:19:49 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 185
+2026/10/08 19:19:49 INSERT INTO db: 20261009 Сходить в бассейн   with id= 186
+2026/10/08 19:19:49 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 187
+2026/10/08 19:19:49 
+2026/10/08 19:19:49 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 188
+2026/10/08 19:19:49 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 189
+2026/10/08 19:19:49 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 190
+2026/10/08 19:19:49 
+2026/10/08 19:19:49 11.10.2026
+2026/10/08 19:20:02 Init db
+2026/10/08 19:20:02 Init routs
+2026/10/08 19:20:02 Server starting on localhost:7540
+2026/10/08 19:20:07 
+2026/10/08 19:20:07 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 191
+2026/10/08 19:20:07 INSERT INTO db: 20261009 Сходить в бассейн   with id= 192
+2026/10/08 19:20:07 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 193
+2026/10/08 19:20:07 
+2026/10/08 19:20:07 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 194
+2026/10/08 19:20:07 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 195
+2026/10/08 19:20:07 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 196
+2026/10/08 19:20:07 
+2026/10/08 19:20:07 11.10.2026
+2026/10/08 19:20:41 
+2026/10/08 19:20:41 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 197
+2026/10/08 19:20:41 INSERT INTO db: 20261009 Сходить в бассейн   with id= 198
+2026/10/08 19:20:41 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 199
+2026/10/08 19:20:41 
+2026/10/08 19:20:41 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 200
+2026/10/08 19:20:41 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 201
+2026/10/08 19:20:41 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 202
+2026/10/08 19:20:41 
+2026/10/08 19:20:41 Позвонить
+2026/10/08 19:20:41 11.10.2026
+2026/10/08 19:20:55 Init db
+2026/10/08 19:20:55 Init routs
+2026/10/08 19:20:55 Server starting on localhost:7540
+2026/10/08 19:21:01 
+2026/10/08 19:21:01 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 203
+2026/10/08 19:21:01 INSERT INTO db: 20261009 Сходить в бассейн   with id= 204
+2026/10/08 19:21:01 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 205
+2026/10/08 19:21:01 
+2026/10/08 19:21:01 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 206
+2026/10/08 19:21:01 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 207
+2026/10/08 19:21:01 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 208
+2026/10/08 19:21:01 
+2026/10/08 19:21:01 Позвонить
+2026/10/08 19:21:01 11.10.2026
+2026/10/08 19:21:37 Init db
+2026/10/08 19:21:37 Init routs
+2026/10/08 19:21:37 Server starting on localhost:7540
+2026/10/08 19:22:19 
+2026/10/08 19:22:19 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 209
+2026/10/08 19:22:19 INSERT INTO db: 20261009 Сходить в бассейн   with id= 210
+2026/10/08 19:22:19 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 211
+2026/10/08 19:22:19 
+2026/10/08 19:22:19 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 212
+2026/10/08 19:22:19 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 213
+2026/10/08 19:22:19 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 214
+2026/10/08 19:22:19 
+2026/10/08 19:22:19 Встретится
+2026/10/08 19:22:19 11.10.2026
+2026/10/08 19:24:50 
+2026/10/08 19:24:50 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 215
+2026/10/08 19:24:50 INSERT INTO db: 20261009 Сходить в бассейн   with id= 216
+2026/10/08 19:24:50 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 217
+2026/10/08 19:24:50 
+2026/10/08 19:24:50 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 218
+2026/10/08 19:24:50 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 219
+2026/10/08 19:24:50 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 220
+2026/10/08 19:24:50 
+2026/10/08 19:50:16 УК
+2026/10/08 19:50:16 11.10.2026
+2026/10/08 19:53:48 бассейн
+2026/10/08 19:53:55 УК
+2026/10/09 10:36:04 Init db
+2026/10/09 10:36:04 Init routs
+2026/10/09 10:36:04 Server starting on localhost:7540
+2026/10/09 10:47:09 Init db
+2026/10/09 10:47:09 Init routs
+2026/10/09 10:47:09 Server starting on localhost:7540
+2026/10/09 10:50:40 Init db
+2026/10/09 10:50:40 Init routs
+2026/10/09 10:50:40 Server starting on localhost:7540
+2026/10/09 11:51:38 Init db
+2026/10/09 11:51:38 Init routs
+2026/10/09 11:51:38 Server starting on localhost:7540
+2026/10/09 11:55:29 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 11:55:29 editTaskHandler error: sql: no rows in result set
+2026/10/09 11:59:07 Init db
+2026/10/09 11:59:08 Init routs
+2026/10/09 11:59:08 Server starting on localhost:7540
+2026/10/09 11:59:08 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 11:59:08 editTaskHandler error: sql: no rows in result set
+2026/10/09 12:01:24 Init db
+2026/10/09 12:01:24 Init routs
+2026/10/09 12:01:24 Server starting on localhost:7540
+2026/10/09 12:01:24 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 12:01:24 editTaskHandler error: sql: no rows in result set
+2026/10/09 12:02:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 12:02:28 editTaskHandler error: sql: no rows in result set
+2026/10/09 12:16:09 Init db
+2026/10/09 12:16:09 Init routs
+2026/10/09 12:16:09 Server starting on localhost:7540
+2026/10/09 12:16:38 Task found: 243, 20261011, Позвонить в УК, Разобраться с горячей водой, 
+2026/10/09 12:16:38 &{243 20261011 Позвонить в УК Разобраться с горячей водой }
+2026/10/09 12:42:56 Init db
+2026/10/09 12:42:56 Init routs
+2026/10/09 12:42:56 Server starting on localhost:7540
+2026/10/09 12:42:59 
+2026/10/09 12:43:19 Task found: 242, 20261011, Поплавать, Бассейн с тренером, d 7
+2026/10/09 12:43:19 &{242 20261011 Поплавать Бассейн с тренером d 7}
+2026/10/09 12:43:36 
+2026/10/09 12:48:09 Task found: 240, 20261009, Сходить в бассейн, , 
+2026/10/09 12:48:09 &{240 20261009 Сходить в бассейн  }
+2026/10/09 12:48:21 
+2026/10/09 12:48:59 Task found: 239, 20261008, Просмотр фильма, с попкорном, 
+2026/10/09 12:48:59 &{239 20261008 Просмотр фильма с попкорном }
+2026/10/09 12:49:09 
+2026/10/09 12:58:02 Init db
+2026/10/09 12:58:02 Init routs
+2026/10/09 12:58:02 Server starting on localhost:7540
+2026/10/09 12:58:10 Task found: 240, 20261009, Сходить в бассейн, взять плавки, 
+2026/10/09 12:58:10 &{240 20261009 Сходить в бассейн взять плавки }
+2026/10/09 12:58:27 
+2026/10/09 13:01:25 Init db
+2026/10/09 13:01:25 Init routs
+2026/10/09 13:01:25 Server starting on localhost:7540
+2026/10/09 13:01:25 Task found: 241, 20261009, Оплатить коммуналку, , d 30
+2026/10/09 13:01:25 &{241 20261009 Оплатить коммуналку  d 30}
+2026/10/09 13:02:16 updated task: {241 20261009 Оплатить коммуналку найти деньги d 30} with id= 241
+2026/10/09 13:02:16 
+2026/10/09 13:03:31 Task found: 239, 20261008, Просмотр фильма, с попкорном и пивом, 
+2026/10/09 13:03:31 &{239 20261008 Просмотр фильма с попкорном и пивом }
+2026/10/09 15:09:08 Init db
+2026/10/09 15:09:08 Init routs
+2026/10/09 15:09:08 Server starting on localhost:7540
+2026/10/09 15:09:08 Task found: 239, 20261008, Просмотр фильма, с попкорном и пивом, 
+2026/10/09 15:09:08 deleted task with id= 239
+2026/10/09 15:09:08 
+2026/10/09 15:09:40 Task found: 241, 20261009, Оплатить коммуналку, найти деньги, d 30
+2026/10/09 15:09:40 updated task: {241 20261108 Оплатить коммуналку найти деньги d 30} with id= 241
+2026/10/09 15:09:40 deleted task with id= 241
+2026/10/09 15:09:40 
