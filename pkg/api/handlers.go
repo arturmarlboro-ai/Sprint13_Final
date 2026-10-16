@@ -6,7 +6,10 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"time"
+
+	"github.com/golang-jwt/jwt/v5"
 )
 
 func nextDayHandler(w http.ResponseWriter, r *http.Request) {
@@ -16,25 +19,29 @@ func nextDayHandler(w http.ResponseWriter, r *http.Request) {
 	repeatStr := r.URL.Query().Get("repeat")
 
 	var now time.Time
+	var err error
 
 	if nowStr == "" {
 		now = time.Now()
-	}
-
-	now, err := time.Parse(DateFormat, nowStr)
-	if err != nil {
-		log.Printf("error time parse at handlers.go")
-		http.Error(w, fmt.Sprintf("invalid 'date' format, use %s", DateFormat), http.StatusBadRequest)
-		return
+	} else {
+		now, err = time.Parse(DateFormat, nowStr)
+		if err != nil {
+			log.Printf("error time parse at handlers.go")
+			//http.Error(w, fmt.Sprintf("invalid 'date' format, use %s", DateFormat), http.StatusBadRequest)
+			writeJson(w, map[string]string{"error": "time parse at handlers.go"})
+			return
+		}
 	}
 
 	nextDateStr, err := NextDate(now, dateStr, repeatStr)
 	if err != nil {
-		http.Error(w, err.Error(), http.StatusBadRequest)
+		log.Print("error at NextDateHandler, nextDateStr")
+		writeJson(w, map[string]string{"error": "at NextDateHandler"})
 		return
 	}
 	w.Header().Set("Content-Type", "text/plain; charset=utf-8")
 	fmt.Fprintf(w, "%s", nextDateStr)
+
 }
 
 func tasksHandler(w http.ResponseWriter, r *http.Request) {
@@ -48,23 +55,12 @@ func tasksHandler(w http.ResponseWriter, r *http.Request) {
 
 	if search == "" {
 		tasks, err = db.GetTasksByLimit(r.Context(), 50)
-		if err != nil {
-			writeJson(w, ("error: failed to get tasks"))
-			return
-		}
-
-		if tasks == nil {
-
-			writeJson(w, TasksResp{
-				Tasks: tasks,
-			})
-			return
-		}
+	} else {
+		tasks, err = db.GetTasksBySearch(r.Context(), search)
 	}
 
-	tasks, err = db.GetTasksBySearch(r.Context(), search)
 	if err != nil {
-		writeJson(w, ("error: failed to get tasks"))
+		writeJson(w, map[string]string{"error": "failed to get tasks"})
 		return
 	}
 
@@ -78,19 +74,23 @@ func AddTaskHandler(w http.ResponseWriter, r *http.Request) {
 
 	if err := json.NewDecoder(r.Body).Decode(&task); err != nil {
 		log.Printf("PostTask json decode error: %s", err)
-		writeJson(w, "error: invalid JSON")
+		writeJson(w, map[string]string{"error": "invalid JSON"})
 		return
 	}
 
 	if task.Title == "" {
 		log.Println("task.Title emtpy")
-		writeJson(w, "error: title is required")
+		writeJson(w, map[string]string{"error": "title is required"})
 		return
+	}
+
+	if task.Date == "" {
+		task.Date = time.Now().Format("20060102")
 	}
 
 	if err := checkDate(&task); err != nil {
 		log.Printf("error checkDate: %v", err)
-		writeJson(w, map[string]string{"error": fmt.Sprintf("invalid date: %v", err)})
+		writeJson(w, map[string]string{"error": "invalid date"})
 		return
 	}
 
@@ -101,9 +101,8 @@ func AddTaskHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	//w.Header().Set("Content-Type", "application/json; charset=utf-8")
 	//w.WriteHeader(http.StatusCreated)
-	//writeJson(w, fmt.Sprintf("id: %s", id))
 	writeJson(w, map[string]string{"id": id})
 
 }
@@ -111,11 +110,20 @@ func AddTaskHandler(w http.ResponseWriter, r *http.Request) {
 func editTaskHandler(w http.ResponseWriter, r *http.Request) {
 	id := r.URL.Query().Get("id")
 
+	if id == "" {
+		writeJson(w, map[string]string{"error": "missing id"})
+		return
+	}
+
 	task, err := db.GetTaskByID(r.Context(), id)
 	if err != nil {
 		log.Printf("editTaskHandler error: %v", err)
-		http.NotFound(w, r)
-		writeJson(w, map[string]string{"error": "failed get task by id"})
+		writeJson(w, map[string]string{"error": "error getting task for id"})
+		return
+	}
+
+	if task == nil {
+		writeJson(w, map[string]string{"error": "no task for id"})
 		return
 	}
 	log.Print(task)
@@ -129,9 +137,28 @@ func putTaskHandler(w http.ResponseWriter, r *http.Request) {
 		writeJson(w, map[string]string{"error": "invalid json"})
 		return
 	}
+
+	if task.ID == "" {
+		log.Print("putTask missing id")
+		writeJson(w, map[string]string{"error": "missing id"})
+		return
+	}
+
+	if task.Title == "" {
+		log.Print("putTask missing title")
+		writeJson(w, map[string]string{"error": "missing title"})
+		return
+	}
+
+	if err := checkDate(&task); err != nil {
+		log.Printf("error checkDate: %v", err)
+		writeJson(w, map[string]string{"error": "invalid date"})
+		return
+	}
+
 	err := db.UpdateTask(r.Context(), task, task.ID)
 	if err != nil {
-		log.Printf("putTask erroe: %v", err)
+		log.Printf("putTask error: %v", err)
 		writeJson(w, map[string]string{"error": "failed to update task"})
 		return
 	}
@@ -144,11 +171,15 @@ func doneTaskHandler(w http.ResponseWriter, r *http.Request) {
 	task, err := db.GetTaskByID(r.Context(), id)
 	if err != nil {
 		log.Printf("doneTaskHandler error: %v", err)
-		http.NotFound(w, r)
+		//http.NotFound(w, r)
 		writeJson(w, map[string]string{"error": "failed get task by id"})
 		return
 	}
 	if task.Repeat != "" {
+		if task.Date == "" {
+			task.Date = time.Now().Format(DateFormat)
+		}
+
 		nextDateStr, err := NextDate(time.Now(), task.Date, task.Repeat)
 		if err != nil {
 			log.Printf("doneTaskHandler error: %v", err)
@@ -163,13 +194,57 @@ func doneTaskHandler(w http.ResponseWriter, r *http.Request) {
 			writeJson(w, map[string]string{"error": "failed to update task with next date"})
 			return
 		}
+	} else {
+		err = db.DeleteTask(r.Context(), id)
+		if err != nil {
+			log.Printf("doneTaskHandler error: %v", err)
+			writeJson(w, map[string]string{"error": "failed to delete task"})
+			return
+		}
 	}
 
-	err = db.DeleteTask(r.Context(), id)
+	writeJson(w, map[string]string{})
+}
+
+func deleteTaskHandler(w http.ResponseWriter, r *http.Request) {
+	id := r.URL.Query().Get("id")
+	if id == "" {
+		log.Print("missing id in deleteTaskHandler")
+		writeJson(w, map[string]string{"error": "not recieved id"})
+		return
+	}
+
+	err := db.DeleteTask(r.Context(), id)
 	if err != nil {
-		log.Printf("doneTaskHandler error: %v", err)
+		log.Printf("error DeleteTaskHandler: %v", err)
 		writeJson(w, map[string]string{"error": "failed to delete task"})
 		return
 	}
+
 	writeJson(w, map[string]string{})
+}
+
+func logHandler(w http.ResponseWriter, r *http.Request) {
+	passwordQuery := r.URL.Query().Get("password")
+
+	pass := os.Getenv("TODO_PASSWORD")
+
+	if passwordQuery != pass {
+		log.Print("logHandler: invalid password")
+		writeJson(w, map[string]string{"error": "invalid password"})
+		return
+	}
+
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
+		"exp": time.Now().Add(time.Hour * 8).Unix(),
+	})
+
+	tokenStr, err := token.SignedString([]byte(pass))
+	if err != nil {
+		log.Printf("logHandler error signing token: %v", err)
+		writeJson(w, map[string]string{"error": "failed to generate token"})
+		return
+	}
+
+	writeJson(w, map[string]string{"token": tokenStr})
 }

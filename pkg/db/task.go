@@ -127,6 +127,10 @@ func AddTask(ctx context.Context, task Task) (string, error) {
 	if task.Date == "" {
 		task.Date = time.Now().Format("20060102")
 	}
+	if task.Title == "" {
+		log.Print("AddTask error: no task Title")
+		return "", fmt.Errorf("no task Title")
+	}
 
 	res, err := DB.ExecContext(ctx,
 		`INSERT INTO scheduler (date, title, comment, repeat) VALUES (?, ?, ?, ?)`,

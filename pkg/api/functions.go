@@ -6,12 +6,15 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"slices"
 	"strconv"
 	"strings"
 	"time"
 
 	"Sprint13_Final/pkg/db"
+
+	"github.com/golang-jwt/jwt/v5"
 )
 
 type TasksResp struct {
@@ -117,7 +120,7 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 		nextdate = next
 
 	case "w": //w 1,2,3,4,5
-		fmt.Println("Got W!", repTimes)
+		//fmt.Println("Got W!", repTimes)
 
 		if len(repTimes) == 0 {
 			log.Print("mode 'w' needs up to 7 reps")
@@ -289,4 +292,38 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 	}
 
 	return nextdate.Format(DateFormat), nil
+}
+
+func auth(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		pass := os.Getenv("TODO_PASSWORD")
+		if pass != "" {
+			var jwtStr string
+			cookie, err := r.Cookie("token")
+			if err == nil {
+				jwtStr = cookie.Value
+			}
+			var valid bool
+
+			// здесь код для валидации и проверки JWT-токена
+			token, err := jwt.Parse(jwtStr, func(t *jwt.Token) (interface{}, error) {
+				if _, ok := t.Method.(*jwt.SigningMethodHMAC); !ok {
+					log.Print("auth: wrong signing method: ", t.Header["alg"])
+					return nil, fmt.Errorf("auth: wrong signing method: %v", t.Header["alg"])
+				}
+				return []byte(pass), nil
+			})
+
+			if err == nil && token.Valid {
+				valid = true
+			}
+
+			if !valid {
+				log.Print("auth: problem in cookie token")
+				writeJson(w, map[string]string{"error": "Неверный пароль"})
+				return
+			}
+		}
+		next.ServeHTTP(w, r)
+	})
 }

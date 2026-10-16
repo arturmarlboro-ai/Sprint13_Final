@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -16,12 +17,23 @@ func main() {
 	defer logfile.Close()
 	log.SetOutput(logfile)
 
-	if err := db.Init("scheduler.db"); err != nil {
+	data := os.Getenv("TODO_DBFILE")
+	if data == "" {
+		data = "scheduler.db"
+	}
+
+	if err := db.Init(data); err != nil {
 		log.Fatalf("DB init error: %v", err)
 	}
 	defer db.DB.Close()
 
-	if err := server.Run("localhost:7540"); err != nil {
+	port := os.Getenv("TODO_PORT")
+	if port == "" {
+		port = "7540"
+	}
+	host := fmt.Sprintf("localhost:%s", port)
+
+	if err := server.Run(host); err != nil {
 		log.Fatalf("Server error: %v", err)
 	}
 

@@ -9,12 +9,17 @@ const DateFormat = "20060102"
 var Router = chi.NewRouter()
 
 func Init() {
+	Router.Post("/signin", logHandler)
 
-	Router.Get("/tasks", tasksHandler)
-	Router.Get("/nextdate", nextDayHandler)
-	Router.Post("/task", AddTaskHandler)
-	Router.Get("/task", editTaskHandler)
-	Router.Put("/task", putTaskHandler)
-	Router.Post("/task/done", doneTaskHandler)
+	Router.Group(func(r chi.Router) {
+		r.Use(auth)
+		r.Get("/task", editTaskHandler)
+		r.Get("/tasks", tasksHandler)
+		r.Post("/task", AddTaskHandler)
+		r.Get("/nextdate", nextDayHandler)
+		r.Put("/task", putTaskHandler)
+		r.Post("/task/done", doneTaskHandler)
+		r.Delete("/task", deleteTaskHandler)
+	})
 
 }
