@@ -31,7 +31,7 @@ func main() {
 	if port == "" {
 		port = "7540"
 	}
-	host := fmt.Sprintf("localhost:%s", port)
+	host := fmt.Sprintf(":%s", port)
 
 	if err := server.Run(host); err != nil {
 		log.Fatalf("Server error: %v", err)

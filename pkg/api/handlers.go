@@ -225,13 +225,17 @@ func deleteTaskHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func logHandler(w http.ResponseWriter, r *http.Request) {
-	passwordQuery := r.URL.Query().Get("password")
+	var req struct {
+		Password string `json:"password"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		writeJson(w, map[string]string{"error": "invalid json"})
+		return
+	}
 
 	pass := os.Getenv("TODO_PASSWORD")
-
-	if passwordQuery != pass {
-		log.Print("logHandler: invalid password")
-		writeJson(w, map[string]string{"error": "invalid password"})
+	if pass == "" || req.Password != pass {
+		writeJson(w, map[string]string{"error": "Неверный пароль"})
 		return
 	}
 
@@ -245,6 +249,13 @@ func logHandler(w http.ResponseWriter, r *http.Request) {
 		writeJson(w, map[string]string{"error": "failed to generate token"})
 		return
 	}
+
+	http.SetCookie(w, &http.Cookie{
+		Name:    "token",
+		Value:   tokenStr,
+		Expires: time.Now().Add(8 * time.Hour),
+		Path:    "/",
+	})
 
 	writeJson(w, map[string]string{"token": tokenStr})
 }
