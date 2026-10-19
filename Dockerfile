@@ -5,9 +5,8 @@ RUN go mod download
 COPY . .
 RUN go build -o main .
 
-FROM ubuntu:latest
+FROM alpine:latest
 WORKDIR /app
 COPY --from=builder /app/main .
 COPY --from=builder /app/web ./web
-EXPOSE 7540
 CMD ["./main"]

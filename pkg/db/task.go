@@ -1,6 +1,7 @@
 package db
 
 import (
+	"Sprint13_Final/pkg/constants"
 	"context"
 	"fmt"
 	"log"
@@ -38,6 +39,11 @@ func DeleteTask(ctx context.Context, id string) error {
 
 func UpdateTask(ctx context.Context, task Task, id string) error {
 	res, err := DB.ExecContext(ctx, `UPDATE scheduler SET date = ?, title = ?, comment = ?, repeat = ? WHERE id = ?`, task.Date, task.Title, task.Comment, task.Repeat, id)
+	if err != nil {
+		log.Printf("UpdateTask error: %v", err)
+		return err
+	}
+
 	count, err := res.RowsAffected()
 	if err != nil {
 		log.Printf("UpdateTask error; %v", err)
@@ -74,7 +80,7 @@ func GetTasksBySearch(ctx context.Context, search string) ([]*Task, error) {
 		if err != nil {
 			return nil, err
 		}
-		date := t.Format("20060102")
+		date := t.Format(constants.DateFormat)
 		rows, err := DB.QueryContext(ctx,
 			`SELECT CAST(id AS TEXT) as id, date, title, comment, repeat FROM scheduler WHERE date = ? ORDER BY date`, date)
 		if err != nil {
@@ -117,6 +123,7 @@ func GetTasksBySearch(ctx context.Context, search string) ([]*Task, error) {
 		}
 		if err := rows.Err(); err != nil {
 			log.Printf("rows.Err() returned: %v", err)
+			return nil, err
 		}
 
 	}
@@ -125,7 +132,7 @@ func GetTasksBySearch(ctx context.Context, search string) ([]*Task, error) {
 
 func AddTask(ctx context.Context, task Task) (string, error) {
 	if task.Date == "" {
-		task.Date = time.Now().Format("20060102")
+		task.Date = time.Now().Format(constants.DateFormat)
 	}
 	if task.Title == "" {
 		log.Print("AddTask error: no task Title")
@@ -140,6 +147,11 @@ func AddTask(ctx context.Context, task Task) (string, error) {
 		return "", err
 	}
 	id, err := res.LastInsertId()
+	if err != nil {
+		log.Printf("AddTask error: %v", err)
+		return "", err
+	}
+
 	idStr := strconv.FormatInt(id, 10)
 	log.Printf("INSERT INTO db: %s %s %s %s with id= %v", task.Date, task.Title, task.Comment, task.Repeat, id)
 	return idStr, nil
@@ -147,7 +159,7 @@ func AddTask(ctx context.Context, task Task) (string, error) {
 
 func GetTasksByLimit(ctx context.Context, limit int) ([]*Task, error) {
 	tasks := []*Task{}
-	rows, err := DB.QueryContext(ctx, `SELECT CAST(id AS TEXT) as id, date, title, comment, repeat FROM scheduler LIMIT ?`, limit)
+	rows, err := DB.QueryContext(ctx, `SELECT CAST(id AS TEXT) as id, date, title, comment, repeat FROM scheduler ORDER BY date LIMIT ?`, limit)
 	if err != nil {
 		return nil, err
 	}
@@ -164,6 +176,7 @@ func GetTasksByLimit(ctx context.Context, limit int) ([]*Task, error) {
 
 	if err := rows.Err(); err != nil {
 		log.Printf("rows.Err() returned: %v", err)
+		return nil, err
 	}
 
 	return tasks, nil

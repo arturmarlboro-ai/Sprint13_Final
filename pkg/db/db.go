@@ -17,7 +17,7 @@ func Init(dbFile string) error {
 		return err
 	}
 
-	_, err = DB.Exec(`
+	if _, err = DB.Exec(`
 			CREATE TABLE IF NOT EXISTS scheduler (
 				id      INTEGER PRIMARY KEY AUTOINCREMENT,
 				date    TEXT NOT NULL,
@@ -26,6 +26,10 @@ func Init(dbFile string) error {
 				repeat  TEXT
 			);
 			CREATE INDEX IF NOT EXISTS idx_date ON scheduler(date);
-		`)
+		`); err != nil {
+		log.Printf("Init db error: %v", err)
+		DB.Close()
+		return err
+	}
 	return err
 }

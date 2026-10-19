@@ -2375,3 +2375,77 @@
 2026/10/16 17:14:18 Init db
 2026/10/16 17:14:18 Init routs
 2026/10/16 17:14:18 Server starting on :7540
+2026/10/19 09:59:34 Init db
+2026/10/19 09:59:34 Init routs
+2026/10/19 09:59:34 Server starting on :7540
+2026/10/19 09:59:38 
+2026/10/19 10:11:44 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:11:44 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:12:07 INSERT INTO db: 20270301 aaa bbb y with id= 614
+2026/10/19 10:12:07 
+2026/10/19 10:12:38 Task found: 614, 20270301, aaa, bbb, y
+2026/10/19 10:12:38 &{614 20270301 aaa bbb y}
+2026/10/19 10:14:15 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:14:15 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:06 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:06 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:28 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:28 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:38 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:38 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:49 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:49 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:52 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:52 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:58 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 10:15:58 
+2026/10/19 10:16:15 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 10:16:15 &{614 20261031 aaa bbb m -1}
+2026/10/19 10:16:47 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 10:16:47 
+2026/10/19 10:16:51 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 10:16:51 &{614 20261031 aaa bbb m -1}
+2026/10/19 10:21:14 mode m: no nextdate found, out of range 400 days
+2026/10/19 10:21:14 error at NextDateHandler, nextDateStr
+2026/10/19 10:33:36 Init db
+2026/10/19 10:33:36 Init routs
+2026/10/19 10:33:36 Server starting on :7540
+2026/10/19 16:05:59 Init db
+2026/10/19 16:05:59 Init routs
+2026/10/19 16:05:59 Server starting on :7540
+2026/10/19 16:06:10 Task found: 606, 20261015, Просмотр фильма, с попкорном, 
+2026/10/19 16:06:10 &{606 20261015 Просмотр фильма с попкорном }
+2026/10/19 16:14:48 Init db
+2026/10/19 16:14:48 Init routs
+2026/10/19 16:14:48 Server starting on :7540
+2026/10/19 16:14:57 
+2026/10/19 16:19:43 Init db
+2026/10/19 16:19:43 Init routs
+2026/10/19 16:19:43 Server starting on :7540
+2026/10/19 16:20:02 
+2026/10/19 16:26:03 Init db
+2026/10/19 16:26:03 Init routs
+2026/10/19 16:26:03 Server starting on :7540
+2026/10/19 16:26:14 
+2026/10/19 16:26:21 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 16:26:21 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 16:26:21 
+2026/10/19 16:26:36 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 16:26:36 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 16:26:36 
+2026/10/19 16:27:07 deleted task with id= 614
+2026/10/19 16:27:07 
+2026/10/19 18:52:02 Init db
+2026/10/19 18:52:02 Init routs
+2026/10/19 18:52:02 Server starting on :7540
+2026/10/19 18:52:11 
+2026/10/19 18:52:39 INSERT INTO db: 20261031 aaa sss  with id= 615
+2026/10/19 18:52:39 
+2026/10/19 18:52:42 Task found: 615, 20261031, aaa, sss, 
+2026/10/19 18:52:42 &{615 20261031 aaa sss }
+2026/10/19 18:52:46 updated task: {615 20261031 aaa sssccc } with id= 615
+2026/10/19 18:52:46 
+2026/10/19 18:52:48 Task found: 615, 20261031, aaa, sssccc, 
+2026/10/19 18:52:48 &{615 20261031 aaa sssccc }
+2026/10/19 18:52:53 updated task: {615 20261031 aaa sssccc d 1} with id= 615
+2026/10/19 18:52:53 

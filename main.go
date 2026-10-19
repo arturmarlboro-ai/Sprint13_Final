@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"log"
 	"os"
 
+	"Sprint13_Final/pkg/api"
 	"Sprint13_Final/pkg/db"
 	"Sprint13_Final/pkg/server"
 )
@@ -15,7 +17,7 @@ func main() {
 		log.Fatalf("Error opening log file: %v", err)
 	}
 	defer logfile.Close()
-	log.SetOutput(logfile)
+	log.SetOutput(io.MultiWriter(logfile, os.Stderr))
 
 	data := os.Getenv("TODO_DBFILE")
 	if data == "" {
@@ -23,7 +25,8 @@ func main() {
 	}
 
 	if err := db.Init(data); err != nil {
-		log.Fatalf("DB init error: %v", err)
+		log.Printf("DB init error: %v", err)
+		return
 	}
 	defer db.DB.Close()
 
@@ -36,5 +39,7 @@ func main() {
 	if err := server.Run(host); err != nil {
 		log.Fatalf("Server error: %v", err)
 	}
+
+	api.InitPass(os.Getenv("TODO_PASSWORD"))
 
 }

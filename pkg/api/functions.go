@@ -6,15 +6,15 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"os"
 	"slices"
 	"strconv"
 	"strings"
 	"time"
 
-	"Sprint13_Final/pkg/db"
-
 	"github.com/golang-jwt/jwt/v5"
+
+	"Sprint13_Final/pkg/constants"
+	"Sprint13_Final/pkg/db"
 )
 
 type TasksResp struct {
@@ -25,10 +25,10 @@ func checkDate(task *db.Task) error {
 	now := time.Now()
 
 	if task.Date == "" {
-		task.Date = now.Format(DateFormat)
+		task.Date = now.Format(constants.DateFormat)
 	}
 
-	t, err := time.Parse("20060102", task.Date)
+	t, err := time.Parse(constants.DateFormat, task.Date)
 	if err != nil {
 		return fmt.Errorf("checkDate parseing error: %w", err)
 	}
@@ -45,43 +45,39 @@ func checkDate(task *db.Task) error {
 			return fmt.Errorf("checkDate error: %w", err)
 		}
 
-		today := now.Format(DateFormat)
+		today := now.Format(constants.DateFormat)
 
-		if t.Format(DateFormat) < today {
+		if t.Format(constants.DateFormat) < today {
 			task.Date = next
 		}
 	} else {
 
-		today := now.Format(DateFormat)
-		if t.Format(DateFormat) < today {
+		today := now.Format(constants.DateFormat)
+		if t.Format(constants.DateFormat) < today {
 			task.Date = today
 		}
 	}
 	return nil
 }
 
-func writeJson(w http.ResponseWriter, data any) {
+func writeJson(w http.ResponseWriter, status int, data any) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
-	json.NewEncoder(w).Encode(data)
+	w.WriteHeader(status)
+	if err := json.NewEncoder(w).Encode(data); err != nil {
+		log.Printf("writeJson error: %v", err)
+	}
 }
 
 func NextDate(now time.Time, dstart, repeat string) (string, error) {
-	fmt.Println(now.Format("20060102"), dstart, repeat)
 
-	taskTime, err := time.Parse(DateFormat, dstart)
+	taskTime, err := time.Parse(constants.DateFormat, dstart)
 	if err != nil {
 		log.Print("dstart parse err: ", err)
 		return "", fmt.Errorf("dstart parse err %w", err)
 	}
 
-	// if taskTime.After(now) {
-	// 	return taskTime.Format(DateFormat), nil
-	// }
 	if repeat == "" {
-		if !taskTime.After(now) {
-			return "", fmt.Errorf("date in the past, repeat rule is empty")
-		}
-		return dstart, nil
+		return "", errors.New("task repeat is empty")
 	}
 	repModeTimes := strings.SplitN(repeat, " ", 3) //m 15,16 10,11
 	repMode := strings.ToLower(strings.TrimSpace(repModeTimes[0]))
@@ -120,7 +116,6 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 		nextdate = next
 
 	case "w": //w 1,2,3,4,5
-		//fmt.Println("Got W!", repTimes)
 
 		if len(repTimes) == 0 {
 			log.Print("mode 'w' needs up to 7 reps")
@@ -219,26 +214,23 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 				repMonths[m-1] = m
 			}
 		}
-		//var dueDay [32]bool
+
 		var dueMonth [13]bool
 
-		// for _, d := range repDays {
-		// 	dueDay[d] = true
-		// }
 		for _, m := range repMonths {
 			dueMonth[m] = true
 		}
 
 		nextPossibleDueDate := now
-		maxRange := 400
+		maxRange := 365 * 4
 		count := 0
 
 		for {
 			nextPossibleDueDate = nextPossibleDueDate.AddDate(0, 0, 1)
 			count++
 			if count > maxRange {
-				log.Print("mode m: no nextdate found, out of range 400 days")
-				return "", errors.New("mode m: no nextdate found, out of range 400 days")
+				log.Print("mode m: no nextdate found, out of range 1460 days")
+				return "", errors.New("mode m: no nextdate found, out of range 1460 days")
 			}
 			if !nextPossibleDueDate.After(now) {
 				continue
@@ -291,12 +283,12 @@ func NextDate(now time.Time, dstart, repeat string) (string, error) {
 
 	}
 
-	return nextdate.Format(DateFormat), nil
+	return nextdate.Format(constants.DateFormat), nil
 }
 
 func auth(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		pass := os.Getenv("TODO_PASSWORD")
+
 		if pass != "" {
 			var jwtStr string
 			cookie, err := r.Cookie("token")
@@ -305,7 +297,6 @@ func auth(next http.Handler) http.Handler {
 			}
 			var valid bool
 
-			// здесь код для валидации и проверки JWT-токена
 			token, err := jwt.Parse(jwtStr, func(t *jwt.Token) (interface{}, error) {
 				if _, ok := t.Method.(*jwt.SigningMethodHMAC); !ok {
 					log.Print("auth: wrong signing method: ", t.Header["alg"])
@@ -320,10 +311,16 @@ func auth(next http.Handler) http.Handler {
 
 			if !valid {
 				log.Print("auth: problem in cookie token")
-				writeJson(w, map[string]string{"error": "Неверный пароль"})
+				writeJson(w, http.StatusUnauthorized, map[string]string{"error": "Неверный пароль"})
 				return
 			}
 		}
 		next.ServeHTTP(w, r)
 	})
+}
+
+var pass string
+
+func InitPass(password string) {
+	pass = password
 }

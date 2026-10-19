@@ -1,3 +1,4 @@
 cmd/
 .gitattributes
 .env
+app.log
