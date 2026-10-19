@@ -1,0 +1,326 @@
+package api
+
+import (
+	"encoding/json"
+	"errors"
+	"fmt"
+	"log"
+	"net/http"
+	"slices"
+	"strconv"
+	"strings"
+	"time"
+
+	"github.com/golang-jwt/jwt/v5"
+
+	"Sprint13_Final/pkg/constants"
+	"Sprint13_Final/pkg/db"
+)
+
+type TasksResp struct {
+	Tasks []*db.Task `json:"tasks"`
+}
+
+func checkDate(task *db.Task) error {
+	now := time.Now()
+
+	if task.Date == "" {
+		task.Date = now.Format(constants.DateFormat)
+	}
+
+	t, err := time.Parse(constants.DateFormat, task.Date)
+	if err != nil {
+		return fmt.Errorf("checkDate parseing error: %w", err)
+	}
+
+	if task.Repeat != "" {
+		repMode := strings.SplitN(task.Repeat, " ", 3)
+		a := strings.ToLower(repMode[0])
+		if a != "d" && a != "w" && a != "m" && a != "y" {
+			return errors.New("wrong mode task.Repeat. must be d , w, m, y. got: " + a)
+		}
+
+		next, err := NextDate(now, task.Date, task.Repeat)
+		if err != nil {
+			return fmt.Errorf("checkDate error: %w", err)
+		}
+
+		today := now.Format(constants.DateFormat)
+
+		if t.Format(constants.DateFormat) < today {
+			task.Date = next
+		}
+	} else {
+
+		today := now.Format(constants.DateFormat)
+		if t.Format(constants.DateFormat) < today {
+			task.Date = today
+		}
+	}
+	return nil
+}
+
+func writeJson(w http.ResponseWriter, status int, data any) {
+	w.Header().Set("Content-Type", "application/json; charset=utf-8")
+	w.WriteHeader(status)
+	if err := json.NewEncoder(w).Encode(data); err != nil {
+		log.Printf("writeJson error: %v", err)
+	}
+}
+
+func NextDate(now time.Time, dstart, repeat string) (string, error) {
+
+	taskTime, err := time.Parse(constants.DateFormat, dstart)
+	if err != nil {
+		log.Print("dstart parse err: ", err)
+		return "", fmt.Errorf("dstart parse err %w", err)
+	}
+
+	if repeat == "" {
+		return "", errors.New("task repeat is empty")
+	}
+	repModeTimes := strings.SplitN(repeat, " ", 3) //m 15,16 10,11
+	repMode := strings.ToLower(strings.TrimSpace(repModeTimes[0]))
+	var repTimes []int
+
+	if len(repModeTimes) > 1 {
+		for _, n := range strings.Split(repModeTimes[1], ",") {
+			v, err := strconv.Atoi(n)
+			if err != nil {
+				log.Print("atoi error: ", err)
+				return "", fmt.Errorf("atoi error: %w", err)
+			}
+			repTimes = append(repTimes, v)
+		}
+	}
+
+	var nextdate time.Time
+
+	switch repMode {
+	case "d": //d 2
+		if len(repTimes) != 1 || repTimes[0] <= 0 {
+			log.Print("mode 'd' needs one positive number")
+			return "", errors.New("mode 'd' needs one positive number")
+		}
+
+		if repTimes[0] > 400 {
+			return "", errors.New("max interval d 400 exceeded")
+		}
+
+		next := taskTime.AddDate(0, 0, repTimes[0])
+
+		for !next.After(now) {
+			next = next.AddDate(0, 0, repTimes[0])
+		}
+
+		nextdate = next
+
+	case "w": //w 1,2,3,4,5
+
+		if len(repTimes) == 0 {
+			log.Print("mode 'w' needs up to 7 reps")
+			return "", errors.New("mode 'w' needs reps")
+		}
+
+		wdCheckIn := make(map[time.Weekday]bool)
+
+		for _, d := range repTimes {
+			if d < 1 || d > 7 {
+				log.Print("wrong repTimes format")
+				return "", fmt.Errorf("repTimes format 1-7, got %d", d)
+			}
+			var wday time.Weekday
+
+			if d == 7 {
+				wday = time.Sunday
+			} else {
+				wday = time.Weekday(d)
+			}
+			wdCheckIn[wday] = true
+		}
+		taskWeekBegin := now.AddDate(0, 0, 1)
+		taskWeekEnd := taskWeekBegin.AddDate(0, 0, 8)
+
+		for taskWeekBegin.Before(taskWeekEnd) {
+			if wdCheckIn[taskWeekBegin.Weekday()] {
+				nextdate = taskWeekBegin
+				break
+			}
+			taskWeekBegin = taskWeekBegin.AddDate(0, 0, 1)
+		}
+		if nextdate.IsZero() {
+			return "", errors.New("nextdate w zero")
+		}
+
+	case "m": //m 15,16 10,11
+		const (
+			lastDayMonth     = -1
+			sec2lastDayMonth = -2
+		)
+
+		var repDatesStr []string
+		var repMonthsStr []string
+
+		if len(repModeTimes) == 3 {
+			repDatesStr = strings.Split(repModeTimes[1], ",")
+			repMonthsStr = strings.Split(repModeTimes[2], ",")
+		}
+		if len(repModeTimes) == 2 {
+			repDatesStr = strings.Split(repModeTimes[1], ",")
+		}
+		if len(repModeTimes) < 2 {
+			log.Print("wrong m mode sizes")
+			return "", errors.New("wrong m mode size")
+		}
+
+		repDays := make([]int, len(repDatesStr))
+
+		for i, v := range repDatesStr {
+			val, err := strconv.Atoi(v)
+			if err != nil {
+				log.Print("fail conv m repDates:", err)
+				return "", fmt.Errorf("fail conv m repDates: %w", err)
+			}
+			if val == lastDayMonth || val == sec2lastDayMonth {
+				repDays[i] = val
+			} else if val < 1 || val > 31 {
+				return "", fmt.Errorf("days must be 1–31, got: %d", val)
+			} else {
+				repDays[i] = val
+			}
+		}
+		slices.Sort(repDays)
+
+		var repMonths []int
+
+		if len(repMonthsStr) > 0 {
+			repMonths = make([]int, len(repMonthsStr))
+			for i, v := range repMonthsStr {
+				val, err := strconv.Atoi(v)
+				if err != nil {
+					log.Print(err)
+					return "", fmt.Errorf("fail conv m repMonths: %w", err)
+				}
+				if val < 1 || val > 12 {
+					return "", fmt.Errorf("months must be 1–12, got: %d", val)
+				}
+				repMonths[i] = val
+			}
+			slices.Sort(repMonths)
+
+		} else {
+			repMonths = make([]int, 12)
+			for m := 1; m <= 12; m++ {
+				repMonths[m-1] = m
+			}
+		}
+
+		var dueMonth [13]bool
+
+		for _, m := range repMonths {
+			dueMonth[m] = true
+		}
+
+		nextPossibleDueDate := now
+		maxRange := 365 * 4
+		count := 0
+
+		for {
+			nextPossibleDueDate = nextPossibleDueDate.AddDate(0, 0, 1)
+			count++
+			if count > maxRange {
+				log.Print("mode m: no nextdate found, out of range 1460 days")
+				return "", errors.New("mode m: no nextdate found, out of range 1460 days")
+			}
+			if !nextPossibleDueDate.After(now) {
+				continue
+			}
+			if !nextPossibleDueDate.After(taskTime) {
+				continue
+			}
+
+			y, m, d := nextPossibleDueDate.Date()
+
+			if !dueMonth[m] {
+				continue
+			}
+			ok := false
+			for _, ruleDay := range repDays {
+				targetDay := 0
+
+				if ruleDay == lastDayMonth {
+					targetDay = time.Date(y, m+1, 0, 0, 0, 0, 0, nextPossibleDueDate.Location()).Day()
+
+				} else if ruleDay == sec2lastDayMonth {
+					lastday := time.Date(y, m+1, 0, 0, 0, 0, 0, nextPossibleDueDate.Location()).Day()
+					targetDay = lastday - 1
+				} else {
+					targetDay = ruleDay
+				}
+
+				if d == targetDay {
+					ok = true
+					break
+				}
+			}
+			if ok {
+				nextdate = nextPossibleDueDate
+				break
+			}
+		}
+
+	case "y":
+
+		next := taskTime.AddDate(1, 0, 0)
+		for !next.After(now) {
+			next = next.AddDate(1, 0, 0)
+		}
+		nextdate = next
+
+	default:
+		log.Printf("wrong mode: must be d, w, m, y, got %v", repModeTimes)
+		return "", errors.New("wrong mode: must be d, w, m, y")
+
+	}
+
+	return nextdate.Format(constants.DateFormat), nil
+}
+
+func auth(next http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+
+		if pass != "" {
+			var jwtStr string
+			cookie, err := r.Cookie("token")
+			if err == nil {
+				jwtStr = cookie.Value
+			}
+			var valid bool
+
+			token, err := jwt.Parse(jwtStr, func(t *jwt.Token) (interface{}, error) {
+				if _, ok := t.Method.(*jwt.SigningMethodHMAC); !ok {
+					log.Print("auth: wrong signing method: ", t.Header["alg"])
+					return nil, fmt.Errorf("auth: wrong signing method: %v", t.Header["alg"])
+				}
+				return []byte(pass), nil
+			})
+
+			if err == nil && token.Valid {
+				valid = true
+			}
+
+			if !valid {
+				log.Print("auth: problem in cookie token")
+				writeJson(w, http.StatusUnauthorized, map[string]string{"error": "Неверный пароль"})
+				return
+			}
+		}
+		next.ServeHTTP(w, r)
+	})
+}
+
+var pass string
+
+func InitPass(password string) {
+	pass = password
+}

@@ -1,0 +1,2451 @@
+2026/09/23 14:52:07 Database initialized successfully.
+2026/09/23 14:57:26 Database initialized successfully.
+2026/09/23 15:04:54 Database initialized successfully.
+2026/09/23 15:07:14 Database initialized successfully.
+2026/09/23 15:10:06 Database initialized successfully.
+2026/09/23 15:10:07 Запустился сервер
+2026/09/23 15:15:17 Database configured.
+2026/09/23 15:15:17 Database initialized successfully.
+2026/09/23 15:15:17 Запустился сервер
+2026/09/23 15:15:17 Init routes
+2026/09/23 15:19:36 Database configured.
+2026/09/23 15:19:36 Database initialized successfully.
+2026/09/23 15:19:36 Запустился сервер
+2026/09/23 15:19:36 Init routes
+2026/09/23 15:22:29 Database configured.
+2026/09/23 15:22:29 Database initialized successfully.
+2026/09/23 15:22:29 Запустился сервер
+2026/09/23 15:22:29 Init routes
+2026/09/23 22:12:46 Database configured.
+2026/09/23 22:12:46 Database initialized successfully.
+2026/09/23 22:12:46 Запустился сервер
+2026/09/23 22:12:46 Init routes
+2026/09/24 11:02:14 Database configured20260924
+2026/09/24 11:02:14 Database initialized successfully.
+2026/09/24 11:02:14 Запустился сервер
+2026/09/24 11:02:14 Init routes
+2026/09/24 11:03:53 Database configured20260924
+2026/09/24 11:03:53 Database initialized successfully.
+2026/09/24 11:03:53 Запустился сервер
+2026/09/24 11:03:53 Init routes
+2026/09/24 12:19:48 Database configured20260924
+2026/09/24 12:19:48 Database initialized successfully.
+2026/09/24 12:19:48 Запустился сервер
+2026/09/24 12:19:48 Init routes
+2026/09/24 16:36:42 Init db
+2026/09/24 16:36:43 Init routs
+2026/09/24 16:36:43 Server starting on localhost:7540
+2026/09/24 17:35:18 Init db
+2026/09/24 17:35:18 Init routs
+2026/09/24 17:35:18 Server starting on localhost:7540
+2026/09/24 18:00:08 Init db
+2026/09/24 18:00:08 Init routs
+2026/09/24 18:00:08 Server starting on localhost:7540
+2026/09/24 20:25:18 Init db
+2026/09/24 20:25:18 Init routs
+2026/09/24 20:25:18 Server starting on localhost:7540
+2026/09/24 20:33:31 Init db
+2026/09/24 20:33:31 Init routs
+2026/09/24 20:33:31 Server starting on localhost:7540
+2026/09/24 20:51:07 Init db
+2026/09/24 20:51:07 Init routs
+2026/09/24 20:51:07 Server starting on localhost:7540
+2026/09/25 11:49:20 Init db
+2026/09/25 11:49:20 Init routs
+2026/09/25 11:49:20 Server starting on localhost:7540
+2026/09/25 12:32:18 Init db
+2026/09/25 12:32:18 Init routs
+2026/09/25 12:32:18 Server starting on localhost:7540
+2026/09/25 12:50:25 Init db
+2026/09/25 12:50:25 Init routs
+2026/09/25 12:50:25 Server starting on localhost:7540
+2026/09/25 12:50:53 INSERT INTO db task.Date, task.Title, task.Comment, task.Repeat
+2026/09/25 12:52:37 Init db
+2026/09/25 12:52:37 Init routs
+2026/09/25 12:52:37 Server starting on localhost:7540
+2026/09/25 12:52:52 INSERT INTO db 20260926 bbq +beer 
+2026/09/25 12:54:19 Init db
+2026/09/25 12:54:19 Init routs
+2026/09/25 12:54:19 Server starting on localhost:7540
+2026/09/25 13:22:55 Init db
+2026/09/25 13:22:55 Init routs
+2026/09/25 13:22:55 Server starting on localhost:7540
+2026/09/25 13:23:31 INSERT INTO db 20261002 чипсы купить 
+2026/09/25 13:38:44 Init db
+2026/09/25 13:38:44 Init routs
+2026/09/25 13:38:44 Server starting on localhost:7540
+2026/09/25 13:39:33 INSERT INTO db: 20260926 buy ciggs marlbro  with id= 11
+2026/09/25 13:50:54 Init db
+2026/09/25 13:50:54 Init routs
+2026/09/25 13:50:54 Server starting on localhost:7540
+2026/09/25 13:52:09 Init db
+2026/09/25 13:52:09 Init routs
+2026/09/25 13:52:09 Server starting on localhost:7540
+2026/09/25 13:54:03 Init db
+2026/09/25 13:54:03 Init routs
+2026/09/25 13:54:03 Server starting on localhost:7540
+2026/09/25 13:58:16 Init db
+2026/09/25 13:58:16 Init routs
+2026/09/25 13:58:16 Server starting on localhost:7540
+2026/09/25 13:58:50 INSERT INTO db: 20260927 color change  with id= 12
+2026/09/25 14:01:30 Init db
+2026/09/25 14:01:30 Init routs
+2026/09/25 14:01:30 Server starting on localhost:7540
+2026/09/25 14:05:23 Init db
+2026/09/25 14:05:23 Init routs
+2026/09/25 14:05:23 Server starting on localhost:7540
+2026/09/25 14:08:00 Init db
+2026/09/25 14:08:00 Init routs
+2026/09/25 14:08:00 Server starting on localhost:7540
+2026/09/25 14:09:13 Init db
+2026/09/25 14:09:13 Init routs
+2026/09/25 14:09:13 Server starting on localhost:7540
+2026/09/25 14:09:56 Init db
+2026/09/25 14:09:56 Init routs
+2026/09/25 14:09:56 Server starting on localhost:7540
+2026/09/25 14:11:21 Init db
+2026/09/25 14:11:21 Init routs
+2026/09/25 14:11:21 Server starting on localhost:7540
+2026/09/25 14:13:00 Init db
+2026/09/25 14:13:00 Init routs
+2026/09/25 14:13:00 Server starting on localhost:7540
+2026/09/25 14:14:11 Init db
+2026/09/25 14:14:11 Init routs
+2026/09/25 14:14:11 Server starting on localhost:7540
+2026/09/25 14:16:15 Init db
+2026/09/25 14:16:15 Init routs
+2026/09/25 14:16:15 Server starting on localhost:7540
+2026/09/25 14:17:01 Init db
+2026/09/25 14:17:01 Init routs
+2026/09/25 14:17:01 Server starting on localhost:7540
+2026/09/25 14:18:21 Init db
+2026/09/25 14:18:21 Init routs
+2026/09/25 14:18:21 Server starting on localhost:7540
+2026/09/25 14:19:36 Init db
+2026/09/25 14:19:36 Init routs
+2026/09/25 14:19:36 Server starting on localhost:7540
+2026/09/25 14:22:09 Init db
+2026/09/25 14:22:10 Init routs
+2026/09/25 14:22:10 Server starting on localhost:7540
+2026/09/25 14:30:13 Init db
+2026/09/25 14:30:13 Init routs
+2026/09/25 14:30:13 Server starting on localhost:7540
+2026/10/03 16:31:07 Init db
+2026/10/03 16:31:07 Init routs
+2026/10/03 16:31:07 Server starting on localhost:7540
+2026/10/03 16:31:32 INSERT INTO db: 20261004 nd check d  with id= 13
+2026/10/05 10:35:05 Init db
+2026/10/05 10:35:05 Init routs
+2026/10/05 10:35:05 Server starting on localhost:7540
+2026/10/05 11:11:17 Init db
+2026/10/05 11:11:17 Init routs
+2026/10/05 11:11:17 Server starting on localhost:7540
+2026/10/05 11:56:06 Init db
+2026/10/05 11:56:07 Init routs
+2026/10/05 11:56:07 Server starting on localhost:7540
+2026/10/05 11:59:56 Init db
+2026/10/05 11:59:56 Init routs
+2026/10/05 11:59:56 Server starting on localhost:7540
+2026/10/05 12:46:42 Init db
+2026/10/05 12:46:42 Init routs
+2026/10/05 12:46:42 Server starting on localhost:7540
+2026/10/05 12:47:59 INSERT INTO db: 20261006 nd CHECK d d 7 with id= 14
+2026/10/05 12:55:14 Init db
+2026/10/05 12:55:14 Init routs
+2026/10/05 12:55:14 Server starting on localhost:7540
+2026/10/05 12:55:38 INSERT INTO db: 20261005 nd f y y with id= 15
+2026/10/05 12:56:50 Init db
+2026/10/05 12:56:50 Init routs
+2026/10/05 12:56:50 Server starting on localhost:7540
+2026/10/05 12:56:53 INSERT INTO db: 20261005 nd f y y with id= 16
+2026/10/05 13:00:10 wrong mode: must be d, w, m, y, got []
+2026/10/05 13:00:10 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:00:10 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:00:10 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:00:10 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:12:49 Init db
+2026/10/05 13:12:49 Init routs
+2026/10/05 13:12:49 Server starting on localhost:7540
+2026/10/05 13:13:23 INSERT INTO db: 20261006 nd ch y y with id= 17
+2026/10/05 13:23:19 Init db
+2026/10/05 13:23:19 Init routs
+2026/10/05 13:23:19 Server starting on localhost:7540
+2026/10/05 13:24:58 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:24:58 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:24:58 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:24:58 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:24:58 mode 'd' needs one positive number
+2026/10/05 13:24:58 wrong repTimes format
+2026/10/05 13:25:39 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:25:39 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:25:39 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:25:39 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:25:39 mode 'd' needs one positive number
+2026/10/05 13:25:39 wrong repTimes format
+2026/10/05 13:50:02 Init db
+2026/10/05 13:50:02 Init routs
+2026/10/05 13:50:02 Server starting on localhost:7540
+2026/10/05 13:50:05 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/05 13:50:05 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/05 13:50:05 dstart parse err: parsing time "15000156": day out of range
+2026/10/05 13:50:05 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/05 13:50:05 mode 'd' needs one positive number
+2026/10/05 13:50:05 wrong repTimes format
+2026/10/06 14:45:28 Init db
+2026/10/06 14:45:28 Init routs
+2026/10/06 14:45:28 Server starting on localhost:7540
+2026/10/06 14:51:56 INSERT INTO db: 20261006 ????????  d 1 with id= 18
+2026/10/06 14:53:57 INSERT INTO db: 20261006 ???????????   with id= 19
+2026/10/06 14:54:31 INSERT INTO db: 20261009 ?? ????????  d 7 with id= 20
+2026/10/06 15:23:58 Init db
+2026/10/06 15:23:58 Init routs
+2026/10/06 15:23:58 Server starting on localhost:7540
+2026/10/06 15:24:14 task.Title emtpy
+2026/10/06 15:24:14 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/06 15:24:14 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/06 15:24:14 mode 'w' needs up to 7 reps
+2026/10/06 15:24:14 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/06 15:24:14 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/06 15:24:14 INSERT INTO db: 20261006 Заголовок   with id= 21
+2026/10/06 15:24:15 INSERT INTO db: 20261006 Сделать что-нибудь Хорошо отдохнуть  with id= 22
+2026/10/06 15:24:15 INSERT INTO db: 20261014 Уроки  d 10 with id= 23
+2026/10/06 15:24:15 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 24
+2026/10/06 15:24:15 INSERT INTO db: 20261006 Фитнес  d 1 with id= 25
+2026/10/06 15:24:15 INSERT INTO db: 20261006 Шмитнес   with id= 26
+2026/10/06 15:24:15 INSERT INTO db: 20261007 Сходить в магазин  w 1,3,5 with id= 27
+2026/10/06 16:17:05 Init db
+2026/10/06 16:17:05 Init routs
+2026/10/06 16:17:05 Server starting on localhost:7540
+2026/10/06 16:17:12 task.Title emtpy
+2026/10/06 16:17:12 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/06 16:17:12 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/06 16:17:12 mode 'w' needs up to 7 reps
+2026/10/06 16:17:12 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/06 16:17:12 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Заголовок   with id= 28
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Сделать что-нибудь Хорошо отдохнуть  with id= 29
+2026/10/06 16:17:12 INSERT INTO db: 20261014 Уроки  d 10 with id= 30
+2026/10/06 16:17:12 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 31
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Фитнес  d 1 with id= 32
+2026/10/06 16:17:12 INSERT INTO db: 20261006 Шмитнес   with id= 33
+2026/10/06 16:17:12 INSERT INTO db: 20261007 Сходить в магазин  w 1,3,5 with id= 34
+2026/10/07 11:34:43 Init db
+2026/10/07 11:34:43 Init routs
+2026/10/07 11:34:43 Server starting on localhost:7540
+2026/10/07 11:40:04 task.Title emtpy
+2026/10/07 11:40:04 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/07 11:40:04 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/07 11:40:04 mode 'w' needs up to 7 reps
+2026/10/07 11:40:04 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/07 11:40:04 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Заголовок   with id= 35
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Сделать что-нибудь Хорошо отдохнуть  with id= 36
+2026/10/07 11:40:04 INSERT INTO db: 20261014 Уроки  d 10 with id= 37
+2026/10/07 11:40:04 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 38
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Фитнес  d 1 with id= 39
+2026/10/07 11:40:04 INSERT INTO db: 20261007 Шмитнес   with id= 40
+2026/10/07 11:40:04 INSERT INTO db: 20261009 Сходить в магазин  w 1,3,5 with id= 41
+2026/10/07 12:02:32 Init db
+2026/10/07 12:02:32 Init routs
+2026/10/07 12:02:32 Server starting on localhost:7540
+2026/10/07 12:04:22 Init db
+2026/10/07 12:04:22 Init routs
+2026/10/07 12:04:22 Server starting on localhost:7540
+2026/10/07 12:52:40 Init db
+2026/10/07 12:52:40 Init routs
+2026/10/07 12:52:40 Server starting on localhost:7540
+2026/10/07 12:57:15 Init db
+2026/10/07 12:57:15 Init routs
+2026/10/07 12:57:15 Server starting on localhost:7540
+2026/10/07 13:02:00 INSERT INTO db: 20261008 api fix api/tasks d 1 with id= 42
+2026/10/07 13:25:38 Init db
+2026/10/07 13:25:38 Init routs
+2026/10/07 13:25:38 Server starting on localhost:7540
+2026/10/07 13:29:26 task.Title emtpy
+2026/10/07 13:29:26 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/07 13:29:26 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/07 13:29:26 mode 'w' needs up to 7 reps
+2026/10/07 13:29:26 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/07 13:29:26 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Заголовок   with id= 43
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Сделать что-нибудь Хорошо отдохнуть  with id= 44
+2026/10/07 13:29:26 INSERT INTO db: 20261014 Уроки  d 10 with id= 45
+2026/10/07 13:29:26 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 46
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Фитнес  d 1 with id= 47
+2026/10/07 13:29:26 INSERT INTO db: 20261007 Шмитнес   with id= 48
+2026/10/07 13:29:27 INSERT INTO db: 20261009 Сходить в магазин  w 1,3,5 with id= 49
+2026/10/07 13:29:27 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/07 13:29:27 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/07 13:29:27 dstart parse err: parsing time "15000156": day out of range
+2026/10/07 13:29:27 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/07 13:29:27 mode 'd' needs one positive number
+2026/10/07 13:29:27 wrong repTimes format
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Созвон в 16:00 Обсуждение планов d 5 with id= 51
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Заказать пиццу в 17:00  with id= 52
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Свести баланс   with id= 53
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Проверить работу /api/task/done  d 3 with id= 54
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Временная задача  d 3 with id= 55
+2026/10/07 13:29:27 INSERT INTO db: 20261007 Просмотр фильма с попкорном  with id= 56
+2026/10/07 13:29:27 INSERT INTO db: 20261008 Сходить в бассейн   with id= 57
+2026/10/07 13:29:27 INSERT INTO db: 20261008 Оплатить коммуналку  d 30 with id= 58
+2026/10/07 13:29:27 INSERT INTO db: 20261010 Поплавать Бассейн с тренером d 7 with id= 59
+2026/10/07 13:29:27 INSERT INTO db: 20261010 Позвонить в УК Разобраться с горячей водой  with id= 60
+2026/10/07 13:29:27 INSERT INTO db: 20261010 Встретится с Васей в 18:00  with id= 61
+2026/10/07 13:34:31 task.Title emtpy
+2026/10/07 13:34:31 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/07 13:34:31 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/07 13:34:31 mode 'w' needs up to 7 reps
+2026/10/07 13:34:31 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/07 13:34:31 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Заголовок   with id= 62
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Сделать что-нибудь Хорошо отдохнуть  with id= 63
+2026/10/07 13:34:31 INSERT INTO db: 20261014 Уроки  d 10 with id= 64
+2026/10/07 13:34:31 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 65
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Фитнес  d 1 with id= 66
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Шмитнес   with id= 67
+2026/10/07 13:34:31 INSERT INTO db: 20261009 Сходить в магазин  w 1,3,5 with id= 68
+2026/10/07 13:34:31 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/07 13:34:31 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/07 13:34:31 dstart parse err: parsing time "15000156": day out of range
+2026/10/07 13:34:31 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/07 13:34:31 mode 'd' needs one positive number
+2026/10/07 13:34:31 wrong repTimes format
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Созвон в 16:00 Обсуждение планов d 5 with id= 70
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Заказать пиццу в 17:00  with id= 71
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Свести баланс   with id= 72
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Проверить работу /api/task/done  d 3 with id= 73
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Временная задача  d 3 with id= 74
+2026/10/07 13:34:31 INSERT INTO db: 20261007 Просмотр фильма с попкорном  with id= 75
+2026/10/07 13:34:31 INSERT INTO db: 20261008 Сходить в бассейн   with id= 76
+2026/10/07 13:34:31 INSERT INTO db: 20261008 Оплатить коммуналку  d 30 with id= 77
+2026/10/07 13:34:31 INSERT INTO db: 20261010 Поплавать Бассейн с тренером d 7 with id= 78
+2026/10/07 13:34:31 INSERT INTO db: 20261010 Позвонить в УК Разобраться с горячей водой  with id= 79
+2026/10/07 13:34:31 INSERT INTO db: 20261010 Встретится с Васей в 18:00  with id= 80
+2026/10/07 14:55:15 Init db
+2026/10/07 14:55:15 Init routs
+2026/10/07 14:55:15 Server starting on localhost:7540
+2026/10/07 14:58:57 Init db
+2026/10/07 14:58:57 Init routs
+2026/10/07 14:58:57 Server starting on localhost:7540
+2026/10/07 16:02:12 Init db
+2026/10/07 16:02:13 Init routs
+2026/10/07 16:02:13 Server starting on localhost:7540
+2026/10/07 16:06:39 INSERT INTO db: 20261010 run taskshandler 100 d 1 with id= 81
+2026/10/07 16:26:40 Init db
+2026/10/07 16:26:40 Init routs
+2026/10/07 16:26:40 Server starting on localhost:7540
+2026/10/07 16:32:36 Init db
+2026/10/07 16:32:36 Init routs
+2026/10/07 16:32:36 Server starting on localhost:7540
+2026/10/07 16:34:59 Init db
+2026/10/07 16:34:59 Init routs
+2026/10/07 16:34:59 Server starting on localhost:7540
+2026/10/07 16:36:45 Init db
+2026/10/07 16:36:45 Init routs
+2026/10/07 16:36:45 Server starting on localhost:7540
+2026/10/07 16:38:56 Init db
+2026/10/07 16:38:56 Init routs
+2026/10/07 16:38:56 Server starting on localhost:7540
+2026/10/07 16:50:11 Init db
+2026/10/07 16:50:11 Init routs
+2026/10/07 16:50:11 Server starting on localhost:7540
+2026/10/07 17:08:39 Init db
+2026/10/07 17:08:39 Init routs
+2026/10/07 17:08:39 Server starting on localhost:7540
+2026/10/07 17:10:30 Init db
+2026/10/07 17:10:30 Init routs
+2026/10/07 17:10:30 Server starting on localhost:7540
+2026/10/08 13:02:36 Init db
+2026/10/08 13:02:36 Init routs
+2026/10/08 13:02:36 Server starting on localhost:7540
+2026/10/08 13:05:13 Init db
+2026/10/08 13:05:13 Init routs
+2026/10/08 13:05:13 Server starting on localhost:7540
+2026/10/08 13:05:14 бассейн
+2026/10/08 13:05:23 bottle
+2026/10/08 13:05:26 bottle
+2026/10/08 13:05:39 бассейн
+2026/10/08 13:06:18 
+2026/10/08 13:08:00 Init db
+2026/10/08 13:08:00 Init routs
+2026/10/08 13:08:00 Server starting on localhost:7540
+2026/10/08 13:08:24 Init db
+2026/10/08 13:08:25 Init routs
+2026/10/08 13:08:25 Server starting on localhost:7540
+2026/10/08 13:08:28 бассейн
+2026/10/08 13:09:10 фильм
+2026/10/08 13:09:28 
+2026/10/08 13:09:39 фильм
+2026/10/08 13:10:37 
+2026/10/08 13:12:54 
+2026/10/08 13:15:32 Init db
+2026/10/08 13:15:32 Init routs
+2026/10/08 13:15:32 Server starting on localhost:7540
+2026/10/08 13:15:32 
+2026/10/08 13:16:14 бассейн
+2026/10/08 13:16:35 бассейн
+2026/10/08 13:16:37 бассейн
+2026/10/08 13:17:18 
+2026/10/08 13:25:15 Init db
+2026/10/08 13:25:15 Init routs
+2026/10/08 13:25:15 Server starting on localhost:7540
+2026/10/08 13:25:54 бассейн
+2026/10/08 13:26:37 Бассейн
+2026/10/08 13:35:12 Init db
+2026/10/08 13:35:12 Init routs
+2026/10/08 13:35:12 Server starting on localhost:7540
+2026/10/08 13:35:17 
+2026/10/08 13:35:29 Бассейн
+2026/10/08 13:35:34 Бассейн
+2026/10/08 13:35:52 бассейн
+2026/10/08 13:39:09 Init db
+2026/10/08 13:39:09 Init routs
+2026/10/08 13:39:09 Server starting on localhost:7540
+2026/10/08 13:39:13 бассейн
+2026/10/08 13:39:16 бассейн
+2026/10/08 13:39:27 Бассейн
+2026/10/08 13:39:50 бассейн
+2026/10/08 13:40:38 
+2026/10/08 13:45:17 
+2026/10/08 13:45:25 Бассейн с тренером
+2026/10/08 13:46:32 Init db
+2026/10/08 13:46:32 Init routs
+2026/10/08 13:46:32 Server starting on localhost:7540
+2026/10/08 13:46:37 тренером
+2026/10/08 13:46:52 с
+2026/10/08 13:47:10 С
+2026/10/08 13:47:22 б
+2026/10/08 13:47:31 Б
+2026/10/08 13:47:33 Б
+2026/10/08 13:50:56 бассейн
+2026/10/08 13:51:08 бассейн
+2026/10/08 13:51:26 Бассейн
+2026/10/08 13:57:01 Init db
+2026/10/08 13:57:01 Init routs
+2026/10/08 13:57:01 Server starting on localhost:7540
+2026/10/08 13:57:04 тренером
+2026/10/08 13:58:01 02.01.2006
+2026/10/08 14:07:40 Init db
+2026/10/08 14:07:40 Init routs
+2026/10/08 14:07:40 Server starting on localhost:7540
+2026/10/08 14:07:42 с
+2026/10/08 14:07:56 07.10.2026
+2026/10/08 14:40:02 Init db
+2026/10/08 14:40:02 Init routs
+2026/10/08 14:40:02 Server starting on localhost:7540
+2026/10/08 14:40:05 07.10.2026
+2026/10/08 14:40:40 08.10.2026
+2026/10/08 14:41:10 
+2026/10/08 14:41:10 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 82
+2026/10/08 14:41:10 INSERT INTO db: 20261009 Сходить в бассейн   with id= 83
+2026/10/08 14:41:10 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 84
+2026/10/08 14:41:10 
+2026/10/08 14:41:10 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 85
+2026/10/08 14:41:10 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 86
+2026/10/08 14:41:10 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 87
+2026/10/08 14:41:10 
+2026/10/08 14:42:16 
+2026/10/08 14:42:16 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 88
+2026/10/08 14:42:16 INSERT INTO db: 20261009 Сходить в бассейн   with id= 89
+2026/10/08 14:42:16 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 90
+2026/10/08 14:42:16 
+2026/10/08 14:42:16 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 91
+2026/10/08 14:42:16 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 92
+2026/10/08 14:42:16 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 93
+2026/10/08 14:42:16 
+2026/10/08 15:04:38 Init db
+2026/10/08 15:04:38 Init routs
+2026/10/08 15:04:38 Server starting on localhost:7540
+2026/10/08 15:05:53 
+2026/10/08 15:05:54 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 94
+2026/10/08 15:05:54 INSERT INTO db: 20261009 Сходить в бассейн   with id= 95
+2026/10/08 15:05:54 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 96
+2026/10/08 15:05:54 
+2026/10/08 15:05:54 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 97
+2026/10/08 15:05:54 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 98
+2026/10/08 15:05:54 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 99
+2026/10/08 15:05:54 
+2026/10/08 15:05:54 УК
+2026/10/08 15:05:54 11.10.2026
+2026/10/08 15:11:46 Init db
+2026/10/08 15:11:46 Init routs
+2026/10/08 15:11:46 Server starting on localhost:7540
+2026/10/08 15:11:56 
+2026/10/08 15:11:56 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 100
+2026/10/08 15:11:56 INSERT INTO db: 20261009 Сходить в бассейн   with id= 101
+2026/10/08 15:11:56 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 102
+2026/10/08 15:11:56 
+2026/10/08 15:11:56 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 103
+2026/10/08 15:11:56 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 104
+2026/10/08 15:11:56 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 105
+2026/10/08 15:11:56 
+2026/10/08 15:11:56 УК
+2026/10/08 15:11:56 11.10.2026
+2026/10/08 15:16:12 Init db
+2026/10/08 15:16:12 Init routs
+2026/10/08 15:16:12 Server starting on localhost:7540
+2026/10/08 15:16:57 INSERT INTO db: 20261009 run tests api/tasks d 1 with id= 106
+2026/10/08 15:16:57 
+2026/10/08 15:18:05 
+2026/10/08 15:19:36 
+2026/10/08 15:34:59 Init db
+2026/10/08 15:34:59 Init routs
+2026/10/08 15:34:59 Server starting on localhost:7540
+2026/10/08 15:35:00 
+2026/10/08 15:35:00 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 107
+2026/10/08 15:35:00 INSERT INTO db: 20261009 Сходить в бассейн   with id= 108
+2026/10/08 15:35:00 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 109
+2026/10/08 15:35:00 
+2026/10/08 15:35:00 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 110
+2026/10/08 15:35:00 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 111
+2026/10/08 15:35:00 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 112
+2026/10/08 15:35:00 
+2026/10/08 15:35:00 УК
+2026/10/08 15:35:00 11.10.2026
+2026/10/08 16:06:18 Init db
+2026/10/08 16:06:18 Init routs
+2026/10/08 16:06:18 Server starting on localhost:7540
+2026/10/08 16:06:30 
+2026/10/08 17:23:04 Init db
+2026/10/08 17:23:04 Init routs
+2026/10/08 17:23:04 Server starting on localhost:7540
+2026/10/08 17:23:19 
+2026/10/08 17:23:19 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 113
+2026/10/08 17:23:19 INSERT INTO db: 20261009 Сходить в бассейн   with id= 114
+2026/10/08 17:23:19 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 115
+2026/10/08 17:23:19 
+2026/10/08 17:23:19 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 116
+2026/10/08 17:23:19 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 117
+2026/10/08 17:23:19 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 118
+2026/10/08 17:23:19 
+2026/10/08 17:23:19 УК
+2026/10/08 17:23:19 11.10.2026
+2026/10/08 17:24:35 
+2026/10/08 17:27:02 Init db
+2026/10/08 17:27:02 Init routs
+2026/10/08 17:27:02 Server starting on localhost:7540
+2026/10/08 17:27:14 
+2026/10/08 17:27:14 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 119
+2026/10/08 17:27:14 INSERT INTO db: 20261009 Сходить в бассейн   with id= 120
+2026/10/08 17:27:14 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 121
+2026/10/08 17:27:14 
+2026/10/08 17:27:14 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 122
+2026/10/08 17:27:14 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 123
+2026/10/08 17:27:14 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 124
+2026/10/08 17:27:14 
+2026/10/08 17:27:14 УК
+2026/10/08 17:27:14 11.10.2026
+2026/10/08 17:28:36 02.01.2006
+2026/10/08 17:29:02 07.10.2026
+2026/10/08 17:48:02 Init db
+2026/10/08 17:48:02 Init routs
+2026/10/08 17:48:02 Server starting on localhost:7540
+2026/10/08 17:48:16 07.10.2026
+2026/10/08 17:48:34 02.01.2006
+2026/10/08 17:48:54 
+2026/10/08 17:48:54 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 125
+2026/10/08 17:48:54 INSERT INTO db: 20261009 Сходить в бассейн   with id= 126
+2026/10/08 17:48:54 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 127
+2026/10/08 17:48:54 
+2026/10/08 17:48:54 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 128
+2026/10/08 17:48:54 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 129
+2026/10/08 17:48:54 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 130
+2026/10/08 17:48:54 
+2026/10/08 17:48:54 ук
+2026/10/08 17:48:54 11.10.2026
+2026/10/08 17:57:13 Init db
+2026/10/08 17:57:13 Init routs
+2026/10/08 17:57:13 Server starting on localhost:7540
+2026/10/08 17:57:17 
+2026/10/08 17:57:17 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 131
+2026/10/08 17:57:17 INSERT INTO db: 20261009 Сходить в бассейн   with id= 132
+2026/10/08 17:57:17 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 133
+2026/10/08 17:57:17 
+2026/10/08 17:57:17 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 134
+2026/10/08 17:57:17 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 135
+2026/10/08 17:57:17 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 136
+2026/10/08 17:57:17 
+2026/10/08 17:57:17 ук
+2026/10/08 17:57:17 11.10.2026
+2026/10/08 18:04:34 Init db
+2026/10/08 18:04:34 Init routs
+2026/10/08 18:04:34 Server starting on localhost:7540
+2026/10/08 18:04:40 
+2026/10/08 18:04:40 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 137
+2026/10/08 18:04:40 INSERT INTO db: 20261009 Сходить в бассейн   with id= 138
+2026/10/08 18:04:40 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 139
+2026/10/08 18:04:40 
+2026/10/08 18:04:40 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 140
+2026/10/08 18:04:40 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 141
+2026/10/08 18:04:40 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 142
+2026/10/08 18:04:40 
+2026/10/08 18:04:40 ук
+2026/10/08 18:04:40 11.10.2026
+2026/10/08 18:16:57 Init db
+2026/10/08 18:16:57 Init routs
+2026/10/08 18:16:57 Server starting on localhost:7540
+2026/10/08 18:17:04 
+2026/10/08 18:17:04 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 143
+2026/10/08 18:17:04 INSERT INTO db: 20261009 Сходить в бассейн   with id= 144
+2026/10/08 18:17:04 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 145
+2026/10/08 18:17:04 
+2026/10/08 18:17:04 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 146
+2026/10/08 18:17:04 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 147
+2026/10/08 18:17:04 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 148
+2026/10/08 18:17:04 
+2026/10/08 18:17:04 ук
+2026/10/08 18:17:04 11.10.2026
+2026/10/08 18:22:27 Init db
+2026/10/08 18:22:27 Init routs
+2026/10/08 18:22:27 Server starting on localhost:7540
+2026/10/08 18:22:29 
+2026/10/08 18:22:29 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 149
+2026/10/08 18:22:29 INSERT INTO db: 20261009 Сходить в бассейн   with id= 150
+2026/10/08 18:22:29 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 151
+2026/10/08 18:22:29 
+2026/10/08 18:22:29 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 152
+2026/10/08 18:22:29 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 153
+2026/10/08 18:22:29 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 154
+2026/10/08 18:22:29 
+2026/10/08 18:22:29 УК
+2026/10/08 18:22:29 11.10.2026
+2026/10/08 18:25:52 Init db
+2026/10/08 18:25:52 Init routs
+2026/10/08 18:25:52 Server starting on localhost:7540
+2026/10/08 18:25:56 
+2026/10/08 18:25:56 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 155
+2026/10/08 18:25:56 INSERT INTO db: 20261009 Сходить в бассейн   with id= 156
+2026/10/08 18:25:56 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 157
+2026/10/08 18:25:56 
+2026/10/08 18:25:56 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 158
+2026/10/08 18:25:56 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 159
+2026/10/08 18:25:56 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 160
+2026/10/08 18:25:56 
+2026/10/08 18:25:56 ук
+2026/10/08 18:25:56 11.10.2026
+2026/10/08 18:28:06 Init db
+2026/10/08 18:28:06 Init routs
+2026/10/08 18:28:06 Server starting on localhost:7540
+2026/10/08 18:28:15 
+2026/10/08 18:28:15 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 161
+2026/10/08 18:28:15 INSERT INTO db: 20261009 Сходить в бассейн   with id= 162
+2026/10/08 18:28:15 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 163
+2026/10/08 18:28:15 
+2026/10/08 18:28:15 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 164
+2026/10/08 18:28:15 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 165
+2026/10/08 18:28:15 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 166
+2026/10/08 18:28:15 
+2026/10/08 18:28:15 УК
+2026/10/08 18:28:15 11.10.2026
+2026/10/08 18:31:04 УК
+2026/10/08 18:41:10 Init db
+2026/10/08 18:41:10 Init routs
+2026/10/08 18:41:10 Server starting on localhost:7540
+2026/10/08 18:42:26 Init db
+2026/10/08 18:42:27 Init routs
+2026/10/08 18:42:27 Server starting on localhost:7540
+2026/10/08 18:47:04 Init db
+2026/10/08 18:47:04 Init routs
+2026/10/08 18:47:04 Server starting on localhost:7540
+2026/10/08 18:47:06 УК
+2026/10/08 18:47:28 УК
+2026/10/08 18:47:28 11.10.2026
+2026/10/08 19:13:43 Init db
+2026/10/08 19:13:43 Init routs
+2026/10/08 19:13:43 Server starting on localhost:7540
+2026/10/08 19:14:01 
+2026/10/08 19:14:01 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 173
+2026/10/08 19:14:01 INSERT INTO db: 20261009 Сходить в бассейн   with id= 174
+2026/10/08 19:14:01 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 175
+2026/10/08 19:14:01 
+2026/10/08 19:14:01 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 176
+2026/10/08 19:14:01 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 177
+2026/10/08 19:14:01 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 178
+2026/10/08 19:14:01 
+2026/10/08 19:14:01 Бассейн
+2026/10/08 19:14:01 11.10.2026
+2026/10/08 19:18:21 Init db
+2026/10/08 19:18:21 Init routs
+2026/10/08 19:18:21 Server starting on localhost:7540
+2026/10/08 19:18:31 
+2026/10/08 19:18:32 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 179
+2026/10/08 19:18:32 INSERT INTO db: 20261009 Сходить в бассейн   with id= 180
+2026/10/08 19:18:32 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 181
+2026/10/08 19:18:32 
+2026/10/08 19:18:32 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 182
+2026/10/08 19:18:32 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 183
+2026/10/08 19:18:32 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 184
+2026/10/08 19:18:32 
+2026/10/08 19:18:32 УК
+2026/10/08 19:18:32 11.10.2026
+2026/10/08 19:19:48 
+2026/10/08 19:19:49 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 185
+2026/10/08 19:19:49 INSERT INTO db: 20261009 Сходить в бассейн   with id= 186
+2026/10/08 19:19:49 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 187
+2026/10/08 19:19:49 
+2026/10/08 19:19:49 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 188
+2026/10/08 19:19:49 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 189
+2026/10/08 19:19:49 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 190
+2026/10/08 19:19:49 
+2026/10/08 19:19:49 11.10.2026
+2026/10/08 19:20:02 Init db
+2026/10/08 19:20:02 Init routs
+2026/10/08 19:20:02 Server starting on localhost:7540
+2026/10/08 19:20:07 
+2026/10/08 19:20:07 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 191
+2026/10/08 19:20:07 INSERT INTO db: 20261009 Сходить в бассейн   with id= 192
+2026/10/08 19:20:07 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 193
+2026/10/08 19:20:07 
+2026/10/08 19:20:07 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 194
+2026/10/08 19:20:07 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 195
+2026/10/08 19:20:07 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 196
+2026/10/08 19:20:07 
+2026/10/08 19:20:07 11.10.2026
+2026/10/08 19:20:41 
+2026/10/08 19:20:41 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 197
+2026/10/08 19:20:41 INSERT INTO db: 20261009 Сходить в бассейн   with id= 198
+2026/10/08 19:20:41 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 199
+2026/10/08 19:20:41 
+2026/10/08 19:20:41 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 200
+2026/10/08 19:20:41 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 201
+2026/10/08 19:20:41 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 202
+2026/10/08 19:20:41 
+2026/10/08 19:20:41 Позвонить
+2026/10/08 19:20:41 11.10.2026
+2026/10/08 19:20:55 Init db
+2026/10/08 19:20:55 Init routs
+2026/10/08 19:20:55 Server starting on localhost:7540
+2026/10/08 19:21:01 
+2026/10/08 19:21:01 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 203
+2026/10/08 19:21:01 INSERT INTO db: 20261009 Сходить в бассейн   with id= 204
+2026/10/08 19:21:01 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 205
+2026/10/08 19:21:01 
+2026/10/08 19:21:01 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 206
+2026/10/08 19:21:01 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 207
+2026/10/08 19:21:01 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 208
+2026/10/08 19:21:01 
+2026/10/08 19:21:01 Позвонить
+2026/10/08 19:21:01 11.10.2026
+2026/10/08 19:21:37 Init db
+2026/10/08 19:21:37 Init routs
+2026/10/08 19:21:37 Server starting on localhost:7540
+2026/10/08 19:22:19 
+2026/10/08 19:22:19 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 209
+2026/10/08 19:22:19 INSERT INTO db: 20261009 Сходить в бассейн   with id= 210
+2026/10/08 19:22:19 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 211
+2026/10/08 19:22:19 
+2026/10/08 19:22:19 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 212
+2026/10/08 19:22:19 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 213
+2026/10/08 19:22:19 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 214
+2026/10/08 19:22:19 
+2026/10/08 19:22:19 Встретится
+2026/10/08 19:22:19 11.10.2026
+2026/10/08 19:24:50 
+2026/10/08 19:24:50 INSERT INTO db: 20261008 Просмотр фильма с попкорном  with id= 215
+2026/10/08 19:24:50 INSERT INTO db: 20261009 Сходить в бассейн   with id= 216
+2026/10/08 19:24:50 INSERT INTO db: 20261009 Оплатить коммуналку  d 30 with id= 217
+2026/10/08 19:24:50 
+2026/10/08 19:24:50 INSERT INTO db: 20261011 Поплавать Бассейн с тренером d 7 with id= 218
+2026/10/08 19:24:50 INSERT INTO db: 20261011 Позвонить в УК Разобраться с горячей водой  with id= 219
+2026/10/08 19:24:50 INSERT INTO db: 20261011 Встретится с Васей в 18:00  with id= 220
+2026/10/08 19:24:50 
+2026/10/08 19:50:16 УК
+2026/10/08 19:50:16 11.10.2026
+2026/10/08 19:53:48 бассейн
+2026/10/08 19:53:55 УК
+2026/10/09 10:36:04 Init db
+2026/10/09 10:36:04 Init routs
+2026/10/09 10:36:04 Server starting on localhost:7540
+2026/10/09 10:47:09 Init db
+2026/10/09 10:47:09 Init routs
+2026/10/09 10:47:09 Server starting on localhost:7540
+2026/10/09 10:50:40 Init db
+2026/10/09 10:50:40 Init routs
+2026/10/09 10:50:40 Server starting on localhost:7540
+2026/10/09 11:51:38 Init db
+2026/10/09 11:51:38 Init routs
+2026/10/09 11:51:38 Server starting on localhost:7540
+2026/10/09 11:55:29 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 11:55:29 editTaskHandler error: sql: no rows in result set
+2026/10/09 11:59:07 Init db
+2026/10/09 11:59:08 Init routs
+2026/10/09 11:59:08 Server starting on localhost:7540
+2026/10/09 11:59:08 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 11:59:08 editTaskHandler error: sql: no rows in result set
+2026/10/09 12:01:24 Init db
+2026/10/09 12:01:24 Init routs
+2026/10/09 12:01:24 Server starting on localhost:7540
+2026/10/09 12:01:24 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 12:01:24 editTaskHandler error: sql: no rows in result set
+2026/10/09 12:02:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/09 12:02:28 editTaskHandler error: sql: no rows in result set
+2026/10/09 12:16:09 Init db
+2026/10/09 12:16:09 Init routs
+2026/10/09 12:16:09 Server starting on localhost:7540
+2026/10/09 12:16:38 Task found: 243, 20261011, Позвонить в УК, Разобраться с горячей водой, 
+2026/10/09 12:16:38 &{243 20261011 Позвонить в УК Разобраться с горячей водой }
+2026/10/09 12:42:56 Init db
+2026/10/09 12:42:56 Init routs
+2026/10/09 12:42:56 Server starting on localhost:7540
+2026/10/09 12:42:59 
+2026/10/09 12:43:19 Task found: 242, 20261011, Поплавать, Бассейн с тренером, d 7
+2026/10/09 12:43:19 &{242 20261011 Поплавать Бассейн с тренером d 7}
+2026/10/09 12:43:36 
+2026/10/09 12:48:09 Task found: 240, 20261009, Сходить в бассейн, , 
+2026/10/09 12:48:09 &{240 20261009 Сходить в бассейн  }
+2026/10/09 12:48:21 
+2026/10/09 12:48:59 Task found: 239, 20261008, Просмотр фильма, с попкорном, 
+2026/10/09 12:48:59 &{239 20261008 Просмотр фильма с попкорном }
+2026/10/09 12:49:09 
+2026/10/09 12:58:02 Init db
+2026/10/09 12:58:02 Init routs
+2026/10/09 12:58:02 Server starting on localhost:7540
+2026/10/09 12:58:10 Task found: 240, 20261009, Сходить в бассейн, взять плавки, 
+2026/10/09 12:58:10 &{240 20261009 Сходить в бассейн взять плавки }
+2026/10/09 12:58:27 
+2026/10/09 13:01:25 Init db
+2026/10/09 13:01:25 Init routs
+2026/10/09 13:01:25 Server starting on localhost:7540
+2026/10/09 13:01:25 Task found: 241, 20261009, Оплатить коммуналку, , d 30
+2026/10/09 13:01:25 &{241 20261009 Оплатить коммуналку  d 30}
+2026/10/09 13:02:16 updated task: {241 20261009 Оплатить коммуналку найти деньги d 30} with id= 241
+2026/10/09 13:02:16 
+2026/10/09 13:03:31 Task found: 239, 20261008, Просмотр фильма, с попкорном и пивом, 
+2026/10/09 13:03:31 &{239 20261008 Просмотр фильма с попкорном и пивом }
+2026/10/09 15:09:08 Init db
+2026/10/09 15:09:08 Init routs
+2026/10/09 15:09:08 Server starting on localhost:7540
+2026/10/09 15:09:08 Task found: 239, 20261008, Просмотр фильма, с попкорном и пивом, 
+2026/10/09 15:09:08 deleted task with id= 239
+2026/10/09 15:09:08 
+2026/10/09 15:09:40 Task found: 241, 20261009, Оплатить коммуналку, найти деньги, d 30
+2026/10/09 15:09:40 updated task: {241 20261108 Оплатить коммуналку найти деньги d 30} with id= 241
+2026/10/09 15:09:40 deleted task with id= 241
+2026/10/09 15:09:40 
+2026/10/09 15:10:37 
+2026/10/13 11:38:09 Init db
+2026/10/13 11:38:09 Init routs
+2026/10/13 11:38:09 Server starting on localhost:7540
+2026/10/13 11:38:52 Task found: 240, 20261009, Сходить в бассейн, лучше взять плавки, 
+2026/10/13 11:38:52 deleted task with id= 240
+2026/10/13 11:38:52 
+2026/10/13 11:39:14 Task found: 242, 20261011, Поплавать, Бассейн с тренершей, d 7
+2026/10/13 11:39:14 updated task: {242 20261018 Поплавать Бассейн с тренершей d 7} with id= 242
+2026/10/13 11:39:14 deleted task with id= 242
+2026/10/13 11:39:14 
+2026/10/13 11:40:32 Init db
+2026/10/13 11:40:32 Init routs
+2026/10/13 11:40:32 Server starting on localhost:7540
+2026/10/13 11:48:18 Init db
+2026/10/13 11:48:18 Init routs
+2026/10/13 11:48:18 Server starting on localhost:7540
+2026/10/13 11:48:32 Task found: 243, 20261011, Позвонить в УК, Разобраться с водой, 
+2026/10/13 11:48:32 deleted task with id= 243
+2026/10/13 11:48:32 
+2026/10/13 11:50:48 task.Title emtpy
+2026/10/13 11:50:48 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 11:50:48 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 11:50:48 mode 'w' needs up to 7 reps
+2026/10/13 11:50:48 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 11:50:48 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 11:50:48 INSERT INTO db: 20261013 Заголовок   with id= 245
+2026/10/13 11:50:48 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 246
+2026/10/13 11:50:48 INSERT INTO db: 20261014 Уроки  d 10 with id= 247
+2026/10/13 11:50:48 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 248
+2026/10/13 11:50:48 INSERT INTO db: 20261013 Фитнес  d 1 with id= 249
+2026/10/13 11:50:48 INSERT INTO db: 20261013 Шмитнес   with id= 250
+2026/10/13 11:50:48 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 251
+2026/10/13 11:50:49 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 11:50:49 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 11:50:49 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 11:50:49 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 11:50:49 mode 'd' needs one positive number
+2026/10/13 11:50:49 wrong repTimes format
+2026/10/13 11:50:49 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 253
+2026/10/13 11:50:49 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 11:50:49 editTaskHandler error: sql: no rows in result set
+2026/10/13 11:50:49 Task found: 253, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 11:50:49 &{253 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 11:50:49 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 254
+2026/10/13 11:50:49 UpdateTask: no updates for id 
+2026/10/13 11:50:49 putTask erroe: no updates for id= 
+2026/10/13 11:50:49 UpdateTask: no updates for id abc
+2026/10/13 11:50:49 putTask erroe: no updates for id= abc
+2026/10/13 11:50:49 UpdateTask: no updates for id 7645346343
+2026/10/13 11:50:49 putTask erroe: no updates for id= 7645346343
+2026/10/13 11:50:49 updated task: {254 20240129   } with id= 254
+2026/10/13 11:50:49 updated task: {254 20240192 Qwerty  } with id= 254
+2026/10/13 11:50:49 updated task: {254 28.01.2024 Заголовок  } with id= 254
+2026/10/13 11:50:49 updated task: {254 20240212 Заголовок  ooops} with id= 254
+2026/10/13 11:50:49 updated task: {254 20261013 Заказать хинкали в 18:00 d 7} with id= 254
+2026/10/13 11:50:49 INSERT INTO db: 20261013 Свести баланс   with id= 255
+2026/10/13 11:50:49 Task found: 255, 20261013, Свести баланс, , 
+2026/10/13 11:50:49 deleted task with id= 255
+2026/10/13 11:50:49 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 11:50:49 editTaskHandler error: sql: no rows in result set
+2026/10/13 11:50:49 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 256
+2026/10/13 11:50:49 Task found: 256, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 11:50:49 updated task: {256 20261016 Проверить работу /api/task/done  d 3} with id= 256
+2026/10/13 11:50:49 deleted task with id= 256
+2026/10/13 11:50:49 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 11:50:49 doneTaskHandler error: sql: no rows in result set
+2026/10/13 11:50:49 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 11:50:49 doneTaskHandler error: sql: no rows in result set
+2026/10/13 11:50:49 INSERT INTO db: 20261013 Временная задача  d 3 with id= 257
+2026/10/13 11:50:49 Task found: 257, 20261013, Временная задача, , d 3
+2026/10/13 11:50:49 updated task: {257 20261016 Временная задача  d 3} with id= 257
+2026/10/13 11:50:49 deleted task with id= 257
+2026/10/13 11:50:49 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 11:50:49 editTaskHandler error: sql: no rows in result set
+2026/10/13 11:50:49 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 11:50:49 doneTaskHandler error: sql: no rows in result set
+2026/10/13 11:50:49 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 11:50:49 doneTaskHandler error: sql: no rows in result set
+2026/10/13 11:50:49 
+2026/10/13 11:50:49 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 258
+2026/10/13 11:50:49 INSERT INTO db: 20261014 Сходить в бассейн   with id= 259
+2026/10/13 11:50:49 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 260
+2026/10/13 11:50:49 
+2026/10/13 11:50:49 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 261
+2026/10/13 11:50:49 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 262
+2026/10/13 11:50:49 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 263
+2026/10/13 11:50:49 
+2026/10/13 11:50:49 УК
+2026/10/13 11:50:49 16.10.2026
+2026/10/13 11:52:42 
+2026/10/13 11:52:55 Task found: 263, 20261016, Встретится с Васей, в 18:00, 
+2026/10/13 11:52:55 &{263 20261016 Встретится с Васей в 18:00 }
+2026/10/13 11:53:17 updated task: {263 20261016 Встретится с Васей в 18:00 d 1} with id= 263
+2026/10/13 11:53:17 
+2026/10/13 11:53:59 Task found: 263, 20261016, Встретится с Васей, в 18:00, d 1
+2026/10/13 11:53:59 updated task: {263 20261017 Встретится с Васей в 18:00 d 1} with id= 263
+2026/10/13 11:53:59 deleted task with id= 263
+2026/10/13 11:53:59 
+2026/10/13 11:54:16 Task found: 262, 20261016, Позвонить в УК, Разобраться с горячей водой, 
+2026/10/13 11:54:16 &{262 20261016 Позвонить в УК Разобраться с горячей водой }
+2026/10/13 11:54:33 updated task: {262 20261016 Позвонить в УК Разобраться с горячей водой m -1} with id= 262
+2026/10/13 11:54:33 
+2026/10/13 11:54:55 
+2026/10/13 11:58:54 Init db
+2026/10/13 11:58:54 Init routs
+2026/10/13 11:58:54 Server starting on localhost:7540
+2026/10/13 12:00:17 task.Title emtpy
+2026/10/13 12:00:17 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 12:00:17 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 12:00:17 mode 'w' needs up to 7 reps
+2026/10/13 12:00:17 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 12:00:17 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Заголовок   with id= 265
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 266
+2026/10/13 12:00:17 INSERT INTO db: 20261014 Уроки  d 10 with id= 267
+2026/10/13 12:00:17 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 268
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Фитнес  d 1 with id= 269
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Шмитнес   with id= 270
+2026/10/13 12:00:17 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 271
+2026/10/13 12:00:17 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 12:00:17 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 12:00:17 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 12:00:17 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 12:00:17 mode 'd' needs one positive number
+2026/10/13 12:00:17 wrong repTimes format
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 273
+2026/10/13 12:00:17 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:00:17 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:00:17 Task found: 273, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 12:00:17 &{273 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 274
+2026/10/13 12:00:17 UpdateTask: no updates for id 
+2026/10/13 12:00:17 putTask erroe: no updates for id= 
+2026/10/13 12:00:17 UpdateTask: no updates for id abc
+2026/10/13 12:00:17 putTask erroe: no updates for id= abc
+2026/10/13 12:00:17 UpdateTask: no updates for id 7645346343
+2026/10/13 12:00:17 putTask erroe: no updates for id= 7645346343
+2026/10/13 12:00:17 updated task: {274 20240129   } with id= 274
+2026/10/13 12:00:17 updated task: {274 20240192 Qwerty  } with id= 274
+2026/10/13 12:00:17 updated task: {274 28.01.2024 Заголовок  } with id= 274
+2026/10/13 12:00:17 updated task: {274 20240212 Заголовок  ooops} with id= 274
+2026/10/13 12:00:17 updated task: {274 20261013 Заказать хинкали в 18:00 d 7} with id= 274
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Свести баланс   with id= 275
+2026/10/13 12:00:17 Task found: 275, 20261013, Свести баланс, , 
+2026/10/13 12:00:17 deleted task with id= 275
+2026/10/13 12:00:17 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:00:17 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 276
+2026/10/13 12:00:17 Task found: 276, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 12:00:17 updated task: {276 20261016 Проверить работу /api/task/done  d 3} with id= 276
+2026/10/13 12:00:17 deleted task with id= 276
+2026/10/13 12:00:17 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:00:17 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:00:17 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:00:17 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Временная задача  d 3 with id= 277
+2026/10/13 12:00:17 Task found: 277, 20261013, Временная задача, , d 3
+2026/10/13 12:00:17 updated task: {277 20261016 Временная задача  d 3} with id= 277
+2026/10/13 12:00:17 deleted task with id= 277
+2026/10/13 12:00:17 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:00:17 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:00:17 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:00:17 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:00:17 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:00:17 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:00:17 
+2026/10/13 12:00:17 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 278
+2026/10/13 12:00:17 INSERT INTO db: 20261014 Сходить в бассейн   with id= 279
+2026/10/13 12:00:17 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 280
+2026/10/13 12:00:17 
+2026/10/13 12:00:17 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 281
+2026/10/13 12:00:17 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 282
+2026/10/13 12:00:17 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 283
+2026/10/13 12:00:17 
+2026/10/13 12:00:17 УК
+2026/10/13 12:00:17 16.10.2026
+2026/10/13 12:06:32 task.Title emtpy
+2026/10/13 12:06:32 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 12:06:32 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 12:06:32 mode 'w' needs up to 7 reps
+2026/10/13 12:06:32 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 12:06:32 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Заголовок   with id= 284
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 285
+2026/10/13 12:06:32 INSERT INTO db: 20261014 Уроки  d 10 with id= 286
+2026/10/13 12:06:32 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 287
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Фитнес  d 1 with id= 288
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Шмитнес   with id= 289
+2026/10/13 12:06:32 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 290
+2026/10/13 12:06:32 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 12:06:32 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 12:06:32 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 12:06:32 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 12:06:32 mode 'd' needs one positive number
+2026/10/13 12:06:32 wrong repTimes format
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 292
+2026/10/13 12:06:32 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:06:32 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:06:32 Task found: 292, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 12:06:32 &{292 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 293
+2026/10/13 12:06:32 UpdateTask: no updates for id 
+2026/10/13 12:06:32 putTask erroe: no updates for id= 
+2026/10/13 12:06:32 UpdateTask: no updates for id abc
+2026/10/13 12:06:32 putTask erroe: no updates for id= abc
+2026/10/13 12:06:32 UpdateTask: no updates for id 7645346343
+2026/10/13 12:06:32 putTask erroe: no updates for id= 7645346343
+2026/10/13 12:06:32 updated task: {293 20240129   } with id= 293
+2026/10/13 12:06:32 updated task: {293 20240192 Qwerty  } with id= 293
+2026/10/13 12:06:32 updated task: {293 28.01.2024 Заголовок  } with id= 293
+2026/10/13 12:06:32 updated task: {293 20240212 Заголовок  ooops} with id= 293
+2026/10/13 12:06:32 updated task: {293 20261013 Заказать хинкали в 18:00 d 7} with id= 293
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Свести баланс   with id= 294
+2026/10/13 12:06:32 Task found: 294, 20261013, Свести баланс, , 
+2026/10/13 12:06:32 deleted task with id= 294
+2026/10/13 12:06:32 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:06:32 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 295
+2026/10/13 12:06:32 Task found: 295, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 12:06:32 updated task: {295 20261016 Проверить работу /api/task/done  d 3} with id= 295
+2026/10/13 12:06:32 deleted task with id= 295
+2026/10/13 12:06:32 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:06:32 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:06:32 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:06:32 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Временная задача  d 3 with id= 296
+2026/10/13 12:06:32 Task found: 296, 20261013, Временная задача, , d 3
+2026/10/13 12:06:32 updated task: {296 20261016 Временная задача  d 3} with id= 296
+2026/10/13 12:06:32 deleted task with id= 296
+2026/10/13 12:06:32 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:06:32 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:06:32 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:06:32 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:06:32 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:06:32 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:06:32 
+2026/10/13 12:06:32 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 297
+2026/10/13 12:06:32 INSERT INTO db: 20261014 Сходить в бассейн   with id= 298
+2026/10/13 12:06:32 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 299
+2026/10/13 12:06:32 
+2026/10/13 12:06:32 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 300
+2026/10/13 12:06:32 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 301
+2026/10/13 12:06:32 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 302
+2026/10/13 12:06:32 
+2026/10/13 12:06:32 УК
+2026/10/13 12:06:32 16.10.2026
+2026/10/13 12:14:24 Init db
+2026/10/13 12:14:24 Init routs
+2026/10/13 12:14:24 Server starting on localhost:7540
+2026/10/13 12:14:27 task.Title emtpy
+2026/10/13 12:14:27 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 12:14:27 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 12:14:27 mode 'w' needs up to 7 reps
+2026/10/13 12:14:27 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 12:14:27 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 12:14:27 INSERT INTO db: 20261013 Заголовок   with id= 303
+2026/10/13 12:14:27 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 304
+2026/10/13 12:14:27 INSERT INTO db: 20261014 Уроки  d 10 with id= 305
+2026/10/13 12:14:27 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 306
+2026/10/13 12:14:27 INSERT INTO db: 20261013 Фитнес  d 1 with id= 307
+2026/10/13 12:14:27 INSERT INTO db: 20261013 Шмитнес   with id= 308
+2026/10/13 12:14:27 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 309
+2026/10/13 12:14:27 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 12:14:27 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 12:14:27 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 12:14:27 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 12:14:27 mode 'd' needs one positive number
+2026/10/13 12:14:27 wrong repTimes format
+2026/10/13 12:14:27 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 311
+2026/10/13 12:14:27 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:14:27 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:14:27 Task found: 311, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 12:14:27 &{311 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 12:14:27 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 312
+2026/10/13 12:14:27 UpdateTask: no updates for id 
+2026/10/13 12:14:27 putTask erroe: no updates for id= 
+2026/10/13 12:14:27 UpdateTask: no updates for id abc
+2026/10/13 12:14:27 putTask erroe: no updates for id= abc
+2026/10/13 12:14:27 UpdateTask: no updates for id 7645346343
+2026/10/13 12:14:27 putTask erroe: no updates for id= 7645346343
+2026/10/13 12:14:27 updated task: {312 20240129   } with id= 312
+2026/10/13 12:14:27 updated task: {312 20240192 Qwerty  } with id= 312
+2026/10/13 12:14:27 updated task: {312 28.01.2024 Заголовок  } with id= 312
+2026/10/13 12:14:27 updated task: {312 20240212 Заголовок  ooops} with id= 312
+2026/10/13 12:14:27 updated task: {312 20261013 Заказать хинкали в 18:00 d 7} with id= 312
+2026/10/13 12:14:27 INSERT INTO db: 20261013 Свести баланс   with id= 313
+2026/10/13 12:14:27 Task found: 313, 20261013, Свести баланс, , 
+2026/10/13 12:14:27 deleted task with id= 313
+2026/10/13 12:14:27 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:14:27 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:14:28 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 314
+2026/10/13 12:14:28 Task found: 314, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 12:14:28 updated task: {314 20261016 Проверить работу /api/task/done  d 3} with id= 314
+2026/10/13 12:14:28 deleted task with id= 314
+2026/10/13 12:14:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:14:28 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:14:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:14:28 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:14:28 INSERT INTO db: 20261013 Временная задача  d 3 with id= 315
+2026/10/13 12:14:28 Task found: 315, 20261013, Временная задача, , d 3
+2026/10/13 12:14:28 updated task: {315 20261016 Временная задача  d 3} with id= 315
+2026/10/13 12:14:28 deleted task with id= 315
+2026/10/13 12:14:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:14:28 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:14:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:14:28 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:14:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:14:28 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:14:28 
+2026/10/13 12:14:28 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 316
+2026/10/13 12:14:28 INSERT INTO db: 20261014 Сходить в бассейн   with id= 317
+2026/10/13 12:14:28 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 318
+2026/10/13 12:14:28 
+2026/10/13 12:14:28 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 319
+2026/10/13 12:14:28 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 320
+2026/10/13 12:14:28 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 321
+2026/10/13 12:14:28 
+2026/10/13 12:14:28 УК
+2026/10/13 12:14:28 16.10.2026
+2026/10/13 12:23:00 Init db
+2026/10/13 12:23:01 Init routs
+2026/10/13 12:23:01 Server starting on localhost:7540
+2026/10/13 12:23:33 task.Title emtpy
+2026/10/13 12:23:33 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 12:23:33 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 12:23:33 mode 'w' needs up to 7 reps
+2026/10/13 12:23:33 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 12:23:33 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 12:23:33 INSERT INTO db: 20261013 Заголовок   with id= 322
+2026/10/13 12:23:33 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 323
+2026/10/13 12:23:33 INSERT INTO db: 20261014 Уроки  d 10 with id= 324
+2026/10/13 12:23:33 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 325
+2026/10/13 12:23:33 INSERT INTO db: 20261013 Фитнес  d 1 with id= 326
+2026/10/13 12:23:33 INSERT INTO db: 20261013 Шмитнес   with id= 327
+2026/10/13 12:23:33 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 328
+2026/10/13 12:23:33 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 12:23:33 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 12:23:33 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 12:23:33 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 12:23:33 mode 'd' needs one positive number
+2026/10/13 12:23:33 wrong repTimes format
+2026/10/13 12:23:33 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 330
+2026/10/13 12:23:33 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:23:33 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:23:33 Task found: 330, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 12:23:33 &{330 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 12:23:33 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 331
+2026/10/13 12:23:33 UpdateTask: no updates for id 
+2026/10/13 12:23:33 putTask erroe: no updates for id= 
+2026/10/13 12:23:33 UpdateTask: no updates for id abc
+2026/10/13 12:23:33 putTask erroe: no updates for id= abc
+2026/10/13 12:23:33 UpdateTask: no updates for id 7645346343
+2026/10/13 12:23:33 putTask erroe: no updates for id= 7645346343
+2026/10/13 12:23:33 updated task: {331 20240129   } with id= 331
+2026/10/13 12:23:33 updated task: {331 20240192 Qwerty  } with id= 331
+2026/10/13 12:23:33 updated task: {331 28.01.2024 Заголовок  } with id= 331
+2026/10/13 12:23:34 updated task: {331 20240212 Заголовок  ooops} with id= 331
+2026/10/13 12:23:34 updated task: {331 20261013 Заказать хинкали в 18:00 d 7} with id= 331
+2026/10/13 12:23:34 INSERT INTO db: 20261013 Свести баланс   with id= 332
+2026/10/13 12:23:34 Task found: 332, 20261013, Свести баланс, , 
+2026/10/13 12:23:34 deleted task with id= 332
+2026/10/13 12:23:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:23:34 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:23:34 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 333
+2026/10/13 12:23:34 Task found: 333, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 12:23:34 updated task: {333 20261016 Проверить работу /api/task/done  d 3} with id= 333
+2026/10/13 12:23:34 deleted task with id= 333
+2026/10/13 12:23:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:23:34 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:23:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:23:34 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:23:34 INSERT INTO db: 20261013 Временная задача  d 3 with id= 334
+2026/10/13 12:23:34 Task found: 334, 20261013, Временная задача, , d 3
+2026/10/13 12:23:34 updated task: {334 20261016 Временная задача  d 3} with id= 334
+2026/10/13 12:23:34 deleted task with id= 334
+2026/10/13 12:23:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:23:34 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:23:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:23:34 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:23:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:23:34 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:23:34 
+2026/10/13 12:23:34 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 335
+2026/10/13 12:23:34 INSERT INTO db: 20261014 Сходить в бассейн   with id= 336
+2026/10/13 12:23:34 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 337
+2026/10/13 12:23:34 
+2026/10/13 12:23:34 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 338
+2026/10/13 12:23:34 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 339
+2026/10/13 12:23:34 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 340
+2026/10/13 12:23:34 
+2026/10/13 12:23:34 УК
+2026/10/13 12:23:34 16.10.2026
+2026/10/13 12:25:38 Init db
+2026/10/13 12:25:38 Init routs
+2026/10/13 12:25:38 Server starting on localhost:7540
+2026/10/13 12:25:43 task.Title emtpy
+2026/10/13 12:25:43 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 12:25:43 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 12:25:43 mode 'w' needs up to 7 reps
+2026/10/13 12:25:43 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 12:25:43 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Заголовок   with id= 341
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 342
+2026/10/13 12:25:43 INSERT INTO db: 20261014 Уроки  d 10 with id= 343
+2026/10/13 12:25:43 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 344
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Фитнес  d 1 with id= 345
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Шмитнес   with id= 346
+2026/10/13 12:25:43 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 347
+2026/10/13 12:25:43 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 12:25:43 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 12:25:43 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 12:25:43 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 12:25:43 mode 'd' needs one positive number
+2026/10/13 12:25:43 wrong repTimes format
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 349
+2026/10/13 12:25:43 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:25:43 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:25:43 Task found: 349, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 12:25:43 &{349 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 350
+2026/10/13 12:25:43 UpdateTask: no updates for id 
+2026/10/13 12:25:43 putTask erroe: no updates for id= 
+2026/10/13 12:25:43 UpdateTask: no updates for id abc
+2026/10/13 12:25:43 putTask erroe: no updates for id= abc
+2026/10/13 12:25:43 UpdateTask: no updates for id 7645346343
+2026/10/13 12:25:43 putTask erroe: no updates for id= 7645346343
+2026/10/13 12:25:43 updated task: {350 20240129   } with id= 350
+2026/10/13 12:25:43 updated task: {350 20240192 Qwerty  } with id= 350
+2026/10/13 12:25:43 updated task: {350 28.01.2024 Заголовок  } with id= 350
+2026/10/13 12:25:43 updated task: {350 20240212 Заголовок  ooops} with id= 350
+2026/10/13 12:25:43 updated task: {350 20261013 Заказать хинкали в 18:00 d 7} with id= 350
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Свести баланс   with id= 351
+2026/10/13 12:25:43 Task found: 351, 20261013, Свести баланс, , 
+2026/10/13 12:25:43 deleted task with id= 351
+2026/10/13 12:25:43 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:25:43 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 352
+2026/10/13 12:25:43 Task found: 352, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 12:25:43 updated task: {352 20261016 Проверить работу /api/task/done  d 3} with id= 352
+2026/10/13 12:25:43 deleted task with id= 352
+2026/10/13 12:25:43 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:25:43 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:25:43 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:25:43 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Временная задача  d 3 with id= 353
+2026/10/13 12:25:43 Task found: 353, 20261013, Временная задача, , d 3
+2026/10/13 12:25:43 updated task: {353 20261016 Временная задача  d 3} with id= 353
+2026/10/13 12:25:43 deleted task with id= 353
+2026/10/13 12:25:43 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:25:43 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:25:43 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:25:43 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:25:43 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:25:43 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:25:43 
+2026/10/13 12:25:43 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 354
+2026/10/13 12:25:43 INSERT INTO db: 20261014 Сходить в бассейн   with id= 355
+2026/10/13 12:25:43 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 356
+2026/10/13 12:25:43 
+2026/10/13 12:25:43 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 357
+2026/10/13 12:25:43 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 358
+2026/10/13 12:25:43 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 359
+2026/10/13 12:25:43 
+2026/10/13 12:25:43 УК
+2026/10/13 12:25:43 16.10.2026
+2026/10/13 12:47:04 Init db
+2026/10/13 12:47:04 Init routs
+2026/10/13 12:47:04 Server starting on localhost:7540
+2026/10/13 12:47:26 task.Title emtpy
+2026/10/13 12:47:26 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 12:47:26 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 12:47:26 mode 'w' needs up to 7 reps
+2026/10/13 12:47:26 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 12:47:26 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Заголовок   with id= 361
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 362
+2026/10/13 12:47:26 INSERT INTO db: 20261014 Уроки  d 10 with id= 363
+2026/10/13 12:47:26 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 364
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Фитнес  d 1 with id= 365
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Шмитнес   with id= 366
+2026/10/13 12:47:26 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 367
+2026/10/13 12:47:26 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 12:47:26 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 12:47:26 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 12:47:26 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 12:47:26 mode 'd' needs one positive number
+2026/10/13 12:47:26 wrong repTimes format
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 369
+2026/10/13 12:47:26 Task found: 369, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 12:47:26 &{369 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 370
+2026/10/13 12:47:26 UpdateTask: no updates for id 
+2026/10/13 12:47:26 putTask erroe: no updates for id= 
+2026/10/13 12:47:26 UpdateTask: no updates for id abc
+2026/10/13 12:47:26 putTask erroe: no updates for id= abc
+2026/10/13 12:47:26 UpdateTask: no updates for id 7645346343
+2026/10/13 12:47:26 putTask erroe: no updates for id= 7645346343
+2026/10/13 12:47:26 updated task: {370 20240129   } with id= 370
+2026/10/13 12:47:26 updated task: {370 20240192 Qwerty  } with id= 370
+2026/10/13 12:47:26 updated task: {370 28.01.2024 Заголовок  } with id= 370
+2026/10/13 12:47:26 updated task: {370 20240212 Заголовок  ooops} with id= 370
+2026/10/13 12:47:26 updated task: {370 20261013 Заказать хинкали в 18:00 d 7} with id= 370
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Свести баланс   with id= 371
+2026/10/13 12:47:26 Task found: 371, 20261013, Свести баланс, , 
+2026/10/13 12:47:26 deleted task with id= 371
+2026/10/13 12:47:26 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:47:26 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 372
+2026/10/13 12:47:26 Task found: 372, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 12:47:26 updated task: {372 20261016 Проверить работу /api/task/done  d 3} with id= 372
+2026/10/13 12:47:26 deleted task with id= 372
+2026/10/13 12:47:26 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:47:26 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:47:26 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:47:26 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Временная задача  d 3 with id= 373
+2026/10/13 12:47:26 Task found: 373, 20261013, Временная задача, , d 3
+2026/10/13 12:47:26 updated task: {373 20261016 Временная задача  d 3} with id= 373
+2026/10/13 12:47:26 deleted task with id= 373
+2026/10/13 12:47:26 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:47:26 editTaskHandler error: sql: no rows in result set
+2026/10/13 12:47:26 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:47:26 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:47:26 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 12:47:26 doneTaskHandler error: sql: no rows in result set
+2026/10/13 12:47:26 
+2026/10/13 12:47:26 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 374
+2026/10/13 12:47:26 INSERT INTO db: 20261014 Сходить в бассейн   with id= 375
+2026/10/13 12:47:26 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 376
+2026/10/13 12:47:26 
+2026/10/13 12:47:26 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 377
+2026/10/13 12:47:26 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 378
+2026/10/13 12:47:26 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 379
+2026/10/13 12:47:26 
+2026/10/13 12:47:26 УК
+2026/10/13 12:47:26 16.10.2026
+2026/10/13 14:05:42 Init db
+2026/10/13 14:05:42 Init routs
+2026/10/13 14:05:42 Server starting on localhost:7540
+2026/10/13 14:05:54 task.Title emtpy
+2026/10/13 14:05:54 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 14:05:54 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 14:05:54 mode 'w' needs up to 7 reps
+2026/10/13 14:05:54 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 14:05:54 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 14:05:54 INSERT INTO db: 20261013 Заголовок   with id= 380
+2026/10/13 14:05:54 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 381
+2026/10/13 14:05:54 INSERT INTO db: 20261014 Уроки  d 10 with id= 382
+2026/10/13 14:05:54 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 383
+2026/10/13 14:05:54 INSERT INTO db: 20261013 Фитнес  d 1 with id= 384
+2026/10/13 14:05:54 INSERT INTO db: 20261013 Шмитнес   with id= 385
+2026/10/13 14:05:54 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 386
+2026/10/13 14:05:55 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 14:05:55 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 14:05:55 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 14:05:55 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 14:05:55 mode 'd' needs one positive number
+2026/10/13 14:05:55 wrong repTimes format
+2026/10/13 14:05:55 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 388
+2026/10/13 14:05:55 Task found: 388, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 14:05:55 &{388 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 14:05:55 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 389
+2026/10/13 14:05:55 UpdateTask: no updates for id 
+2026/10/13 14:05:55 putTask erroe: no updates for id= 
+2026/10/13 14:05:55 UpdateTask: no updates for id abc
+2026/10/13 14:05:55 putTask erroe: no updates for id= abc
+2026/10/13 14:05:55 UpdateTask: no updates for id 7645346343
+2026/10/13 14:05:55 putTask erroe: no updates for id= 7645346343
+2026/10/13 14:05:55 updated task: {389 20240129   } with id= 389
+2026/10/13 14:05:55 updated task: {389 20240192 Qwerty  } with id= 389
+2026/10/13 14:05:55 updated task: {389 28.01.2024 Заголовок  } with id= 389
+2026/10/13 14:05:55 updated task: {389 20240212 Заголовок  ooops} with id= 389
+2026/10/13 14:05:55 updated task: {389 20261013 Заказать хинкали в 18:00 d 7} with id= 389
+2026/10/13 14:05:55 INSERT INTO db: 20261013 Свести баланс   with id= 390
+2026/10/13 14:05:55 Task found: 390, 20261013, Свести баланс, , 
+2026/10/13 14:05:55 deleted task with id= 390
+2026/10/13 14:05:55 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:05:55 editTaskHandler error: sql: no rows in result set
+2026/10/13 14:05:55 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 391
+2026/10/13 14:05:55 Task found: 391, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 14:05:55 updated task: {391 20261016 Проверить работу /api/task/done  d 3} with id= 391
+2026/10/13 14:05:55 deleted task with id= 391
+2026/10/13 14:05:55 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:05:55 doneTaskHandler error: sql: no rows in result set
+2026/10/13 14:05:55 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:05:55 doneTaskHandler error: sql: no rows in result set
+2026/10/13 14:05:55 INSERT INTO db: 20261013 Временная задача  d 3 with id= 392
+2026/10/13 14:05:55 deleted task with id= 392
+2026/10/13 14:05:55 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:05:55 editTaskHandler error: sql: no rows in result set
+2026/10/13 14:05:55 missing id in deleteTaskHandler
+2026/10/13 14:05:55 DeleteTask: no task found for id wjhgese
+2026/10/13 14:05:55 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/13 14:05:55 
+2026/10/13 14:05:55 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 393
+2026/10/13 14:05:55 INSERT INTO db: 20261014 Сходить в бассейн   with id= 394
+2026/10/13 14:05:55 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 395
+2026/10/13 14:05:55 
+2026/10/13 14:05:55 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 396
+2026/10/13 14:05:55 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 397
+2026/10/13 14:05:55 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 398
+2026/10/13 14:05:55 
+2026/10/13 14:05:55 УК
+2026/10/13 14:05:55 16.10.2026
+2026/10/13 14:18:59 Init db
+2026/10/13 14:18:59 Init routs
+2026/10/13 14:18:59 Server starting on localhost:7540
+2026/10/13 14:19:20 task.Title emtpy
+2026/10/13 14:19:20 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 14:19:20 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 14:19:20 mode 'w' needs up to 7 reps
+2026/10/13 14:19:20 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 14:19:20 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 14:19:20 INSERT INTO db: 20261013 Заголовок   with id= 400
+2026/10/13 14:19:20 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 401
+2026/10/13 14:19:20 INSERT INTO db: 20261014 Уроки  d 10 with id= 402
+2026/10/13 14:19:20 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 403
+2026/10/13 14:19:20 INSERT INTO db: 20261013 Фитнес  d 1 with id= 404
+2026/10/13 14:19:20 INSERT INTO db: 20261013 Шмитнес   with id= 405
+2026/10/13 14:19:20 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 406
+2026/10/13 14:19:20 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 14:19:20 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 14:19:20 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 14:19:20 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 14:19:20 mode 'd' needs one positive number
+2026/10/13 14:19:20 wrong repTimes format
+2026/10/13 14:19:20 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 408
+2026/10/13 14:19:20 Task found: 408, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 14:19:20 &{408 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 14:19:20 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 409
+2026/10/13 14:19:21 UpdateTask: no updates for id 
+2026/10/13 14:19:21 putTask erroe: no updates for id= 
+2026/10/13 14:19:21 UpdateTask: no updates for id abc
+2026/10/13 14:19:21 putTask erroe: no updates for id= abc
+2026/10/13 14:19:21 UpdateTask: no updates for id 7645346343
+2026/10/13 14:19:21 putTask erroe: no updates for id= 7645346343
+2026/10/13 14:19:21 updated task: {409 20240129   } with id= 409
+2026/10/13 14:19:21 updated task: {409 20240192 Qwerty  } with id= 409
+2026/10/13 14:19:21 updated task: {409 28.01.2024 Заголовок  } with id= 409
+2026/10/13 14:19:21 updated task: {409 20240212 Заголовок  ooops} with id= 409
+2026/10/13 14:19:21 updated task: {409 20261013 Заказать хинкали в 18:00 d 7} with id= 409
+2026/10/13 14:19:21 INSERT INTO db: 20261013 Свести баланс   with id= 410
+2026/10/13 14:19:21 Task found: 410, 20261013, Свести баланс, , 
+2026/10/13 14:19:21 deleted task with id= 410
+2026/10/13 14:19:21 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:19:21 editTaskHandler error: sql: no rows in result set
+2026/10/13 14:19:21 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 411
+2026/10/13 14:19:21 Task found: 411, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 14:19:21 updated task: {411 20261016 Проверить работу /api/task/done  d 3} with id= 411
+2026/10/13 14:19:21 deleted task with id= 411
+2026/10/13 14:19:21 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:19:21 doneTaskHandler error: sql: no rows in result set
+2026/10/13 14:19:21 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:19:21 doneTaskHandler error: sql: no rows in result set
+2026/10/13 14:19:21 INSERT INTO db: 20261013 Временная задача  d 3 with id= 412
+2026/10/13 14:19:21 deleted task with id= 412
+2026/10/13 14:19:21 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:19:21 editTaskHandler error: sql: no rows in result set
+2026/10/13 14:19:21 missing id in deleteTaskHandler
+2026/10/13 14:19:21 DeleteTask: no task found for id wjhgese
+2026/10/13 14:19:21 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/13 14:19:21 
+2026/10/13 14:19:21 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 413
+2026/10/13 14:19:21 INSERT INTO db: 20261014 Сходить в бассейн   with id= 414
+2026/10/13 14:19:21 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 415
+2026/10/13 14:19:21 
+2026/10/13 14:19:21 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 416
+2026/10/13 14:19:21 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 417
+2026/10/13 14:19:21 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 418
+2026/10/13 14:19:21 
+2026/10/13 14:19:21 УК
+2026/10/13 14:19:21 16.10.2026
+2026/10/13 14:26:39 Init db
+2026/10/13 14:26:39 Init routs
+2026/10/13 14:26:39 Server starting on localhost:7540
+2026/10/13 14:27:10 task.Title emtpy
+2026/10/13 14:27:10 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 14:27:10 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 14:27:10 mode 'w' needs up to 7 reps
+2026/10/13 14:27:10 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 14:27:10 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Заголовок   with id= 419
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 420
+2026/10/13 14:27:10 INSERT INTO db: 20261014 Уроки  d 10 with id= 421
+2026/10/13 14:27:10 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 422
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Фитнес  d 1 with id= 423
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Шмитнес   with id= 424
+2026/10/13 14:27:10 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 425
+2026/10/13 14:27:10 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 14:27:10 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 14:27:10 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 14:27:10 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 14:27:10 mode 'd' needs one positive number
+2026/10/13 14:27:10 wrong repTimes format
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 427
+2026/10/13 14:27:10 Task found: 427, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 14:27:10 &{427 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 428
+2026/10/13 14:27:10 UpdateTask: no updates for id 
+2026/10/13 14:27:10 putTask erroe: no updates for id= 
+2026/10/13 14:27:10 UpdateTask: no updates for id abc
+2026/10/13 14:27:10 putTask erroe: no updates for id= abc
+2026/10/13 14:27:10 UpdateTask: no updates for id 7645346343
+2026/10/13 14:27:10 putTask erroe: no updates for id= 7645346343
+2026/10/13 14:27:10 updated task: {428 20240129   } with id= 428
+2026/10/13 14:27:10 updated task: {428 20240192 Qwerty  } with id= 428
+2026/10/13 14:27:10 updated task: {428 28.01.2024 Заголовок  } with id= 428
+2026/10/13 14:27:10 updated task: {428 20240212 Заголовок  ooops} with id= 428
+2026/10/13 14:27:10 updated task: {428 20261013 Заказать хинкали в 18:00 d 7} with id= 428
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Свести баланс   with id= 429
+2026/10/13 14:27:10 Task found: 429, 20261013, Свести баланс, , 
+2026/10/13 14:27:10 deleted task with id= 429
+2026/10/13 14:27:10 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:27:10 editTaskHandler error: sql: no rows in result set
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 430
+2026/10/13 14:27:10 Task found: 430, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 14:27:10 updated task: {430 20261016 Проверить работу /api/task/done  d 3} with id= 430
+2026/10/13 14:27:10 deleted task with id= 430
+2026/10/13 14:27:10 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:27:10 doneTaskHandler error: sql: no rows in result set
+2026/10/13 14:27:10 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:27:10 doneTaskHandler error: sql: no rows in result set
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Временная задача  d 3 with id= 431
+2026/10/13 14:27:10 deleted task with id= 431
+2026/10/13 14:27:10 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 14:27:10 editTaskHandler error: sql: no rows in result set
+2026/10/13 14:27:10 missing id in deleteTaskHandler
+2026/10/13 14:27:10 DeleteTask: no task found for id wjhgese
+2026/10/13 14:27:10 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/13 14:27:10 
+2026/10/13 14:27:10 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 432
+2026/10/13 14:27:10 INSERT INTO db: 20261014 Сходить в бассейн   with id= 433
+2026/10/13 14:27:10 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 434
+2026/10/13 14:27:10 
+2026/10/13 14:27:10 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 435
+2026/10/13 14:27:10 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 436
+2026/10/13 14:27:10 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 437
+2026/10/13 14:27:10 
+2026/10/13 14:27:10 УК
+2026/10/13 14:27:10 16.10.2026
+2026/10/13 15:11:20 Init db
+2026/10/13 15:11:20 Init routs
+2026/10/13 15:11:20 Server starting on localhost:7540
+2026/10/13 15:11:40 task.Title emtpy
+2026/10/13 15:11:40 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 15:11:40 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 15:11:40 mode 'w' needs up to 7 reps
+2026/10/13 15:11:40 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 15:11:40 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Заголовок   with id= 438
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 439
+2026/10/13 15:11:40 INSERT INTO db: 20261014 Уроки  d 10 with id= 440
+2026/10/13 15:11:40 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 441
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Фитнес  d 1 with id= 442
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Шмитнес   with id= 443
+2026/10/13 15:11:40 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 444
+2026/10/13 15:11:40 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 15:11:40 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 15:11:40 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 15:11:40 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 15:11:40 mode 'd' needs one positive number
+2026/10/13 15:11:40 wrong repTimes format
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 446
+2026/10/13 15:11:40 Task found: 446, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 15:11:40 &{446 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 447
+2026/10/13 15:11:40 UpdateTask: no updates for id 
+2026/10/13 15:11:40 putTask erroe: no updates for id= 
+2026/10/13 15:11:40 UpdateTask: no updates for id abc
+2026/10/13 15:11:40 putTask erroe: no updates for id= abc
+2026/10/13 15:11:40 UpdateTask: no updates for id 7645346343
+2026/10/13 15:11:40 putTask erroe: no updates for id= 7645346343
+2026/10/13 15:11:40 updated task: {447 20240129   } with id= 447
+2026/10/13 15:11:40 updated task: {447 20240192 Qwerty  } with id= 447
+2026/10/13 15:11:40 updated task: {447 28.01.2024 Заголовок  } with id= 447
+2026/10/13 15:11:40 updated task: {447 20240212 Заголовок  ooops} with id= 447
+2026/10/13 15:11:40 updated task: {447 20261013 Заказать хинкали в 18:00 d 7} with id= 447
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Свести баланс   with id= 448
+2026/10/13 15:11:40 Task found: 448, 20261013, Свести баланс, , 
+2026/10/13 15:11:40 deleted task with id= 448
+2026/10/13 15:11:40 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:11:40 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 449
+2026/10/13 15:11:40 Task found: 449, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 15:11:40 updated task: {449 20261016 Проверить работу /api/task/done  d 3} with id= 449
+2026/10/13 15:11:40 deleted task with id= 449
+2026/10/13 15:11:40 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:11:40 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:11:40 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:11:40 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Временная задача  d 3 with id= 450
+2026/10/13 15:11:40 deleted task with id= 450
+2026/10/13 15:11:40 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:11:40 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:11:40 missing id in deleteTaskHandler
+2026/10/13 15:11:40 DeleteTask: no task found for id wjhgese
+2026/10/13 15:11:40 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/13 15:11:40 
+2026/10/13 15:11:40 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 451
+2026/10/13 15:11:40 INSERT INTO db: 20261014 Сходить в бассейн   with id= 452
+2026/10/13 15:11:40 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 453
+2026/10/13 15:11:40 
+2026/10/13 15:11:40 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 454
+2026/10/13 15:11:40 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 455
+2026/10/13 15:11:40 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 456
+2026/10/13 15:11:40 
+2026/10/13 15:11:40 УК
+2026/10/13 15:11:40 16.10.2026
+2026/10/13 15:18:37 Init db
+2026/10/13 15:18:37 Init routs
+2026/10/13 15:18:37 Server starting on localhost:7540
+2026/10/13 15:18:47 task.Title emtpy
+2026/10/13 15:18:47 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 15:18:47 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 15:18:47 mode 'w' needs up to 7 reps
+2026/10/13 15:18:47 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 15:18:47 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 15:18:47 INSERT INTO db: 20261013 Заголовок   with id= 457
+2026/10/13 15:18:47 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 458
+2026/10/13 15:18:47 INSERT INTO db: 20261014 Уроки  d 10 with id= 459
+2026/10/13 15:18:47 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 460
+2026/10/13 15:18:47 INSERT INTO db: 20261013 Фитнес  d 1 with id= 461
+2026/10/13 15:18:48 INSERT INTO db: 20261013 Шмитнес   with id= 462
+2026/10/13 15:18:48 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 463
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 mode 'd' needs one positive number
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 wrong repTimes format
+2026/10/13 15:18:48 error at NextDateHandler, nextDateStr
+2026/10/13 15:18:48 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 465
+2026/10/13 15:18:48 Task found: 465, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 15:18:48 &{465 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 15:18:48 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 466
+2026/10/13 15:18:48 UpdateTask: no updates for id 
+2026/10/13 15:18:48 putTask erroe: no updates for id= 
+2026/10/13 15:18:48 UpdateTask: no updates for id abc
+2026/10/13 15:18:48 putTask erroe: no updates for id= abc
+2026/10/13 15:18:48 UpdateTask: no updates for id 7645346343
+2026/10/13 15:18:48 putTask erroe: no updates for id= 7645346343
+2026/10/13 15:18:48 updated task: {466 20240129   } with id= 466
+2026/10/13 15:18:48 updated task: {466 20240192 Qwerty  } with id= 466
+2026/10/13 15:18:48 updated task: {466 28.01.2024 Заголовок  } with id= 466
+2026/10/13 15:18:48 updated task: {466 20240212 Заголовок  ooops} with id= 466
+2026/10/13 15:18:48 updated task: {466 20261013 Заказать хинкали в 18:00 d 7} with id= 466
+2026/10/13 15:18:48 INSERT INTO db: 20261013 Свести баланс   with id= 467
+2026/10/13 15:18:48 Task found: 467, 20261013, Свести баланс, , 
+2026/10/13 15:18:48 deleted task with id= 467
+2026/10/13 15:18:48 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:18:48 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:18:48 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 468
+2026/10/13 15:18:48 Task found: 468, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 15:18:48 updated task: {468 20261016 Проверить работу /api/task/done  d 3} with id= 468
+2026/10/13 15:18:48 deleted task with id= 468
+2026/10/13 15:18:48 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:18:48 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:18:48 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:18:48 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:18:48 INSERT INTO db: 20261013 Временная задача  d 3 with id= 469
+2026/10/13 15:18:48 deleted task with id= 469
+2026/10/13 15:18:48 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:18:48 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:18:48 missing id in deleteTaskHandler
+2026/10/13 15:18:48 DeleteTask: no task found for id wjhgese
+2026/10/13 15:18:48 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/13 15:18:48 
+2026/10/13 15:18:48 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 470
+2026/10/13 15:18:48 INSERT INTO db: 20261014 Сходить в бассейн   with id= 471
+2026/10/13 15:18:48 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 472
+2026/10/13 15:18:48 
+2026/10/13 15:18:48 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 473
+2026/10/13 15:18:48 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 474
+2026/10/13 15:18:48 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 475
+2026/10/13 15:18:48 
+2026/10/13 15:18:48 УК
+2026/10/13 15:18:48 16.10.2026
+2026/10/13 15:29:46 Init db
+2026/10/13 15:29:46 Init routs
+2026/10/13 15:29:46 Server starting on localhost:7540
+2026/10/13 15:29:51 task.Title emtpy
+2026/10/13 15:29:51 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 15:29:51 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 15:29:51 mode 'w' needs up to 7 reps
+2026/10/13 15:29:51 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 15:29:51 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Заголовок   with id= 476
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 477
+2026/10/13 15:29:51 INSERT INTO db: 20261014 Уроки  d 10 with id= 478
+2026/10/13 15:29:51 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 479
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Фитнес  d 1 with id= 480
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Шмитнес   with id= 481
+2026/10/13 15:29:51 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 482
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 mode 'd' needs one positive number
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 wrong repTimes format
+2026/10/13 15:29:51 error at NextDateHandler, nextDateStr
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 484
+2026/10/13 15:29:51 Task found: 484, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 15:29:51 &{484 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 485
+2026/10/13 15:29:51 UpdateTask: no updates for id 
+2026/10/13 15:29:51 putTask erroe: no updates for id= 
+2026/10/13 15:29:51 UpdateTask: no updates for id abc
+2026/10/13 15:29:51 putTask erroe: no updates for id= abc
+2026/10/13 15:29:51 UpdateTask: no updates for id 7645346343
+2026/10/13 15:29:51 putTask erroe: no updates for id= 7645346343
+2026/10/13 15:29:51 updated task: {485 20240129   } with id= 485
+2026/10/13 15:29:51 updated task: {485 20240192 Qwerty  } with id= 485
+2026/10/13 15:29:51 updated task: {485 28.01.2024 Заголовок  } with id= 485
+2026/10/13 15:29:51 updated task: {485 20240212 Заголовок  ooops} with id= 485
+2026/10/13 15:29:51 updated task: {485 20261013 Заказать хинкали в 18:00 d 7} with id= 485
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Свести баланс   with id= 486
+2026/10/13 15:29:51 Task found: 486, 20261013, Свести баланс, , 
+2026/10/13 15:29:51 deleted task with id= 486
+2026/10/13 15:29:51 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:29:51 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 487
+2026/10/13 15:29:51 Task found: 487, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 15:29:51 updated task: {487 20261016 Проверить работу /api/task/done  d 3} with id= 487
+2026/10/13 15:29:51 deleted task with id= 487
+2026/10/13 15:29:51 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:29:51 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:29:51 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:29:51 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Временная задача  d 3 with id= 488
+2026/10/13 15:29:51 deleted task with id= 488
+2026/10/13 15:29:51 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:29:51 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:29:51 missing id in deleteTaskHandler
+2026/10/13 15:29:51 DeleteTask: no task found for id wjhgese
+2026/10/13 15:29:51 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/13 15:29:51 
+2026/10/13 15:29:51 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 489
+2026/10/13 15:29:51 INSERT INTO db: 20261014 Сходить в бассейн   with id= 490
+2026/10/13 15:29:51 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 491
+2026/10/13 15:29:51 
+2026/10/13 15:29:51 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 492
+2026/10/13 15:29:51 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 493
+2026/10/13 15:29:51 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 494
+2026/10/13 15:29:51 
+2026/10/13 15:29:51 УК
+2026/10/13 15:29:51 16.10.2026
+2026/10/13 15:35:07 Init db
+2026/10/13 15:35:07 Init routs
+2026/10/13 15:35:07 Server starting on localhost:7540
+2026/10/13 15:35:12 task.Title emtpy
+2026/10/13 15:35:12 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/13 15:35:12 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/13 15:35:12 mode 'w' needs up to 7 reps
+2026/10/13 15:35:12 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/13 15:35:12 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Заголовок   with id= 495
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Сделать что-нибудь Хорошо отдохнуть  with id= 496
+2026/10/13 15:35:12 INSERT INTO db: 20261014 Уроки  d 10 with id= 497
+2026/10/13 15:35:12 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 498
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Фитнес  d 1 with id= 499
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Шмитнес   with id= 500
+2026/10/13 15:35:12 INSERT INTO db: 20261014 Сходить в магазин  w 1,3,5 with id= 501
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 dstart parse err: parsing time "15000156": day out of range
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 mode 'd' needs one positive number
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 wrong repTimes format
+2026/10/13 15:35:12 error at NextDateHandler, nextDateStr
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Созвон в 16:00 Обсуждение планов d 5 with id= 503
+2026/10/13 15:35:12 Task found: 503, 20261013, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/13 15:35:12 &{503 20261013 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Заказать пиццу в 17:00  with id= 504
+2026/10/13 15:35:12 UpdateTask: no updates for id 
+2026/10/13 15:35:12 putTask erroe: no updates for id= 
+2026/10/13 15:35:12 UpdateTask: no updates for id abc
+2026/10/13 15:35:12 putTask erroe: no updates for id= abc
+2026/10/13 15:35:12 UpdateTask: no updates for id 7645346343
+2026/10/13 15:35:12 putTask erroe: no updates for id= 7645346343
+2026/10/13 15:35:12 updated task: {504 20240129   } with id= 504
+2026/10/13 15:35:12 updated task: {504 20240192 Qwerty  } with id= 504
+2026/10/13 15:35:12 updated task: {504 28.01.2024 Заголовок  } with id= 504
+2026/10/13 15:35:12 updated task: {504 20240212 Заголовок  ooops} with id= 504
+2026/10/13 15:35:12 updated task: {504 20261013 Заказать хинкали в 18:00 d 7} with id= 504
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Свести баланс   with id= 505
+2026/10/13 15:35:12 Task found: 505, 20261013, Свести баланс, , 
+2026/10/13 15:35:12 deleted task with id= 505
+2026/10/13 15:35:12 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:35:12 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Проверить работу /api/task/done  d 3 with id= 506
+2026/10/13 15:35:12 Task found: 506, 20261013, Проверить работу /api/task/done, , d 3
+2026/10/13 15:35:12 updated task: {506 20261016 Проверить работу /api/task/done  d 3} with id= 506
+2026/10/13 15:35:12 deleted task with id= 506
+2026/10/13 15:35:12 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:35:12 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:35:12 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:35:12 doneTaskHandler error: sql: no rows in result set
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Временная задача  d 3 with id= 507
+2026/10/13 15:35:12 deleted task with id= 507
+2026/10/13 15:35:12 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:35:12 editTaskHandler error: sql: no rows in result set
+2026/10/13 15:35:12 missing id in deleteTaskHandler
+2026/10/13 15:35:12 DeleteTask: no task found for id wjhgese
+2026/10/13 15:35:12 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/13 15:35:12 
+2026/10/13 15:35:12 INSERT INTO db: 20261013 Просмотр фильма с попкорном  with id= 508
+2026/10/13 15:35:12 INSERT INTO db: 20261014 Сходить в бассейн   with id= 509
+2026/10/13 15:35:12 INSERT INTO db: 20261014 Оплатить коммуналку  d 30 with id= 510
+2026/10/13 15:35:12 
+2026/10/13 15:35:13 INSERT INTO db: 20261016 Поплавать Бассейн с тренером d 7 with id= 511
+2026/10/13 15:35:13 INSERT INTO db: 20261016 Позвонить в УК Разобраться с горячей водой  with id= 512
+2026/10/13 15:35:13 INSERT INTO db: 20261016 Встретится с Васей в 18:00  with id= 513
+2026/10/13 15:35:13 
+2026/10/13 15:35:13 УК
+2026/10/13 15:35:13 16.10.2026
+2026/10/13 15:39:42 getTaskByID error Scanning: sql: no rows in result set
+2026/10/13 15:39:42 editTaskHandler error: sql: no rows in result set
+2026/10/14 11:23:32 Init db
+2026/10/14 11:23:32 Init routs
+2026/10/14 11:23:32 Server starting on localhost:7540
+2026/10/14 11:23:45 task.Title emtpy
+2026/10/14 11:23:45 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/14 11:23:45 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/14 11:23:45 mode 'w' needs up to 7 reps
+2026/10/14 11:23:45 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/14 11:23:45 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/14 11:23:45 INSERT INTO db: 20261014 Заголовок   with id= 515
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Сделать что-нибудь Хорошо отдохнуть  with id= 516
+2026/10/14 11:23:46 INSERT INTO db: 20261024 Уроки  d 10 with id= 517
+2026/10/14 11:23:46 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 518
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Фитнес  d 1 with id= 519
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Шмитнес   with id= 520
+2026/10/14 11:23:46 INSERT INTO db: 20261016 Сходить в магазин  w 1,3,5 with id= 521
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 dstart parse err: parsing time "15000156": day out of range
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 mode 'd' needs one positive number
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 wrong repTimes format
+2026/10/14 11:23:46 error at NextDateHandler, nextDateStr
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Созвон в 16:00 Обсуждение планов d 5 with id= 523
+2026/10/14 11:23:46 Task found: 523, 20261014, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/14 11:23:46 &{523 20261014 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Заказать пиццу в 17:00  with id= 524
+2026/10/14 11:23:46 UpdateTask: no updates for id 
+2026/10/14 11:23:46 putTask erroe: no updates for id= 
+2026/10/14 11:23:46 UpdateTask: no updates for id abc
+2026/10/14 11:23:46 putTask erroe: no updates for id= abc
+2026/10/14 11:23:46 UpdateTask: no updates for id 7645346343
+2026/10/14 11:23:46 putTask erroe: no updates for id= 7645346343
+2026/10/14 11:23:46 updated task: {524 20240129   } with id= 524
+2026/10/14 11:23:46 updated task: {524 20240192 Qwerty  } with id= 524
+2026/10/14 11:23:46 updated task: {524 28.01.2024 Заголовок  } with id= 524
+2026/10/14 11:23:46 updated task: {524 20240212 Заголовок  ooops} with id= 524
+2026/10/14 11:23:46 updated task: {524 20261014 Заказать хинкали в 18:00 d 7} with id= 524
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Свести баланс   with id= 525
+2026/10/14 11:23:46 Task found: 525, 20261014, Свести баланс, , 
+2026/10/14 11:23:46 deleted task with id= 525
+2026/10/14 11:23:46 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 11:23:46 editTaskHandler error: sql: no rows in result set
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Проверить работу /api/task/done  d 3 with id= 526
+2026/10/14 11:23:46 Task found: 526, 20261014, Проверить работу /api/task/done, , d 3
+2026/10/14 11:23:46 updated task: {526 20261017 Проверить работу /api/task/done  d 3} with id= 526
+2026/10/14 11:23:46 deleted task with id= 526
+2026/10/14 11:23:46 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 11:23:46 doneTaskHandler error: sql: no rows in result set
+2026/10/14 11:23:46 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 11:23:46 doneTaskHandler error: sql: no rows in result set
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Временная задача  d 3 with id= 527
+2026/10/14 11:23:46 deleted task with id= 527
+2026/10/14 11:23:46 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 11:23:46 editTaskHandler error: sql: no rows in result set
+2026/10/14 11:23:46 missing id in deleteTaskHandler
+2026/10/14 11:23:46 DeleteTask: no task found for id wjhgese
+2026/10/14 11:23:46 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/14 11:23:46 
+2026/10/14 11:23:46 INSERT INTO db: 20261014 Просмотр фильма с попкорном  with id= 528
+2026/10/14 11:23:46 INSERT INTO db: 20261015 Сходить в бассейн   with id= 529
+2026/10/14 11:23:46 INSERT INTO db: 20261015 Оплатить коммуналку  d 30 with id= 530
+2026/10/14 11:23:46 
+2026/10/14 11:23:46 INSERT INTO db: 20261017 Поплавать Бассейн с тренером d 7 with id= 531
+2026/10/14 11:23:46 INSERT INTO db: 20261017 Позвонить в УК Разобраться с горячей водой  with id= 532
+2026/10/14 11:23:46 INSERT INTO db: 20261017 Встретится с Васей в 18:00  with id= 533
+2026/10/14 11:23:46 
+2026/10/14 11:23:46 УК
+2026/10/14 11:23:46 17.10.2026
+2026/10/14 11:46:47 Init db
+2026/10/14 11:46:47 Init routs
+2026/10/14 11:46:47 Server starting on localhost:7540
+2026/10/14 11:46:50 task.Title emtpy
+2026/10/14 11:46:50 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/14 11:46:50 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/14 11:46:50 mode 'w' needs up to 7 reps
+2026/10/14 11:46:50 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/14 11:46:50 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Заголовок   with id= 534
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Сделать что-нибудь Хорошо отдохнуть  with id= 535
+2026/10/14 11:46:50 INSERT INTO db: 20261024 Уроки  d 10 with id= 536
+2026/10/14 11:46:50 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 537
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Фитнес  d 1 with id= 538
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Шмитнес   with id= 539
+2026/10/14 11:46:50 INSERT INTO db: 20261016 Сходить в магазин  w 1,3,5 with id= 540
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 dstart parse err: parsing time "15000156": day out of range
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 mode 'd' needs one positive number
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 wrong repTimes format
+2026/10/14 11:46:50 error at NextDateHandler, nextDateStr
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Созвон в 16:00 Обсуждение планов d 5 with id= 542
+2026/10/14 11:46:50 Task found: 542, 20261014, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/14 11:46:50 &{542 20261014 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Заказать пиццу в 17:00  with id= 543
+2026/10/14 11:46:50 putTask missing id
+2026/10/14 11:46:50 UpdateTask: no updates for id abc
+2026/10/14 11:46:50 putTask error: no updates for id= abc
+2026/10/14 11:46:50 UpdateTask: no updates for id 7645346343
+2026/10/14 11:46:50 putTask error: no updates for id= 7645346343
+2026/10/14 11:46:50 putTask missing title
+2026/10/14 11:46:50 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/14 11:46:50 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/14 11:46:50 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/14 11:46:50 updated task: {543 20261014 Заказать хинкали в 18:00 d 7} with id= 543
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Свести баланс   with id= 544
+2026/10/14 11:46:50 Task found: 544, 20261014, Свести баланс, , 
+2026/10/14 11:46:50 deleted task with id= 544
+2026/10/14 11:46:50 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 11:46:50 editTaskHandler error: sql: no rows in result set
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Проверить работу /api/task/done  d 3 with id= 545
+2026/10/14 11:46:50 Task found: 545, 20261014, Проверить работу /api/task/done, , d 3
+2026/10/14 11:46:50 updated task: {545 20261017 Проверить работу /api/task/done  d 3} with id= 545
+2026/10/14 11:46:50 Task found: 545, 20261017, Проверить работу /api/task/done, , d 3
+2026/10/14 11:46:50 updated task: {545 20261020 Проверить работу /api/task/done  d 3} with id= 545
+2026/10/14 11:46:50 Task found: 545, 20261020, Проверить работу /api/task/done, , d 3
+2026/10/14 11:46:50 updated task: {545 20261023 Проверить работу /api/task/done  d 3} with id= 545
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Временная задача  d 3 with id= 546
+2026/10/14 11:46:50 deleted task with id= 546
+2026/10/14 11:46:50 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 11:46:50 editTaskHandler error: sql: no rows in result set
+2026/10/14 11:46:50 missing id in deleteTaskHandler
+2026/10/14 11:46:50 DeleteTask: no task found for id wjhgese
+2026/10/14 11:46:50 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/14 11:46:50 
+2026/10/14 11:46:50 INSERT INTO db: 20261014 Просмотр фильма с попкорном  with id= 547
+2026/10/14 11:46:50 INSERT INTO db: 20261015 Сходить в бассейн   with id= 548
+2026/10/14 11:46:50 INSERT INTO db: 20261015 Оплатить коммуналку  d 30 with id= 549
+2026/10/14 11:46:50 
+2026/10/14 11:46:50 INSERT INTO db: 20261017 Поплавать Бассейн с тренером d 7 with id= 550
+2026/10/14 11:46:50 INSERT INTO db: 20261017 Позвонить в УК Разобраться с горячей водой  with id= 551
+2026/10/14 11:46:50 INSERT INTO db: 20261017 Встретится с Васей в 18:00  with id= 552
+2026/10/14 11:46:50 
+2026/10/14 11:46:50 УК
+2026/10/14 11:46:50 17.10.2026
+2026/10/14 12:19:01 Init db
+2026/10/14 12:19:02 Init routs
+2026/10/14 12:19:02 Server starting on localhost:7540
+2026/10/14 12:22:53 Init db
+2026/10/14 12:22:53 Init routs
+2026/10/14 12:22:53 Server starting on localhost:7540
+2026/10/14 13:01:34 task.Title emtpy
+2026/10/14 13:01:34 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/14 13:01:34 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/14 13:01:34 mode 'w' needs up to 7 reps
+2026/10/14 13:01:34 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/14 13:01:34 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Заголовок   with id= 553
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Сделать что-нибудь Хорошо отдохнуть  with id= 554
+2026/10/14 13:01:34 INSERT INTO db: 20261024 Уроки  d 10 with id= 555
+2026/10/14 13:01:34 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 556
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Фитнес  d 1 with id= 557
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Шмитнес   with id= 558
+2026/10/14 13:01:34 INSERT INTO db: 20261016 Сходить в магазин  w 1,3,5 with id= 559
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 dstart parse err: parsing time "15000156": day out of range
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 mode 'd' needs one positive number
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 wrong repTimes format
+2026/10/14 13:01:34 error at NextDateHandler, nextDateStr
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Созвон в 16:00 Обсуждение планов d 5 with id= 561
+2026/10/14 13:01:34 Task found: 561, 20261014, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/14 13:01:34 &{561 20261014 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Заказать пиццу в 17:00  with id= 562
+2026/10/14 13:01:34 putTask missing id
+2026/10/14 13:01:34 UpdateTask: no updates for id abc
+2026/10/14 13:01:34 putTask error: no updates for id= abc
+2026/10/14 13:01:34 UpdateTask: no updates for id 7645346343
+2026/10/14 13:01:34 putTask error: no updates for id= 7645346343
+2026/10/14 13:01:34 putTask missing title
+2026/10/14 13:01:34 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/14 13:01:34 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/14 13:01:34 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/14 13:01:34 updated task: {562 20261014 Заказать хинкали в 18:00 d 7} with id= 562
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Свести баланс   with id= 563
+2026/10/14 13:01:34 Task found: 563, 20261014, Свести баланс, , 
+2026/10/14 13:01:34 deleted task with id= 563
+2026/10/14 13:01:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 13:01:34 editTaskHandler error: sql: no rows in result set
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Проверить работу /api/task/done  d 3 with id= 564
+2026/10/14 13:01:34 Task found: 564, 20261014, Проверить работу /api/task/done, , d 3
+2026/10/14 13:01:34 updated task: {564 20261017 Проверить работу /api/task/done  d 3} with id= 564
+2026/10/14 13:01:34 Task found: 564, 20261017, Проверить работу /api/task/done, , d 3
+2026/10/14 13:01:34 updated task: {564 20261020 Проверить работу /api/task/done  d 3} with id= 564
+2026/10/14 13:01:34 Task found: 564, 20261020, Проверить работу /api/task/done, , d 3
+2026/10/14 13:01:34 updated task: {564 20261023 Проверить работу /api/task/done  d 3} with id= 564
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Временная задача  d 3 with id= 565
+2026/10/14 13:01:34 deleted task with id= 565
+2026/10/14 13:01:34 getTaskByID error Scanning: sql: no rows in result set
+2026/10/14 13:01:34 editTaskHandler error: sql: no rows in result set
+2026/10/14 13:01:34 missing id in deleteTaskHandler
+2026/10/14 13:01:34 DeleteTask: no task found for id wjhgese
+2026/10/14 13:01:34 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/14 13:01:34 
+2026/10/14 13:01:34 INSERT INTO db: 20261014 Просмотр фильма с попкорном  with id= 566
+2026/10/14 13:01:34 INSERT INTO db: 20261015 Сходить в бассейн   with id= 567
+2026/10/14 13:01:34 INSERT INTO db: 20261015 Оплатить коммуналку  d 30 with id= 568
+2026/10/14 13:01:34 
+2026/10/14 13:01:34 INSERT INTO db: 20261017 Поплавать Бассейн с тренером d 7 with id= 569
+2026/10/14 13:01:34 INSERT INTO db: 20261017 Позвонить в УК Разобраться с горячей водой  with id= 570
+2026/10/14 13:01:34 INSERT INTO db: 20261017 Встретится с Васей в 18:00  with id= 571
+2026/10/14 13:01:34 
+2026/10/14 13:01:34 УК
+2026/10/14 13:01:34 17.10.2026
+2026/10/15 11:50:13 Init db
+2026/10/15 11:50:13 Init routs
+2026/10/15 11:50:13 Server starting on localhost:7540
+2026/10/15 11:51:10 
+2026/10/15 11:53:52 
+2026/10/15 11:55:58 task.Title emtpy
+2026/10/15 11:55:58 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/15 11:55:58 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/15 11:55:58 mode 'w' needs up to 7 reps
+2026/10/15 11:55:58 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/15 11:55:58 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/15 11:55:58 INSERT INTO db: 20261015 Заголовок   with id= 572
+2026/10/15 11:55:58 INSERT INTO db: 20261015 Сделать что-нибудь Хорошо отдохнуть  with id= 573
+2026/10/15 11:55:58 INSERT INTO db: 20261024 Уроки  d 10 with id= 574
+2026/10/15 11:55:58 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 575
+2026/10/15 11:55:58 INSERT INTO db: 20261015 Фитнес  d 1 with id= 576
+2026/10/15 11:55:58 INSERT INTO db: 20261015 Шмитнес   with id= 577
+2026/10/15 11:55:58 INSERT INTO db: 20261016 Сходить в магазин  w 1,3,5 with id= 578
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 dstart parse err: parsing time "15000156": day out of range
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 mode 'd' needs one positive number
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 wrong repTimes format
+2026/10/15 11:55:58 error at NextDateHandler, nextDateStr
+2026/10/15 11:55:58 INSERT INTO db: 20261015 Созвон в 16:00 Обсуждение планов d 5 with id= 580
+2026/10/15 11:55:58 Task found: 580, 20261015, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/15 11:55:58 &{580 20261015 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/15 11:55:58 INSERT INTO db: 20261015 Заказать пиццу в 17:00  with id= 581
+2026/10/15 11:55:58 putTask missing id
+2026/10/15 11:55:58 UpdateTask: no updates for id abc
+2026/10/15 11:55:58 putTask error: no updates for id= abc
+2026/10/15 11:55:58 UpdateTask: no updates for id 7645346343
+2026/10/15 11:55:58 putTask error: no updates for id= 7645346343
+2026/10/15 11:55:58 putTask missing title
+2026/10/15 11:55:58 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/15 11:55:58 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/15 11:55:58 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/15 11:55:58 updated task: {581 20261015 Заказать хинкали в 18:00 d 7} with id= 581
+2026/10/15 11:55:58 INSERT INTO db: 20261015 Свести баланс   with id= 582
+2026/10/15 11:55:58 Task found: 582, 20261015, Свести баланс, , 
+2026/10/15 11:55:59 deleted task with id= 582
+2026/10/15 11:55:59 getTaskByID error Scanning: sql: no rows in result set
+2026/10/15 11:55:59 editTaskHandler error: sql: no rows in result set
+2026/10/15 11:55:59 INSERT INTO db: 20261015 Проверить работу /api/task/done  d 3 with id= 583
+2026/10/15 11:55:59 Task found: 583, 20261015, Проверить работу /api/task/done, , d 3
+2026/10/15 11:55:59 updated task: {583 20261018 Проверить работу /api/task/done  d 3} with id= 583
+2026/10/15 11:55:59 Task found: 583, 20261018, Проверить работу /api/task/done, , d 3
+2026/10/15 11:55:59 updated task: {583 20261021 Проверить работу /api/task/done  d 3} with id= 583
+2026/10/15 11:55:59 Task found: 583, 20261021, Проверить работу /api/task/done, , d 3
+2026/10/15 11:55:59 updated task: {583 20261024 Проверить работу /api/task/done  d 3} with id= 583
+2026/10/15 11:55:59 INSERT INTO db: 20261015 Временная задача  d 3 with id= 584
+2026/10/15 11:55:59 deleted task with id= 584
+2026/10/15 11:55:59 getTaskByID error Scanning: sql: no rows in result set
+2026/10/15 11:55:59 editTaskHandler error: sql: no rows in result set
+2026/10/15 11:55:59 missing id in deleteTaskHandler
+2026/10/15 11:55:59 DeleteTask: no task found for id wjhgese
+2026/10/15 11:55:59 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/15 11:55:59 
+2026/10/15 11:55:59 INSERT INTO db: 20261015 Просмотр фильма с попкорном  with id= 585
+2026/10/15 11:55:59 INSERT INTO db: 20261016 Сходить в бассейн   with id= 586
+2026/10/15 11:55:59 INSERT INTO db: 20261016 Оплатить коммуналку  d 30 with id= 587
+2026/10/15 11:55:59 
+2026/10/15 11:55:59 INSERT INTO db: 20261018 Поплавать Бассейн с тренером d 7 with id= 588
+2026/10/15 11:55:59 INSERT INTO db: 20261018 Позвонить в УК Разобраться с горячей водой  with id= 589
+2026/10/15 11:55:59 INSERT INTO db: 20261018 Встретится с Васей в 18:00  with id= 590
+2026/10/15 11:55:59 
+2026/10/15 11:55:59 УК
+2026/10/15 11:55:59 18.10.2026
+2026/10/15 12:24:20 Init db
+2026/10/15 12:24:21 Init routs
+2026/10/15 12:24:21 Server starting on 7540
+2026/10/15 12:24:21 Server error: listen tcp: address 7540: missing port in address
+2026/10/15 12:25:36 Init db
+2026/10/15 12:25:36 Init routs
+2026/10/15 12:25:36 Server starting on 7540
+2026/10/15 12:25:36 Server error: listen tcp: address 7540: missing port in address
+2026/10/15 12:27:01 Init db
+2026/10/15 12:27:01 Init routs
+2026/10/15 12:27:01 Server starting on localhost:7540
+2026/10/15 12:27:21 task.Title emtpy
+2026/10/15 12:27:21 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/15 12:27:21 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/15 12:27:21 mode 'w' needs up to 7 reps
+2026/10/15 12:27:21 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/15 12:27:21 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Заголовок   with id= 1
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Сделать что-нибудь Хорошо отдохнуть  with id= 2
+2026/10/15 12:27:21 INSERT INTO db: 20261024 Уроки  d 10 with id= 3
+2026/10/15 12:27:21 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 4
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Фитнес  d 1 with id= 5
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Шмитнес   with id= 6
+2026/10/15 12:27:21 INSERT INTO db: 20261016 Сходить в магазин  w 1,3,5 with id= 7
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 dstart parse err: parsing time "15000156": day out of range
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 mode 'd' needs one positive number
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 wrong repTimes format
+2026/10/15 12:27:21 error at NextDateHandler, nextDateStr
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Созвон в 16:00 Обсуждение планов d 5 with id= 8
+2026/10/15 12:27:21 Task found: 8, 20261015, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/15 12:27:21 &{8 20261015 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Заказать пиццу в 17:00  with id= 9
+2026/10/15 12:27:21 putTask missing id
+2026/10/15 12:27:21 UpdateTask: no updates for id abc
+2026/10/15 12:27:21 putTask error: no updates for id= abc
+2026/10/15 12:27:21 UpdateTask: no updates for id 7645346343
+2026/10/15 12:27:21 putTask error: no updates for id= 7645346343
+2026/10/15 12:27:21 putTask missing title
+2026/10/15 12:27:21 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/15 12:27:21 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/15 12:27:21 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/15 12:27:21 updated task: {9 20261015 Заказать хинкали в 18:00 d 7} with id= 9
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Свести баланс   with id= 10
+2026/10/15 12:27:21 Task found: 10, 20261015, Свести баланс, , 
+2026/10/15 12:27:21 deleted task with id= 10
+2026/10/15 12:27:21 getTaskByID error Scanning: sql: no rows in result set
+2026/10/15 12:27:21 editTaskHandler error: sql: no rows in result set
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Проверить работу /api/task/done  d 3 with id= 11
+2026/10/15 12:27:21 Task found: 11, 20261015, Проверить работу /api/task/done, , d 3
+2026/10/15 12:27:21 updated task: {11 20261018 Проверить работу /api/task/done  d 3} with id= 11
+2026/10/15 12:27:21 Task found: 11, 20261018, Проверить работу /api/task/done, , d 3
+2026/10/15 12:27:21 updated task: {11 20261021 Проверить работу /api/task/done  d 3} with id= 11
+2026/10/15 12:27:21 Task found: 11, 20261021, Проверить работу /api/task/done, , d 3
+2026/10/15 12:27:21 updated task: {11 20261024 Проверить работу /api/task/done  d 3} with id= 11
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Временная задача  d 3 with id= 12
+2026/10/15 12:27:21 deleted task with id= 12
+2026/10/15 12:27:21 getTaskByID error Scanning: sql: no rows in result set
+2026/10/15 12:27:21 editTaskHandler error: sql: no rows in result set
+2026/10/15 12:27:21 missing id in deleteTaskHandler
+2026/10/15 12:27:21 DeleteTask: no task found for id wjhgese
+2026/10/15 12:27:21 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/15 12:27:21 
+2026/10/15 12:27:21 INSERT INTO db: 20261015 Просмотр фильма с попкорном  with id= 13
+2026/10/15 12:27:21 INSERT INTO db: 20261016 Сходить в бассейн   with id= 14
+2026/10/15 12:27:21 INSERT INTO db: 20261016 Оплатить коммуналку  d 30 with id= 15
+2026/10/15 12:27:21 
+2026/10/15 12:27:21 INSERT INTO db: 20261018 Поплавать Бассейн с тренером d 7 with id= 16
+2026/10/15 12:27:21 INSERT INTO db: 20261018 Позвонить в УК Разобраться с горячей водой  with id= 17
+2026/10/15 12:27:21 INSERT INTO db: 20261018 Встретится с Васей в 18:00  with id= 18
+2026/10/15 12:27:21 
+2026/10/15 12:27:21 УК
+2026/10/15 12:27:21 18.10.2026
+2026/10/15 12:34:17 Init db
+2026/10/15 12:34:17 Init routs
+2026/10/15 12:34:17 Server starting on localhost:7540
+2026/10/15 12:34:28 task.Title emtpy
+2026/10/15 12:34:28 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/15 12:34:28 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/15 12:34:28 mode 'w' needs up to 7 reps
+2026/10/15 12:34:28 error checkDate: checkDate error: mode 'w' needs reps
+2026/10/15 12:34:28 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Заголовок   with id= 593
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Сделать что-нибудь Хорошо отдохнуть  with id= 594
+2026/10/15 12:34:28 INSERT INTO db: 20261024 Уроки  d 10 with id= 595
+2026/10/15 12:34:28 INSERT INTO db: 20270102 Отдых в Сочи На лыжах y with id= 596
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Фитнес  d 1 with id= 597
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Шмитнес   with id= 598
+2026/10/15 12:34:28 INSERT INTO db: 20261016 Сходить в магазин  w 1,3,5 with id= 599
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 wrong mode: must be d, w, m, y, got [k 34]
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 wrong mode: must be d, w, m, y, got [ooops]
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 dstart parse err: parsing time "15000156": day out of range
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 dstart parse err: parsing time "ooops" as "20060102": cannot parse "ooops" as "2006"
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 mode 'd' needs one positive number
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 wrong repTimes format
+2026/10/15 12:34:28 error at NextDateHandler, nextDateStr
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Созвон в 16:00 Обсуждение планов d 5 with id= 601
+2026/10/15 12:34:28 Task found: 601, 20261015, Созвон в 16:00, Обсуждение планов, d 5
+2026/10/15 12:34:28 &{601 20261015 Созвон в 16:00 Обсуждение планов d 5}
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Заказать пиццу в 17:00  with id= 602
+2026/10/15 12:34:28 putTask missing id
+2026/10/15 12:34:28 UpdateTask: no updates for id abc
+2026/10/15 12:34:28 putTask error: no updates for id= abc
+2026/10/15 12:34:28 UpdateTask: no updates for id 7645346343
+2026/10/15 12:34:28 putTask error: no updates for id= 7645346343
+2026/10/15 12:34:28 putTask missing title
+2026/10/15 12:34:28 error checkDate: checkDate parseing error: parsing time "20240192": day out of range
+2026/10/15 12:34:28 error checkDate: checkDate parseing error: parsing time "28.01.2024" as "20060102": cannot parse "28.01.2024" as "2006"
+2026/10/15 12:34:28 error checkDate: wrong mode task.Repeat. must be d , w, m, y. got: ooops
+2026/10/15 12:34:28 updated task: {602 20261015 Заказать хинкали в 18:00 d 7} with id= 602
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Свести баланс   with id= 603
+2026/10/15 12:34:28 Task found: 603, 20261015, Свести баланс, , 
+2026/10/15 12:34:28 deleted task with id= 603
+2026/10/15 12:34:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/15 12:34:28 editTaskHandler error: sql: no rows in result set
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Проверить работу /api/task/done  d 3 with id= 604
+2026/10/15 12:34:28 Task found: 604, 20261015, Проверить работу /api/task/done, , d 3
+2026/10/15 12:34:28 updated task: {604 20261018 Проверить работу /api/task/done  d 3} with id= 604
+2026/10/15 12:34:28 Task found: 604, 20261018, Проверить работу /api/task/done, , d 3
+2026/10/15 12:34:28 updated task: {604 20261021 Проверить работу /api/task/done  d 3} with id= 604
+2026/10/15 12:34:28 Task found: 604, 20261021, Проверить работу /api/task/done, , d 3
+2026/10/15 12:34:28 updated task: {604 20261024 Проверить работу /api/task/done  d 3} with id= 604
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Временная задача  d 3 with id= 605
+2026/10/15 12:34:28 deleted task with id= 605
+2026/10/15 12:34:28 getTaskByID error Scanning: sql: no rows in result set
+2026/10/15 12:34:28 editTaskHandler error: sql: no rows in result set
+2026/10/15 12:34:28 missing id in deleteTaskHandler
+2026/10/15 12:34:28 DeleteTask: no task found for id wjhgese
+2026/10/15 12:34:28 error DeleteTaskHandler: no task found for id= wjhgese
+2026/10/15 12:34:28 
+2026/10/15 12:34:28 INSERT INTO db: 20261015 Просмотр фильма с попкорном  with id= 606
+2026/10/15 12:34:28 INSERT INTO db: 20261016 Сходить в бассейн   with id= 607
+2026/10/15 12:34:28 INSERT INTO db: 20261016 Оплатить коммуналку  d 30 with id= 608
+2026/10/15 12:34:28 
+2026/10/15 12:34:28 INSERT INTO db: 20261018 Поплавать Бассейн с тренером d 7 with id= 609
+2026/10/15 12:34:28 INSERT INTO db: 20261018 Позвонить в УК Разобраться с горячей водой  with id= 610
+2026/10/15 12:34:28 INSERT INTO db: 20261018 Встретится с Васей в 18:00  with id= 611
+2026/10/15 12:34:28 
+2026/10/15 12:34:28 УК
+2026/10/15 12:34:28 18.10.2026
+2026/10/16 15:30:44 Init db
+2026/10/16 15:30:44 Init routs
+2026/10/16 15:30:44 Server starting on :7540
+2026/10/16 15:30:44 
+2026/10/16 15:31:25 INSERT INTO db: 20261017 submit task manager to docker as well  with id= 612
+2026/10/16 15:31:25 
+2026/10/16 15:48:32 Init db
+2026/10/16 15:48:32 Init routs
+2026/10/16 15:48:32 Server starting on :7540
+2026/10/16 15:48:36 
+2026/10/16 15:49:11 INSERT INTO db: 20261018 ывфы вав  with id= 613
+2026/10/16 15:49:11 
+2026/10/16 15:49:19 deleted task with id= 613
+2026/10/16 15:49:19 
+2026/10/16 15:53:45 Init db
+2026/10/16 15:53:45 Init routs
+2026/10/16 15:53:45 Server starting on :7540
+2026/10/16 15:55:30 Init db
+2026/10/16 15:55:30 Init routs
+2026/10/16 15:55:30 Server starting on :7540
+2026/10/16 15:55:36 
+2026/10/16 15:58:34 Init db
+2026/10/16 15:58:34 Init routs
+2026/10/16 15:58:34 Server starting on :7540
+2026/10/16 16:00:13 
+2026/10/16 16:00:23 Task found: 612, 20261017, submit task manager, to docker as well, 
+2026/10/16 16:00:23 deleted task with id= 612
+2026/10/16 16:00:23 
+2026/10/16 16:54:00 Init db
+2026/10/16 16:54:01 Init routs
+2026/10/16 16:54:01 Server starting on :7540
+2026/10/16 16:54:01 
+2026/10/16 16:56:07 
+2026/10/16 17:00:15 
+2026/10/16 17:14:18 Init db
+2026/10/16 17:14:18 Init routs
+2026/10/16 17:14:18 Server starting on :7540
+2026/10/19 09:59:34 Init db
+2026/10/19 09:59:34 Init routs
+2026/10/19 09:59:34 Server starting on :7540
+2026/10/19 09:59:38 
+2026/10/19 10:11:44 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:11:44 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:12:07 INSERT INTO db: 20270301 aaa bbb y with id= 614
+2026/10/19 10:12:07 
+2026/10/19 10:12:38 Task found: 614, 20270301, aaa, bbb, y
+2026/10/19 10:12:38 &{614 20270301 aaa bbb y}
+2026/10/19 10:14:15 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:14:15 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:06 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:06 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:28 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:28 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:38 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:38 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:49 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:49 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:52 atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:52 error checkDate: checkDate error: atoi error: strconv.Atoi: parsing "x": invalid syntax
+2026/10/19 10:15:58 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 10:15:58 
+2026/10/19 10:16:15 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 10:16:15 &{614 20261031 aaa bbb m -1}
+2026/10/19 10:16:47 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 10:16:47 
+2026/10/19 10:16:51 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 10:16:51 &{614 20261031 aaa bbb m -1}
+2026/10/19 10:21:14 mode m: no nextdate found, out of range 400 days
+2026/10/19 10:21:14 error at NextDateHandler, nextDateStr
+2026/10/19 10:33:36 Init db
+2026/10/19 10:33:36 Init routs
+2026/10/19 10:33:36 Server starting on :7540
+2026/10/19 16:05:59 Init db
+2026/10/19 16:05:59 Init routs
+2026/10/19 16:05:59 Server starting on :7540
+2026/10/19 16:06:10 Task found: 606, 20261015, Просмотр фильма, с попкорном, 
+2026/10/19 16:06:10 &{606 20261015 Просмотр фильма с попкорном }
+2026/10/19 16:14:48 Init db
+2026/10/19 16:14:48 Init routs
+2026/10/19 16:14:48 Server starting on :7540
+2026/10/19 16:14:57 
+2026/10/19 16:19:43 Init db
+2026/10/19 16:19:43 Init routs
+2026/10/19 16:19:43 Server starting on :7540
+2026/10/19 16:20:02 
+2026/10/19 16:26:03 Init db
+2026/10/19 16:26:03 Init routs
+2026/10/19 16:26:03 Server starting on :7540
+2026/10/19 16:26:14 
+2026/10/19 16:26:21 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 16:26:21 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 16:26:21 
+2026/10/19 16:26:36 Task found: 614, 20261031, aaa, bbb, m -1
+2026/10/19 16:26:36 updated task: {614 20261031 aaa bbb m -1} with id= 614
+2026/10/19 16:26:36 
+2026/10/19 16:27:07 deleted task with id= 614
+2026/10/19 16:27:07 
+2026/10/19 18:52:02 Init db
+2026/10/19 18:52:02 Init routs
+2026/10/19 18:52:02 Server starting on :7540
+2026/10/19 18:52:11 
+2026/10/19 18:52:39 INSERT INTO db: 20261031 aaa sss  with id= 615
+2026/10/19 18:52:39 
+2026/10/19 18:52:42 Task found: 615, 20261031, aaa, sss, 
+2026/10/19 18:52:42 &{615 20261031 aaa sss }
+2026/10/19 18:52:46 updated task: {615 20261031 aaa sssccc } with id= 615
+2026/10/19 18:52:46 
+2026/10/19 18:52:48 Task found: 615, 20261031, aaa, sssccc, 
+2026/10/19 18:52:48 &{615 20261031 aaa sssccc }
+2026/10/19 18:52:53 updated task: {615 20261031 aaa sssccc d 1} with id= 615
+2026/10/19 18:52:53 
